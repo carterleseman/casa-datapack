@@ -2,8 +2,8 @@
     "display": {
         "title": "cales.casa",
         "description": "Join the server",
-        "icon": { "id": "minecraft:redstone" },
-        "background": "minecraft:block/bedrock",
+        "icon": { "id": "minecraft:heart_of_the_sea" },
+        "background": "minecraft:block/cyan_wool",
         "show_toast": false,
         "announce_to_chat": false
     },
