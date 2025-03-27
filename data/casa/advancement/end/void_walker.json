@@ -60,7 +60,7 @@
                     "entity": "this",
                     "predicate": {
                         "location": {
-                            "biomes": "#blazeandcave:end_midlands"
+                            "biomes": "minecraft:end_midlands"
                         }
                     }
                 }]
@@ -74,7 +74,7 @@
                     "entity": "this",
                     "predicate": {
                         "location": {
-                            "biomes": "#blazeandcave:end_barrens"
+                            "biomes": "minecraft:end_barrens"
                         }
                     }
                 }]
