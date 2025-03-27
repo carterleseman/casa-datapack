@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trident"
+		},
+		"title": "Electrifying Alliance",
+		"description": "Smite a ghast with lightning from the Overworld’s heavens",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:nether/uneasy_alliance",
+	"criteria": {
+		"struck_ghast": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+                    "type": "minecraft:ghast"
+                }]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "Fowl Play",
+        "description": "Kill Zoran",
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "Zoran1205"
+                }
+            }
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "killed_zoran": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "nbt": "{UUID:[I;-882131964,-858701498,-1633064578,-2057227543]}"
+                }
+            }
+        }
+    },
+    "parent": "casa:cales.casa/root"
+}

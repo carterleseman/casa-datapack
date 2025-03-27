@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:phantom_membrane"
+		},
+		"title": "Take to the Skies",
+		"description": "Fly 10km with elytra"
+	},
+	"parent": "casa:cales.casa/root",	
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+                            "type": "minecraft:custom",
+                            "stat": "minecraft:aviate_one_cm",
+                            "value": {
+                                "min": 1000000
+                            }
+                        }]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "Knowledge is Power",
+		"description": "Trade for an Enchanted Book"
+	},
+	"parent": "minecraft:adventure/trade",	
+	"criteria": {
+		"trade": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_book"
+					]
+				}
+			}
+		}
+	}
+}

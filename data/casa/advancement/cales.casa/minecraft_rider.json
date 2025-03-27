@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:minecart"
+		},
+		"title": "Minecart Rider",
+		"description": "Ride 1km in a minecart"
+	},
+	"parent": "casa:cales.casa/root",	
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+                            "type": "minecraft:custom",
+                            "stat": "minecraft:minecart_one_cm",
+                            "value": {
+                                "min": 100000
+                            }
+                        }]
+					}
+				}
+			}
+		}
+	}
+}

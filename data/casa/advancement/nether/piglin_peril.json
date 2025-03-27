@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:piglin_head"
+		},
+		"title": "Piglin Peril",
+		"description": "Obtain a Piglin Head by blowing up a Piglin with a Charged Creeper",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:nether/distract_piglin",
+	"criteria": {
+		"piglin_head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+                    "items": [
+                        "minecraft:piglin_head"
+                    ]
+                }]
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:powder_snow_bucket"
+		},
+		"title": "Polar Opposites",
+		"description": "Start freezing in the Nether",
+		"frame": "goal"
+	},
+	"parent": "casa:nether/hells_bells",
+	"criteria": {
+		"nether_freeze": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:powder_snow",
+				"player": [{
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "location": {
+                            "dimension": "the_nether"
+                        },
+                        "nbt": "{TicksFrozen:140}"
+                    }
+                }]
+			}
+		}
+	}
+}

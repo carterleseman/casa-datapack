@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:snowball"
+		},
+		"title": "Cold-Blooded",
+		"description": "Kill a Blaze with a snowball"
+	},
+	"parent": "minecraft:nether/obtain_blaze_rod",
+	"criteria": {
+		"kill_magic": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "blaze"
+				},
+				"killing_blow": {
+                    "tags": [{
+                        "id": "minecraft:is_projectile",
+                        "expected": true
+                    }],
+					"direct_entity": {
+						"type": "minecraft:snowball"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:goat_horn"
+		},
+		"title": "Ram",
+		"description": "Obtain a Goat’s Horn"
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"goat_horn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": [
+						"minecraft:goat_horn"
+					]
+				}]
+			}
+		}
+	}
+}

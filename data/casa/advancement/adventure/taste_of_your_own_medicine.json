@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:poison"
+				}
+			}
+		},
+		"title": "Taste of Your Own Medicine",
+		"description": "Kill a Witch with a splash potion",
+		"frame": "challenge"
+	},
+	"parent": "casa:adventure/miracle_drink",
+	"criteria": {
+		"kill_magic": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witch"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:splash_potion"
+					}
+				}
+			}
+		}
+	}
+}

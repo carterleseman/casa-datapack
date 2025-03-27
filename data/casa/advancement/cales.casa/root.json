@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "cales.casa",
+        "description": "Join the server",
+        "icon": { "id": "minecraft:redstone" },
+        "background": "minecraft:block/bedrock",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "joined": {
+			"trigger": "minecraft:tick"
+		}
+    }
+}

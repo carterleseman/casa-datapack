@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:water_bucket"
+		},
+		"title": "Hot Spring",
+		"description": "Sit in water in the Nether"
+	},
+	"parent": "casa:nether/hells_bells",
+	"criteria": {
+		"enter_water_cauldron": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water_cauldron",
+				"player": [{
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "location": {
+                            "dimension": "the_nether"
+                        }
+                    }
+                }]
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald_block"
+		},
+		"title": "Veteran of the Village",
+		"description": "Attain the highest level of Hero of the Village",
+        "hidden": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/hero_of_the_village",	
+	"criteria": {
+		"hero_of_the_village": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:hero_of_the_village": {
+						"amplifier": {
+							"min": 4
+						}					
+					}
+				}
+			}
+		}
+	}
+}

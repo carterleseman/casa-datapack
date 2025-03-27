@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:milk_bucket"
+		},
+		"title": "Screaming Milk",
+		"description": "Milk a screaming Goat",
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/ride_a_boat_with_a_goat",
+	"criteria": {
+		"shears": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bucket"
+					]
+				},
+				"entity": [{
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:goat",
+                        "nbt": "{IsScreamingGoat:1b}"
+                    }
+                }]
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": "Spawn Camping",
+        "description": "Travel to spawn and place down a Campfire",
+        "icon": { 
+            "id": "minecraft:campfire" 
+        }
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+		"campfire": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:campfire"
+							]
+						},
+						"position": {
+							"x": {
+								"max": 10,
+								"min": -10
+							},
+							"z": {
+								"max": 10,
+								"min": -10
+							}
+						},
+						"dimension": "overworld"
+					}
+				}]
+			}
+		}
+	}
+}

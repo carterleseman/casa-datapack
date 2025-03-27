@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:soul_campfire"
+		},
+		"title": "Camp of the Damned",
+		"description": "Travel to the Nether's origin and place down a Soul Campfire"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"soul_campfire": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:soul_campfire"
+							]
+						},
+						"position": {
+							"x": {
+								"max": 10,
+								"min": -10
+							},
+							"z": {
+								"max": 10,
+								"min": -10
+							}
+						},
+						"dimension": "the_nether"
+					}
+				}]
+			}
+		}
+	}
+}

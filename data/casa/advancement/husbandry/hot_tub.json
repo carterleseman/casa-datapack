@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lava_bucket"
+		},
+		"title": "Hot Tub",
+		"description": "Sit in a Cauldron filled with Lava"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"enter_lava_cauldron": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:lava_cauldron"
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:leather_boots"
+		},
+		"title": "Out For a Stroll",
+		"description": "Walk 10km"
+	},
+	"parent": "casa:cales.casa/root",	
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+                            "type": "minecraft:custom",
+                            "stat": "minecraft:walk_one_cm",
+                            "value": {
+                                "min": 1000000
+                            }
+                        }]
+					}
+				}
+			}
+		}
+	}
+}
