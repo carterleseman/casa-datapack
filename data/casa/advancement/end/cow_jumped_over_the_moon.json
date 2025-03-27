@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:beef"
+		},
+		"title": "Cow Jumped Over The Moon",
+		"description": "Bring a Cow from the Overworld to the End and then kill it",
+		"frame": "challenge"
+	},
+	"parent": "casa:end/the_point_of_no_return",
+	"criteria": {
+		"killed_cow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cow",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		}
+	}
+}
