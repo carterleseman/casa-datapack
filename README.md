@@ -2,7 +2,7 @@
 
 ## Story
 
-- **Bulldozer** *(Hidden)* — Mine a total of 10,000 blocks of stone
+- **Bulldozer** *(Hidden)* — Mine a total of 50,000 blocks of stone
 - **Living Dummy** — Take thorns damage from an Armor Stand that is equipped with Thorns-enchanted armor
     - **Armor Display** — Place a full suit of each of the six armors on an Armor Stand
 - **Master Armorer** — Create a full suit of armor with all possible enchantments at max level
