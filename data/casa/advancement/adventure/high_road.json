@@ -1,10 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:cactus"
+			"id": "minecraft:saddle"
 		},
 		"title": "The High Road",
-		"description": "Kill a hostile monster with a melee attack while riding a Camel"
+		"description": "Kill a hostile mob from the saddle"
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"criteria": {
@@ -22,7 +22,7 @@
 				},
 				"player": {
 					"vehicle": {
-						"type": "camel"
+						"type": "#casa:mounts"
 					}
 				}
 			}
