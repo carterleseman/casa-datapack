@@ -6,7 +6,7 @@
 		"title": "Lucky Charm",
 		"description": "Get a Rabbit's Foot"
 	},
-	"parent": "minecraft:adventure/root",
+	"parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
 	"criteria": {
 		"rabbit_foot": {
 			"trigger": "minecraft:inventory_changed",
