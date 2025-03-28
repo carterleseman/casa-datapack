@@ -30,6 +30,7 @@
 - **Dragon vs Dragon** — Kill the Ender Dragon while wearing a Dragon Head
 
 ## Adventure
+- **On That Note** — Play a Note Block with each type of monster head
 - **Dolphin Dasher** — Get the Dolphin's Grace effect
     - **Power of the Ocean** — Construct a Conduit
     - **Titanic** — Find a shipwreck in an iceberg biome
@@ -74,6 +75,7 @@
 - **Knowledge is Power** — Trade for an Enchanted Book
     - **Treasure Map** — Trade for an Explorer Map
         - **House of Psychos** — Find a Woodland Mansion
+            - **Here's Johnny!** — Name a Vindicator 'Johnny'
         - **Monumental** — Find an Ocean Monument
         - ~~**Grave Robber** — Find a Desert Pyramid~~
         - ~~**Tomb Raider** — Find a Jungle Temple~~
