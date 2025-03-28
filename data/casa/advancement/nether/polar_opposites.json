@@ -4,8 +4,7 @@
 			"id": "minecraft:powder_snow_bucket"
 		},
 		"title": "Polar Opposites",
-		"description": "Start freezing in the Nether",
-		"frame": "goal"
+		"description": "Start freezing in the Nether"
 	},
 	"parent": "casa:nether/hells_bells",
 	"criteria": {

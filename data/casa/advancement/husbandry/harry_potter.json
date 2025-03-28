@@ -4,7 +4,7 @@
 			"id": "minecraft:lily_of_the_valley"
 		},
 		"title": "Harry Potter",
-		"description": "Place every type of plant in a flower pot",
+		"description": "Pot every plant that fits",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/root",

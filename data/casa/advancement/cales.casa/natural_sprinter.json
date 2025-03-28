@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:green_terracotta"
 		},
-		"title": "Natural Sprinter",
+		"title": "Run, Forrest, Run",
 		"description": "Sprint 10km"
 	},
 	"parent": "casa:cales.casa/root",

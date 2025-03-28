@@ -4,7 +4,7 @@
 			"id": "minecraft:firework_rocket"
 		},
 		"title": "Frequent Flyer",
-		"description": "Fly 1000km with elytra",
+		"description": "Fly 1000km with Elytra",
 		"frame": "challenge"
 	},
 	"parent": "casa:cales.casa/supersonic",

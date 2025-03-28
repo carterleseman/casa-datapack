@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:elytra"
 		},
-		"title": "Supersonic",
-		"description": "Fly 100km with elytra",
+		"title": "Gone with the Wind",
+		"description": "Fly 100km with Elytra",
 		"frame": "goal"
 	},
 	"parent": "casa:cales.casa/take_to_the_skies",

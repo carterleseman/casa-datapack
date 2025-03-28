@@ -4,7 +4,7 @@
 			"id": "minecraft:diamond_helmet"
 		},
 		"title": "Custom Boss Fight!",
-		"description": "Give a zombie full diamond armor and a diamond sword... then kill it",
+		"description": "Kill a zombie with full diamond armor and a diamond sword",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/kill_all_mobs",

@@ -4,7 +4,7 @@
 			"id": "minecraft:snowball"
 		},
 		"title": "Cold-Blooded",
-		"description": "Kill a Blaze with a snowball"
+		"description": "Kill a Blaze with a Snowball"
 	},
 	"parent": "minecraft:nether/obtain_blaze_rod",
 	"criteria": {

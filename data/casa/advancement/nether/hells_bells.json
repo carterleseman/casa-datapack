@@ -6,7 +6,7 @@
 		"title": "Hell's Bells",
 		"description": "Ring a Bell in the Nether"
 	},
-	"parent": "minecraft:nether/root",
+	"parent": "minecraft:nether/camp_of_the_damned",
 	"criteria": {
 		"bell": {
 			"trigger": "minecraft:default_block_use",

@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:iron_horse_armor"
 		},
-		"title": "Horse Training",
-		"description": "Ride 1km on a horse"
+		"title": "Giddy Up!",
+		"description": "Ride 1km on a Horse"
 	},
 	"parent": "casa:cales.casa/root",
 	"criteria": {

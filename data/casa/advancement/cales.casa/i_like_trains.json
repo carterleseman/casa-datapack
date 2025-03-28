@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:furnace_minecart"
 		},
-		"title": "I Like Trains",
-		"description": "Ride 10km in a minecart",
+		"title": "Full Steam Ahead",
+		"description": "Ride 10km in a Minecart",
 		"frame": "goal"
 	},
 	"parent": "casa:cales.casa/minecart_rider",

@@ -4,7 +4,7 @@
 			"id": "minecraft:phantom_membrane"
 		},
 		"title": "Take to the Skies",
-		"description": "Fly 10km with elytra"
+		"description": "Fly 10km with Elytra"
 	},
 	"parent": "casa:cales.casa/root",	
 	"criteria": {

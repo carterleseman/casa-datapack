@@ -5,7 +5,7 @@
 		},
 		"title": "Silence of the Lambs",
 		"description": "Bring a Sheep into an Ancient City and silence it",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "casa:adventure/loud_and_proud",
 	"criteria": {

@@ -4,8 +4,7 @@
 			"id": "minecraft:cactus"
 		},
 		"title": "The High Road",
-		"description": "Kill a hostile monster with a melee attack while riding a Camel",
-		"frame": "goal"
+		"description": "Kill a hostile monster with a melee attack while riding a Camel"
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"criteria": {

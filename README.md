@@ -21,7 +21,7 @@
 - **Electrifying Alliance** — Strike a ghast with lightning using the Channeling enchantment
 
 ## End
-- **The Point of No Return** — Fall into the void
+- **The Point of No Return** *(Hidden)* — Fall into the void
     - **Cow Jumped Over the Moon** — Bring a Cow from the Overworld to the End and then kill it
 - **Sky High** — Fly above y-level 325
     - **Uh, Houston? We Have a Problem** — Fly above y-level 1000
@@ -78,7 +78,7 @@
     - **One Foot in Front of the Other** — Walk 10km
         - **Going the Distance** — Walk 50km
             - **Boots Were Made for Walking** — Walk 250km
-    - **Natural Sprinter** — Sprint 10km
+    - **Run, Forrest, Run** — Sprint 10km
         - **Marathon** — Sprint 42.195km
             - **Running on Empty** — Sprint 250km
     - **Take to the Skies** — Fly 10km with Elytra

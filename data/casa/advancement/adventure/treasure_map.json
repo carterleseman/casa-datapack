@@ -4,8 +4,7 @@
 			"id": "minecraft:filled_map"
 		},
 		"title": "Treasure Map",
-		"description": "Trade for an Explorer Map",
-		"frame": "goal"
+		"description": "Trade for an Explorer Map"
 	},
 	"parent": "casa:adventure/knowledge_is_power",	
 	"criteria": {

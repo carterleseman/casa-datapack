@@ -5,8 +5,7 @@
 		},
 		"title": "Death Pointer",
 		"description": "Obtain a Recovery Compass",
-        "hidden": true,
-		"frame": "goal"
+        "hidden": true
 	},
 	"parent": "casa:adventure/fallen_kingdom",
 	"criteria": {

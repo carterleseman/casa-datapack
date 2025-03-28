@@ -9,7 +9,7 @@
 			}
 		},
 		"title": "Taste of Your Own Medicine",
-		"description": "Kill a Witch with a splash potion",
+		"description": "Kill a Witch with a Splash Potion",
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/miracle_drink",

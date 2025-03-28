@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:oak_boat"
 		},
-		"title": "Luxury Cruise",
-		"description": "Sail 1km in a boat"
+		"title": "Row, Row, Row",
+		"description": "Sail 1km in a Boat"
 	},
 	"parent": "casa:cales.casa/root",	
 	"criteria": {

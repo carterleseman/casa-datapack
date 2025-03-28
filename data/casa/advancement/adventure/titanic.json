@@ -4,7 +4,7 @@
 			"id": "minecraft:dark_oak_fence"
 		},
 		"title": "Titanic",
-		"description": "Find a Shipwreck in an iceberg biome",
+		"description": "Find a Shipwreck in an iceberg",
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/dolphin_dasher",

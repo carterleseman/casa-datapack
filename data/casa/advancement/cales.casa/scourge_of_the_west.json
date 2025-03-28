@@ -4,7 +4,7 @@
 			"id": "minecraft:diamond_horse_armor"
 		},
 		"title": "Scourge of the West",
-		"description": "Ride 50km on a horse",
+		"description": "Ride 50km on a Horse",
 		"frame": "challenge"
 	},
 	"parent": "casa:cales.casa/sheriff",

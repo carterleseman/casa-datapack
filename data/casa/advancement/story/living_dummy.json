@@ -7,8 +7,7 @@
 			}
 		},
 		"title": "Living Dummy",
-		"description": "Have an Armor Stand hit back",
-		"frame": "goal"
+		"description": "Have an Armor Stand hit back"
 
 	},
 	"parent": "minecraft:story/enchant_item",

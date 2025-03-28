@@ -4,7 +4,7 @@
 			"id": "minecraft:dark_oak_boat"
 		},
 		"title": "Sailor of the Seven Seas",
-		"description": "Sail 50km in a boat",
+		"description": "Sail 50km in a Boat",
 		"frame": "challenge"
 	},
 	"parent": "casa:cales.casa/pirate_captain",	

@@ -6,7 +6,7 @@
 		},
 		"title": "The Beginning",
 		"description": "Kill the Wither in the End",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:end/respawn_dragon",
 	"criteria": {

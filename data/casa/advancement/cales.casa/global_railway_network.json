@@ -4,7 +4,7 @@
 			"id": "minecraft:command_block_minecart"
 		},
 		"title": "Global Railway Network",
-		"description": "Ride 50km in a minecart",
+		"description": "Ride 50km in a Minecart",
 		"frame": "challenge"
 	},
 	"parent": "casa:cales.casa/i_like_trains",
