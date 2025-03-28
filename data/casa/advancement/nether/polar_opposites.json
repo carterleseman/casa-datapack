@@ -6,7 +6,7 @@
 		"title": "Polar Opposites",
 		"description": "Start freezing in the Nether"
 	},
-	"parent": "casa:nether/hells_bells",
+	"parent": "casa:nether/camp_of_the_damned",
 	"criteria": {
 		"nether_freeze": {
 			"trigger": "minecraft:enter_block",

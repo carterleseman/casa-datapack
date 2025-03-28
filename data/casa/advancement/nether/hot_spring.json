@@ -6,7 +6,7 @@
 		"title": "Hot Spring",
 		"description": "Sit in water in the Nether"
 	},
-	"parent": "casa:nether/hells_bells",
+	"parent": "casa:nether/camp_of_the_damned",
 	"criteria": {
 		"enter_water_cauldron": {
 			"trigger": "minecraft:enter_block",
