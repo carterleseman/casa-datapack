@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:totem_of_undying"
+		},
+		"title": "Foxy Thievery",
+		"description": "Give a Fox a Totem of Undying",
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/breed_an_animal",
+	"criteria": {
+		"totem_of_undying": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:totem_of_undying"
+					]
+				},
+				"entity": [{
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:fox"
+                    }
+                }]
+			}
+		}
+	}
+}
