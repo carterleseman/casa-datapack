@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:conduit"
+		},
+		"title": "Power of the Ocean",
+		"description": "Construct a Conduit in the ocean",
+		"frame": "goal"
+	},
+	"parent": "casa:adventure/dolphin_dasher",
+	"criteria": {
+		"conduit_power": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:conduit_power": {}
+				}
+			}
+		}
+	}
+}

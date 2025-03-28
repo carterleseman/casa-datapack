@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:light_blue_wool"
+		},
+		"title": "Dolphin Dasher",
+		"description": "Ride the waves with a little help from a friend"
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"dolphins_grace": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:dolphins_grace": {}
+				}
+			}
+		}
+	}
+}

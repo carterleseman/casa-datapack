@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fishing_rod"
+		},
+		"title": "Indiana Jones",
+		"description": "Pull a monster using a Fishing Rod"
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"indiana_jones": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "#casa:hostile_monsters"
+				}
+			}
+		}
+	}
+}

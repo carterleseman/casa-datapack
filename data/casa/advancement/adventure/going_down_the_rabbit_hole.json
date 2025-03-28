@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:rabbit_hide"
+		},
+		"title": "Going Down the Rabbit Hole",
+		"description": "Kill a Rabbit at the bottom of the world",
+		"frame": "goal"
+	},
+	"parent": "casa:adventure/lucky_charm",
+	"criteria": {
+		"rabbit": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "rabbit",
+					"location": {
+						"position": {
+							"y": {
+								"max": -59.5
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

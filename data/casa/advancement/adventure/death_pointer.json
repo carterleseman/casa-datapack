@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:recovery_compass"
+		},
+		"title": "Death Pointer",
+		"description": "Obtain a Recovery Compass",
+        "hidden": true,
+		"frame": "goal"
+	},
+	"parent": "casa:adventure/fallen_kingdom",
+	"criteria": {
+		"recovery_compass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+                    "items": [
+                        "minecraft:recovery_compass"
+                    ]
+                }]
+			}
+		}
+	}
+}
