@@ -1,9 +1,9 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:tube_coral"
+			"id": "minecraft:brain_coral"
 		},
-		"title": "Dolphin Dasher",
+		"title": "Flippin' Smart",
 		"description": "Ride the waves with a little help from a friend"
 	},
 	"parent": "minecraft:adventure/root",
