@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sculk"
+		},
+		"title": "Warden Extinction",
+		"description": "Kill a Warden in a one hit",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/overoverkill",
+	"criteria": {
+		"overoverkill": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:player",
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [{
+                            "id": "minecraft:mace_smash",
+                            "expected": true
+                        }]
+					},
+					"dealt": {
+						"min": 500.0
+					}
+				},
+				"entity": {
+					"type": "minecraft:warden"
+				}
+			}
+		}
+	}
+}

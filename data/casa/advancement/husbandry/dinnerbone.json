@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:name_tag"
+		},
+		"title": "What's Up, Doc?",
+		"description": "Turn a mob upside-down"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"components": {
+						"minecraft:custom_name": "Dinnerbone"
+					}
+				}
+			}
+		},
+		"name_tag_grumm": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"components": {
+						"minecraft:custom_name": "Grumm"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"name_tag",
+			"name_tag_grumm"
+		]
+	]
+}

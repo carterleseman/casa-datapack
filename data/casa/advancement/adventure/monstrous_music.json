@@ -1,0 +1,133 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:note_block"
+		},
+		"title": "On That Note",
+		"description": "Play a Note Block with each type of monster head",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/play_jukebox_in_meadows",
+	"criteria": {
+		"zombie": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								],
+								"state": {
+									"instrument": "zombie"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								],
+								"state": {
+									"instrument": "skeleton"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								],
+								"state": {
+									"instrument": "wither_skeleton"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								],
+								"state": {
+									"instrument": "creeper"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"piglin": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								],
+								"state": {
+									"instrument": "piglin"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"dragon": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								],
+								"state": {
+									"instrument": "dragon"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

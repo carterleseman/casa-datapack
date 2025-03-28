@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:blue_carpet"
+		},
+		"title": "Deal's Off!",
+		"description": "Get spat at by one of the Trader Llamas",
+		"hidden": true
+	},
+	"parent": "casa:adventure/shady_deals",
+	"criteria": {
+		"llama_hurt_player": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:trader_llama"
+					}
+				}
+			}
+		}		
+	}
+}

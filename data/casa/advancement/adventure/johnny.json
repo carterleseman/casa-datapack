@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_axe"
+		},
+		"title": "Here's Johnny!",
+		"description": "Name a Vindicator 'Johnny'",
+		"frame": "challenge"
+	},
+	"parent": "casa:adventure/house_of_psychos",
+	 "criteria": {
+        "shining": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "vindicator"
+                },
+                "item": {
+                    "items": ["name_tag"],
+                    "components": {
+                        "custom_name": "\"Johnny\""
+                    }
+                }
+            }
+        }
+    }
+}

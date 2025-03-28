@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:brown_dye"
+		},
+		"title": "Qinling",
+		"description": "Breed a rare Brown Panda",
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/breed_an_animal",	
+	"criteria": {
+		"panda": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:panda",
+					"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+				}
+			}
+		}
+	}
+}

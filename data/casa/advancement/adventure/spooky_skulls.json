@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_skull"
+		},
+		"title": "Spooky Skulls",
+		"description": "Blow up a Skeleton with a Charged Creeper to get a Skeleton Skull",
+		"frame": "challenge"
+	},
+	"parent": "casa:adventure/skeleton_horse",
+	"criteria": {
+		"skeleton_skull": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+                    "items": [
+                        "minecraft:skeleton_skull"
+                    ]
+                }]
+			}
+		}
+	}
+}

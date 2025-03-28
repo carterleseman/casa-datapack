@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald"
+		},
+		"title": "Traveller",
+		"description": "Travel to every village type and trade with a villager",
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/trade_at_world_height",	
+	"criteria": {
+		"plains": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+				}
+			}
+		},
+		"desert": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+				}
+			}
+		},
+		"savanna": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+				}
+			}
+		},
+		"taiga": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+				}
+			}
+		},
+		"snow": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+				}
+			}
+		}		
+	}
+}

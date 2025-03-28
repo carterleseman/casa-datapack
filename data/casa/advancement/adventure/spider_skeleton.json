@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cobweb"
+		},
+		"title": "Spider-Skelly",
+		"description": "Does whatever a spider can",
+		"frame": "goal"
+	},
+	"parent": "casa:adventure/high_road",
+	"criteria": {
+		"spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "spider",
+					"passenger": {
+						"type": "#minecraft:skeletons"
+					}
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "#minecraft:skeletons",
+					"vehicle": {
+						"type": "spider"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+        "spider",
+        "skeleton"
+    ]]
+}
