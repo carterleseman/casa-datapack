@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chainmail_chestplate",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "Living Dummy",
+		"description": "Have an Armor Stand hit back",
+		"frame": "goal"
+
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"armor_stand": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"entity": {
+					"type": "armor_stand"
+				}
+			}
+		}
+	}
+}
