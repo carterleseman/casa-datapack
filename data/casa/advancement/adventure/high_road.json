@@ -4,7 +4,7 @@
 			"id": "minecraft:saddle"
 		},
 		"title": "The High Road",
-		"description": "Kill a hostile mob from the saddle"
+		"description": "Kill a hostile monster from the saddle"
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"criteria": {
