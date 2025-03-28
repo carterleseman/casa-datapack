@@ -6,7 +6,7 @@
 		"title": "Fallen Kingdom",
 		"description": "Find and enter an Ancient City"
 	},
-	"parent": "casa:adventure/treasure_map",
+	"parent": "minecraft:adventure/avoid_vibration",
 	"criteria": {
 		"ancient_city": {
 			"trigger": "minecraft:location",
