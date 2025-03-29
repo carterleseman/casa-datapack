@@ -1,0 +1,53 @@
+{
+    "display": {
+		"icon": {
+			"id": "minecraft:netherite_boots"
+		},
+		"title": "Explorer of Worlds",
+		"description": "Discover every biome in every dimension",
+		"hidden": true,
+		"frame": "challenge"
+	},
+    "parent": "minecraft:adventure/adventuring_time",
+    "criteria": {
+        "adventuring_time": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/adventuring_time": true
+						}
+					}
+				}
+			}
+		},
+        "explore_nether": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:nether/explore_nether": true
+						}
+					}
+				}
+			}
+		},
+        "void_walker": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"casa:end/void_walker": true
+						}
+					}
+				}
+			}
+		}
+    }
+}

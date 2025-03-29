@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+            "components": {
+                "minecraft:banner_patterns": [{
+                    "color": "cyan",
+                    "pattern": "minecraft:rhombus"
+                },
+                {
+                    "color": "light_gray",
+                    "pattern": "minecraft:stripe_bottom"
+                },
+                {
+                    "color": "gray",
+                    "pattern": "minecraft:stripe_center"
+                },
+                {
+                    "color": "light_gray",
+                    "pattern": "minecraft:border"
+                },
+                {
+                    "color": "black",
+                    "pattern": "minecraft:stripe_middle"
+                },
+                {
+                    "color": "light_gray",
+                    "pattern": "minecraft:half_horizontal"
+                },
+                {
+                    "color": "light_gray",
+                    "pattern": "minecraft:circle"
+                },
+                {
+                    "color": "black",
+                    "pattern": "minecraft:border"
+                }],
+                "minecraft:item_name": "{\"translate\":\"block.minecraft.ominous_banner\"}",
+                "minecraft:rarity": "uncommon"
+            },
+        "count": 1,
+        "id": "minecraft:white_banner"
+    },
+		"title": "Endgame",
+		"description": "Defend a village from a raid in the End",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:end/find_end_city",
+	"criteria": {
+		"start_raid_end": {
+			"trigger": "minecraft:voluntary_exile",
+			"conditions": {
+				"player":  {
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		},	
+		"defend_raid_end": {
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions": {
+				"player":  {
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		}
+	}
+}

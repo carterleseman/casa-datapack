@@ -1,13 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_boots"
+			"id": "minecraft:elytra"
 		},
-		"title": "Ten Thousand Blocks",
-		"description": "Travel ten thousand blocks from spawn",
-		"frame": "goal"
+		"title": "A Million Blocks Away",
+		"description": "Travel a million blocks away from spawn",
+		"frame": "challenge"
 	},
-	"parent": "casa:adventure/kilometer_walk",
+	"parent": "casa:adventure/voyage",
 	"criteria": {
 		"outer_pos_x": {
 			"trigger": "minecraft:location",
@@ -20,7 +20,7 @@
 							"location": {
 								"position": {
 									"x": {
-										"min": 10000.0
+										"min": 1000000.0
 									}
 								}
 							}
@@ -40,7 +40,7 @@
 							"location": {
 								"position": {
 									"z": {
-										"min": 10000.0
+										"min": 1000000.0
 									}
 								}
 							}
@@ -60,7 +60,7 @@
 							"location": {
 								"position": {
 									"x": {
-										"max": -10000.0
+										"max": -1000000.0
 									}
 								}
 							}
@@ -80,7 +80,7 @@
 							"location": {
 								"position": {
 									"z": {
-										"max": -10000.0
+										"max": -1000000.0
 									}
 								}
 							}

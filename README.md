@@ -19,6 +19,8 @@
 - **Astrobrute** — Send a Piglin Brute to the End and kill it there before it zombifies
 - **Cold-Blooded** — Kill a Blaze with a Snowball
 - **Electrifying Alliance** — Strike a ghast with lightning using the Channeling enchantment
+- **Inception** — Be between y-level 127 and 127.9999 in the Nether dimension in a non-solid block
+- **The Devil's Distance** — Use the Nether to travel 666km in the Overworld
 
 ## End
 - **The Point of No Return** *(Hidden)* — Fall into the void
@@ -28,6 +30,7 @@
 - **Void Walker** — Explore all End Biomes
 - **The Beginning** — Kill the Wither in the End
 - **Dragon vs Dragon** — Kill the Ender Dragon while wearing a Dragon Head
+- **Endgame** — Defend a village from a raid in the End
 
 ## Adventure
 - **On That Note** — Play a Note Block with each type of monster head
@@ -44,6 +47,8 @@
 - **Kilometer Walk** — Travel at least 1000 blocks from the center of the world in any direction
     - **Ten Thousand Blocks** — Travel at least 10,000 blocks from the center of the world in any direction
         - **Voyage** — Travel at least 100,000 blocks from the center of the world in any direction
+            - **A Million Blocks Away** — Travel a million blocks away from spawn
+                - **Farlander** *(Hidden)* — Travel all the way to the border of the world
 - **Indiana Jones** — Pull a hostile monster using a Fishing Rod
     - **When Pigs Finally Fly** — Pull a pig from at least 25 blocks away
 - **Disc Jockey** — Listen to all the music discs
@@ -86,6 +91,7 @@
 - **Cayaclyst** — Kill a Wither near a Sculk Catalyst
 - **Is It a Nightmare?** — Look at a Warden through a Spyglass
 - **Warden Extinction** — Kill a Warden in one hit
+- **Explorer of Worlds** *(Hidden)* — Discover every biome in every dimension
 
 ## Husbandry
 - ~~**Hot Tub** — Sit in a Cauldron filled with Lava~~

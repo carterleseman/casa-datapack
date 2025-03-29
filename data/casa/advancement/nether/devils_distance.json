@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:soul_soil"
+		},
+		"title": "The Devil's Distance",
+		"description": "Use the Nether to travel 666km in the Overworld",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:nether/fast_travel",
+	"criteria": {
+		"travelled": {
+			"trigger": "minecraft:nether_travel",
+			"conditions": {
+				"distance": {
+					"horizontal": {
+						"min": 666000
+					}
+				}
+			}
+		}
+	}
+}

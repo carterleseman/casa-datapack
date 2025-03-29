@@ -1,13 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_boots"
+			"id": "minecraft:structure_void"
 		},
-		"title": "Ten Thousand Blocks",
-		"description": "Travel ten thousand blocks from spawn",
-		"frame": "goal"
+		"title": "Farlander",
+		"description": "Travel all the way to the border of the world",
+		"frame": "challenge",
+		"hidden": true
 	},
-	"parent": "casa:adventure/kilometer_walk",
+	"parent": "casa:adventure/million_blocks",	
 	"criteria": {
 		"outer_pos_x": {
 			"trigger": "minecraft:location",
@@ -20,7 +21,7 @@
 							"location": {
 								"position": {
 									"x": {
-										"min": 10000.0
+										"min": 29999983.0
 									}
 								}
 							}
@@ -40,7 +41,7 @@
 							"location": {
 								"position": {
 									"z": {
-										"min": 10000.0
+										"min": 29999983.0
 									}
 								}
 							}
@@ -60,7 +61,7 @@
 							"location": {
 								"position": {
 									"x": {
-										"max": -10000.0
+										"max": -29999983.0
 									}
 								}
 							}
@@ -80,7 +81,7 @@
 							"location": {
 								"position": {
 									"z": {
-										"max": -10000.0
+										"max": -29999983.0
 									}
 								}
 							}
