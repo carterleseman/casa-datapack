@@ -128,3 +128,6 @@
 - **Giddy Up!** — Ride 1km on a Horse
     - **Sheriff** — Ride 10km on a Horse
         - **Scourge of the West** — Ride 50km on a Horse
+- **Mob Hunter** — Kill 250 mobs
+    - **Bloodthirsty** — Kill 2,500 mobs
+        - **Kill or be Killed** — Kill 25,000 mobs
