@@ -15,8 +15,10 @@
 		"armor_stand": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
-				"entity": {
-					"type": "armor_stand"
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:armor_stand"
+					}
 				}
 			}
 		}
