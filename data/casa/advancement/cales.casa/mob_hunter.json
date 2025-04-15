@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stone_sword"
+		},
+		"title": "Mob Hunter",
+		"description": "Defeat 250 mobs"
+	},
+	"parent": "casa:cales.casa/root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [{
+                            "type": "minecraft:custom",
+                            "stat": "minecraft:mob_kills",
+                            "value": {
+                                "min": 250
+                            }
+                        }]
+					}
+				}
+			}
+		}
+	}
+}
