@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Timber Strike Enchantment: Mine trees instantly when one log is broken!",
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 9999
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_1.21",
+        "formats": {
+          "max_inclusive": 9999,
+          "min_inclusive": 48
+        }
+      },
+      {
+        "directory": "overlay_1.21.4",
+        "formats": {
+          "max_inclusive": 70,
+          "min_inclusive": 61
+        }
+      },
+      {
+        "directory": "overlay_1.21.5",
+        "formats": {
+          "max_inclusive": 9999,
+          "min_inclusive": 71
+        }
+      }
+    ]
+  }
+}

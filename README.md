@@ -346,3 +346,8 @@
 - Taller trees.
 - Better Creaking loot and AI.
 - New ambient sounds and particle effects.
+
+# o-Peepo's Data Packs
+
+## [Timber: Enchantment Addon](https://modrinth.com/datapack/timber-strike-enchantment) v4.1
+- Adds an Axe Enchantment called Timber Strike, which lets you instantly chop trees by destroying a single log.
