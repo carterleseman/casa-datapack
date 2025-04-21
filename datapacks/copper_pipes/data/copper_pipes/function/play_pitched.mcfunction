@@ -1,0 +1,1 @@
+$playsound $(sound) block @a ~ ~ ~ $(volume) $(pitch)

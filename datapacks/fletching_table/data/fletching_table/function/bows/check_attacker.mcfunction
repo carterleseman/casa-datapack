@@ -1,0 +1,1 @@
+return run execute on attacker if entity @e[tag=fletching_table.bow_attacker]

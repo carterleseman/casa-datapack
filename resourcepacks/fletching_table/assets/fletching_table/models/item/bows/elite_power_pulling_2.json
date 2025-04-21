@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "fletching_table:item/bows/elite_power_pulling_2"
+    }
+}

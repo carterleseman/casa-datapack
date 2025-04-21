@@ -1,0 +1,12 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_model": "copper_mace:copper_mace_charged_4"
+        }
+    },
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{\"copper_mace_charge\":4}"
+    }
+]

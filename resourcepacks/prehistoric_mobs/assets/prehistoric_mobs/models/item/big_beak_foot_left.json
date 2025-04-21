@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "prehistoric_mobs:item/big_beak",
+		"particle": "prehistoric_mobs:item/big_beak"
+	},
+	"elements": [
+		{
+			"name": "foot_left",
+			"from": [4, -6, 5],
+			"to": [7, 7, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 10.75, 10.75, 14], "texture": "#1"},
+				"east": {"uv": [10.75, 10.75, 11.5, 14], "texture": "#1"},
+				"south": {"uv": [11, 5.5, 11.75, 8.75], "texture": "#1"},
+				"west": {"uv": [11.25, 0, 12, 3.25], "texture": "#1"},
+				"up": {"uv": [11.75, 9.5, 11, 8.75], "texture": "#1"},
+				"down": {"uv": [12, 3.25, 11.25, 4], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "C C",
+        " C "
+    ],
+    "key": {
+        "C": "minecraft:copper_block"
+    },
+    "result": {
+        "id": "minecraft:allay_spawn_egg",
+        "count": 4,
+        "components": {
+            "minecraft:item_name": "Copper Grate",
+            "minecraft:item_model": "minecraft:copper_grate",
+            "minecraft:entity_data": {
+                "id": "minecraft:item_display",
+                "Tags": ["copper_pipes.new_grate", "copper_pipes.copper_grate"]
+            }
+        }
+    }
+}

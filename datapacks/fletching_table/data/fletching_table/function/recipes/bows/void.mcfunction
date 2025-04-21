@@ -1,0 +1,1 @@
+return run function fletching_table:gui/bow_recipe { 0: "minecraft:end_rod", 1: "minecraft:ender_eye", 2: "minecraft:end_rod", string: "minecraft:string", result: 'minecraft:bow[minecraft:item_model="fletching_table:bows/void",minecraft:lore=[{text:Void,color:dark_purple}],minecraft:custom_data={fletching_table_bow:"void"},minecraft:max_damage=100]', count: 1, recipe_id: 5 }

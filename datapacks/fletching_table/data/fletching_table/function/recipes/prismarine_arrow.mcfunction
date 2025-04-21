@@ -1,0 +1,1 @@
+return run function fletching_table:gui/arrow_recipe { 0: "minecraft:feather", 1: "minecraft:stick", 2: "minecraft:prismarine_shard", result: 'minecraft:arrow[minecraft:item_model="fletching_table:arrows/prismarine",minecraft:item_name="Arrow",minecraft:lore=[{text:Prismarine,color:aqua}],minecraft:custom_data={fletching_table_arrow:"prismarine"}]', count: 4, recipe_id: 5 }

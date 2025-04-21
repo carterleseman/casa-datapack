@@ -1,0 +1,1 @@
+return run function fletching_table:gui/bow_recipe { 0: "minecraft:bone", 1: "minecraft:leather", 2: "minecraft:bone", string: "minecraft:string", result: 'minecraft:bow[minecraft:item_model="fletching_table:bows/bone",minecraft:lore=[{text:Bone,color:gray}],minecraft:custom_data={fletching_table_bow:"bone"},minecraft:max_damage=450]', count: 1, recipe_id: 1 }

@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "biome_vote:item/meerkat",
+		"particle": "biome_vote:item/meerkat"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [7, 0, 6.5],
+			"to": [10, 11, 10.51],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 5.5, 5.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 5.5], "texture": "#1"},
+				"south": {"uv": [0, 5.5, 1.5, 11], "texture": "#1"},
+				"west": {"uv": [2, 0, 4, 5.5], "texture": "#1"},
+				"up": {"uv": [9.5, 4.5, 8, 2.5], "texture": "#1"},
+				"down": {"uv": [8.5, 8.5, 7, 10.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "tail",
+			"from": [8, 0, 9],
+			"to": [9, 1, 15],
+			"rotation": {"angle": 45, "axis": "x", "origin": [9, 0, 10]},
+			"faces": {
+				"north": {"uv": [12, 4.5, 12.5, 5], "texture": "#1"},
+				"east": {"uv": [10.5, 11, 13.5, 11.5], "texture": "#1"},
+				"south": {"uv": [12, 5, 12.5, 5.5], "texture": "#1"},
+				"west": {"uv": [11.5, 0, 14.5, 0.5], "texture": "#1"},
+				"up": {"uv": [9, 14.5, 8.5, 11.5], "texture": "#1"},
+				"down": {"uv": [9.5, 11.5, 9, 14.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"scale": [2, 2, 2]
+		}
+	}
+}

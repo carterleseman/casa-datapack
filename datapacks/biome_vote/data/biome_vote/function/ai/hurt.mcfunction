@@ -1,0 +1,1 @@
+$playsound $(_biome_vote__ai__hurt_sound) neutral @a ~ ~ ~ 1 1

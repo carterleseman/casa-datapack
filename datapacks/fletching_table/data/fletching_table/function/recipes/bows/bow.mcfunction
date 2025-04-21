@@ -1,0 +1,1 @@
+return run function fletching_table:gui/bow_recipe { 0: "minecraft:stick", 1: "minecraft:stick", 2: "minecraft:stick", string: "minecraft:string", result: "minecraft:bow", count: 1, recipe_id: 2 }

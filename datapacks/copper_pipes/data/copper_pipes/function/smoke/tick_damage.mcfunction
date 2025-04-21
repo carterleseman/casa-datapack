@@ -1,0 +1,2 @@
+execute store result storage copper_pipes:heat heat float 0.125 run scoreboard players get @s copper_pipes.smoke
+execute as @e[type=!minecraft:item_display,type=!minecraft:item,distance=..1,nbt={OnGround:true}] at @s if block ~ ~-1 ~ #copper_pipes:copper_grate run function copper_pipes:smoke/damage with storage copper_pipes:heat

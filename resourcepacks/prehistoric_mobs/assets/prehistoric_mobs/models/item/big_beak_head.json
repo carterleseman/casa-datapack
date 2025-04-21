@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "prehistoric_mobs:item/big_beak",
+		"particle": "prehistoric_mobs:item/big_beak"
+	},
+	"elements": [
+		{
+			"name": "neck",
+			"from": [4, 15, 4],
+			"to": [12, 31, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 10], "texture": "#1"},
+				"east": {"uv": [6, 0, 8, 4], "texture": "#1"},
+				"south": {"uv": [2, 6, 4, 10], "texture": "#1"},
+				"west": {"uv": [4, 6, 6, 10], "texture": "#1"},
+				"up": {"uv": [11, 7.5, 9, 5.5], "texture": "#1"},
+				"down": {"uv": [11, 7.5, 9, 9.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "beak",
+			"from": [5, 25, -6],
+			"to": [11, 32, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 2]},
+			"faces": {
+				"north": {"uv": [1, 10, 2.5, 11.75], "texture": "#1"},
+				"east": {"uv": [8, 2, 11.25, 3.75], "texture": "#1"},
+				"south": {"uv": [2.5, 10, 4, 11.75], "texture": "#1"},
+				"west": {"uv": [8, 3.75, 11.25, 5.5], "texture": "#1"},
+				"up": {"uv": [7.5, 11.25, 6, 8], "texture": "#1"},
+				"down": {"uv": [9, 8, 7.5, 11.25], "texture": "#1"}
+			}
+		}
+	]
+}

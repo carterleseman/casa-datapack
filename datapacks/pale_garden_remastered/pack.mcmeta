@@ -1,0 +1,17 @@
+{
+	"pack": {
+		"pack_format": 71,
+		"description": "The Pale Garden that Minecraft deserves."
+	},
+	"overlays": {
+		"entries": [
+            {
+                "formats": [
+                    71,
+                    71
+                ],
+                "directory": "garden"
+            }
+		]
+	}
+}

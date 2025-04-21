@@ -1,0 +1,33 @@
+[
+    {
+        "function": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+                "minecraft:damage": {
+                    "durability": {
+                        "max": 0
+                    }
+                },
+                "minecraft:custom_data": "{echo:true}"
+            }
+        },
+        "modifier": {
+            "function": "minecraft:set_count",
+            "count": -1,
+            "add": true
+        }
+    },
+    {
+        "function": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+                "minecraft:custom_data": "{echo:true}"
+            }
+        },
+        "modifier": {
+            "function": "minecraft:set_damage",
+            "damage": -0.03,
+            "add": true
+        }
+    }
+]

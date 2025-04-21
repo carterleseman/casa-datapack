@@ -1,0 +1,6 @@
+*.py
+.DS_Store
+*.txt
+
+datapacks/*/README.md
+resourcepacks/*/README.md

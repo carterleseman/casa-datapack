@@ -1,0 +1,1 @@
+$damage @s $(heat) minecraft:hot_floor by @n[type=minecraft:item_display,tag=copper_pipes.grate]

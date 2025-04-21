@@ -1,0 +1,1 @@
+return run function fletching_table:gui/arrow_recipe { 0: "minecraft:feather", 1: "minecraft:stick", 2: "minecraft:gold_nugget", result: 'minecraft:arrow[minecraft:item_model="fletching_table:arrows/gold",minecraft:item_name="Arrow",minecraft:lore=[{text:Gold,color:gold}],minecraft:custom_data={fletching_table_arrow:"gold"}]', count: 4, recipe_id: 3 }

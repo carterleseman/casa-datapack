@@ -1,0 +1,1 @@
+function biome_vote:ai/follow_tag { tag: "biome_vote.ai" }

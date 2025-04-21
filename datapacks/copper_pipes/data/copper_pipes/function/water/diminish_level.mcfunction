@@ -1,0 +1,2 @@
+execute store result score @s copper_pipes.water_comp_1 run scoreboard players get @e[type=minecraft:item_display,tag=copper_pipes.grate,distance=..0.01,limit=1] copper_pipes.water
+scoreboard players remove @s copper_pipes.water_comp_1 1

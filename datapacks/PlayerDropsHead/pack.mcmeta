@@ -1,0 +1,38 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "description": [
+      {
+        "text": "\"Player Drops Head\" (playerdropshead)"
+      },
+      "\n",
+      {
+        "text": "Players drop their head when killed by another player",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "3.3.1",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "1.21.5",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
+  }
+}

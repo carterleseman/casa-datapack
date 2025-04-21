@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "biome_vote:meerkat_burrow"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 12,
+        "separation": 6,
+        "salt": 6565726
+    }
+}

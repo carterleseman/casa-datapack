@@ -1,0 +1,71 @@
+{
+    "name": "biome_vote:meerkat_burrow/rooms",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/pathways/xz_branch_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/pathways/xz_branch_3",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },
+
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/pathways/xz",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/pathways/y",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/pathways/y_to_xz",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },
+
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/rooms/den",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "biome_vote:meerkat_burrow/rooms/meeting_place",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

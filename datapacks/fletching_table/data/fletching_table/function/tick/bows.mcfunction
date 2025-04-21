@@ -1,0 +1,1 @@
+function fletching_table:bows/elite_power

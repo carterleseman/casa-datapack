@@ -1,0 +1,1 @@
+$tp @s @n[tag=$(tag), scores={ biome_vote.uuid_least=$(uuid_least), biome_vote.uuid_most=$(uuid_most) }]

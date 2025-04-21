@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "minecraft:ward_armor_trim_smithing_template",
+    "base": "minecraft:goat_horn",
+    "addition": "minecraft:echo_shard",
+    "result": {
+        "id": "minecraft:goat_horn",
+        "components": {
+            "minecraft:custom_data": {
+                "echo": true
+            },
+            "minecraft:item_name": "\"Echo Horn\"",
+            "minecraft:max_damage": 50,
+            "minecraft:damage": 0,
+            "minecraft:item_model": "echo_horn:echo_horn"
+        }
+    }
+}

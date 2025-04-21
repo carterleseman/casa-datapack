@@ -1,0 +1,1 @@
+$particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 0.0025 $(heat)

@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "prehistoric_mobs:block/hungry_dripleaf_mouth",
+		"5": "prehistoric_mobs:block/hungry_dripleaf_tip",
+		"6": "prehistoric_mobs:block/hungry_dripleaf_stem",
+		"7": "prehistoric_mobs:block/hungry_dripleaf_side",
+		"8": "prehistoric_mobs:block/hungry_dripleaf_top",
+		"particle": "prehistoric_mobs:block/hungry_dripleaf_mouth"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 12],
+			"to": [11, 15, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 12], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 0, 14, 16], "texture": "#6"},
+				"south": {"uv": [3, 0, 14, 16], "texture": "#6"}
+			}
+		},
+		{
+			"from": [5, 0, 12],
+			"to": [11, 15, 12],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 12], "rescale": true},
+			"faces": {
+				"north": {"uv": [3, 0, 14, 16], "texture": "#6"},
+				"south": {"uv": [3, 0, 14, 16], "texture": "#6"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Bottom",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "Top",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [4, 5, 6, 7]
+		},
+		{
+			"name": "Stem",
+			"origin": [8, 8, 12],
+			"color": 0,
+			"children": [8, 9]
+		}
+	]
+}

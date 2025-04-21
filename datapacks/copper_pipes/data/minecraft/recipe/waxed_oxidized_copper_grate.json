@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "C C",
+        " C "
+    ],
+    "key": {
+        "C": "minecraft:waxed_oxidized_copper"
+    },
+    "result": {
+        "id": "minecraft:allay_spawn_egg",
+        "count": 4,
+        "components": {
+            "minecraft:item_name": "Waxed Oxidized Copper Grate",
+            "minecraft:item_model": "minecraft:waxed_oxidized_copper_grate",
+            "minecraft:entity_data": {
+                "id": "minecraft:item_display",
+                "Tags": ["copper_pipes.new_grate", "copper_pipes.waxed_oxidized_copper_grate"]
+            }
+        }
+    }
+}

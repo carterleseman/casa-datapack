@@ -1,0 +1,2 @@
+data modify entity @s Item.id set value "minecraft:allay_spawn_egg"
+$data modify entity @s Item.components set value { "minecraft:item_name": "$(name)", "minecraft:item_model": "$(id)", "minecraft:entity_data": { id: "minecraft:item_display", Tags: ["copper_pipes.new_grate", "$(tag)"] } }

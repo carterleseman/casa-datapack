@@ -1,0 +1,2 @@
+function prehistoric_mobs:big_beak/tick
+function prehistoric_mobs:hungry_dripleaf/tick

@@ -1,0 +1,1 @@
+return run function fletching_table:gui/bow_recipe { 0: "minecraft:copper_ingot", 1: "minecraft:copper_ingot", 2: "minecraft:copper_ingot", string: "minecraft:string", result: 'minecraft:bow[minecraft:item_model="fletching_table:bows/elite_power",minecraft:lore=[{text:Elite,color:gold}],minecraft:custom_data={fletching_table_bow:"elite_power"}]', count: 1, recipe_id: 3 }

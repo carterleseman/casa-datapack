@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "prehistoric_mobs:item/big_beak_egg",
+		"particle": "prehistoric_mobs:item/big_beak"
+	}
+}

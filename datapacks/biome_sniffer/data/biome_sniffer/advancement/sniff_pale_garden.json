@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "interact": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:closed_eyeblossom",
+              "minecraft:pale_oak_sapling",
+              "minecraft:open_eyeblossom",
+              "minecraft:pale_moss_block",
+              "minecraft:pale_hanging_moss"
+            ]
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"biome_sniffer.sniffer_interaction\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [["interact"]],
+    "rewards": {
+      "function": "biome_sniffer:sniff_pale_garden"
+    }
+  }
+  

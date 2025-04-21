@@ -1,0 +1,1 @@
+give @s minecraft:allay_spawn_egg[minecraft:item_model="prehistoric_mobs:hungry_dripleaf", minecraft:entity_data={ "id": "minecraft:marker", "Tags": ["hungry_dripleaf.setup"] }, minecraft:item_name="\"Hungry Dripleaf\"", minecraft:rarity="uncommon"]

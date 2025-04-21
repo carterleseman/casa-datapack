@@ -1,0 +1,36 @@
+{
+    "criteria": {
+      "interact": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:allium",
+              "minecraft:azure_bluet",
+              "minecraft:cornflower",
+              "minecraft:dandelion",
+              "minecraft:lily_of_the_valley",
+              "minecraft:oxeye_daisy",
+              "minecraft:poppy",
+              "minecraft:orange_tulip",
+              "minecraft:pink_tulip",
+              "minecraft:red_tulip",
+              "minecraft:white_tulip",
+              "minecraft:lilac",
+              "minecraft:peony",
+              "minecraft:rose_bush"
+            ]
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"biome_sniffer.sniffer_interaction\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [["interact"]],
+    "rewards": {
+      "function": "biome_sniffer:sniff_flower_forest"
+    }
+  }
+  

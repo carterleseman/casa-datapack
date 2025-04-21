@@ -1,0 +1,32 @@
+{
+    "sources": [
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "trims/items/leggings_trim",
+                "trims/items/chestplate_trim",
+                "trims/items/helmet_trim",
+                "trims/items/boots_trim"
+            ],
+            "palette_key": "trims/color_palettes/trim_palette",
+            "permutations": {
+                "echo_1": "echo_trim:trims/color_palettes/echo_1",
+                "echo_2": "echo_trim:trims/color_palettes/echo_2",
+                "echo_3": "echo_trim:trims/color_palettes/echo_3",
+                "echo_4": "echo_trim:trims/color_palettes/echo_4",
+                "echo_5": "echo_trim:trims/color_palettes/echo_5",
+                "echo_6": "echo_trim:trims/color_palettes/echo_6",
+                "echo_7": "echo_trim:trims/color_palettes/echo_7",
+                "echo_8": "echo_trim:trims/color_palettes/echo_8",
+                "echo_9": "echo_trim:trims/color_palettes/echo_9",
+                "echo_10": "echo_trim:trims/color_palettes/echo_10",
+                "echo_11": "echo_trim:trims/color_palettes/echo_11",
+                "echo_12": "echo_trim:trims/color_palettes/echo_12",
+                "echo_13": "echo_trim:trims/color_palettes/echo_13",
+                "echo_14": "echo_trim:trims/color_palettes/echo_14",
+                "echo_15": "echo_trim:trims/color_palettes/echo_15",
+                "echo_16": "echo_trim:trims/color_palettes/echo_16"
+            }
+        }
+    ]
+}

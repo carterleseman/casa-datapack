@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "prehistoric_mobs:block/big_beak_egg_top",
+		"1": "prehistoric_mobs:block/big_beak_egg_south",
+		"2": "prehistoric_mobs:block/big_beak_egg_north",
+		"3": "prehistoric_mobs:block/big_beak_egg_east",
+		"4": "prehistoric_mobs:block/big_beak_egg_bottom",
+		"5": "prehistoric_mobs:block/big_beak_egg_west",
+		"particle": "prehistoric_mobs:block/big_beak_egg_top"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 4],
+			"to": [13, 12, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 12], "texture": "#2"},
+				"east": {"uv": [0, 0, 8, 12], "texture": "#3"},
+				"south": {"uv": [0, 0, 10, 12], "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 12], "texture": "#5"},
+				"up": {"uv": [0, 0, 10, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 10, 8], "texture": "#4"}
+			}
+		}
+	]
+}

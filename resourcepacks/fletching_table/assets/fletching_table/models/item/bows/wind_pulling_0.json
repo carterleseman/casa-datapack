@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "fletching_table:item/bows/wind_pulling_0"
+    }
+}

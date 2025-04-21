@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:armor_stand",
+        "#minecraft:zombies",
+        "#minecraft:skeletons",
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:zombified_piglin",
+        "minecraft:drowned",
+        "minecraft:giant",
+        "minecraft:pillager",
+        "minecraft:vindicator",
+        "minecraft:evoker"
+    ]
+}

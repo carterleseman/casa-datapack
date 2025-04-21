@@ -1,0 +1,9 @@
+{
+    "asset_name": "echo_14",
+    "description": {
+        "text": "Echo Shard",
+        "color": "#28DCE8"
+    },
+    "ingredient": "minecraft:echo_shard",
+    "item_model_index": 0.85
+}

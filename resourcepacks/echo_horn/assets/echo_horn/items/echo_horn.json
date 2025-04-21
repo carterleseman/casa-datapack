@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "echo_horn:item/echo_horn"
+    }
+}
