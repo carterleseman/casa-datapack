@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+        "rolls": 1,
+        "entries": [
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+                {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                    "bedroll": true
+                }
+                },
+                {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:item_name": "Red Bedroll",
+                    "minecraft:profile": {
+                    "id": [ 2080793942, -524468218, -1541115779, 1949756395 ],
+                    "properties": [
+                        {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZlNWNiMzU1ZGUzMWM5ZGE0N2RiMDFjZWJlMzI0ZjY4ZmIxZGVmYWU1OGExNGMwMmM4ZTAzNTk0NzVhZGY1NCJ9fX0="
+                        }
+                    ]
+                    }
+                }
+                }
+            ]
+            }
+        ]
+        }
+    ]
+}

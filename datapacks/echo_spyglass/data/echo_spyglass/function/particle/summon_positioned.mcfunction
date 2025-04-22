@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~$(y) ~$(z) run function echo_spyglass:particle/summon { id: $(id) }

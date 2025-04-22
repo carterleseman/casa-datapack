@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " E ",
+        " C ",
+        " C "
+    ],
+    "key": {
+        "C": "minecraft:copper_ingot",
+        "E": "minecraft:echo_shard"
+    },
+    "result": {
+        "id": "minecraft:spyglass",
+        "components": {
+            "minecraft:custom_data": {
+                "echo_spyglass": true
+            },
+            "minecraft:item_model": "echo_spyglass:echo_spyglass",
+            "minecraft:item_name": "Echo Spyglass",
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

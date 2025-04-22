@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#pbroll:heads",
+                "components": {
+                  "minecraft:custom_data": {
+                    "bedroll": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pbroll:place/raycast/init"
+  }
+}

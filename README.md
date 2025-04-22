@@ -351,3 +351,9 @@
 
 ## [Timber: Enchantment Addon](https://modrinth.com/datapack/timber-strike-enchantment) v4.1
 - Adds an Axe Enchantment called Timber Strike, which lets you instantly chop trees by destroying a single log.
+
+# Imalittlhigh's Data Packs
+
+## [Portable Bedrolls](https://www.planetminecraft.com/data-pack/sleeping-bags-your-new-stylish-travel-bed-that-actually-works/)
+- Sleeping in a Bedroll does not set your spawn point.
+- Bedrolls check for the same conditions Beds check for.

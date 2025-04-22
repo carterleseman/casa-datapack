@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 55,
-    "description": "Use an Echo Spyglass to find nearby mobs"
-  }
+    "pack": {
+        "pack_format": 71,
+        "description": "A spyglass for locating mobs"
+    }
 }

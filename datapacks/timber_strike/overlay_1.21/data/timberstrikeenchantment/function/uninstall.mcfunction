@@ -1,1 +1,0 @@
-scoreboard players set enchantment ts.config 0

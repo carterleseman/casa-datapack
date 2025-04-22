@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:spyglass",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "echo_spyglass": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "echo_spyglass:use"
+    }
+}
