@@ -350,5 +350,24 @@
 # Imalittlhigh's Data Packs
 
 ## [Portable Bedrolls](https://www.planetminecraft.com/data-pack/sleeping-bags-your-new-stylish-travel-bed-that-actually-works/)
+- Updated for Minecraft: Java Edition v1.21.5.
 - Sleeping in a Bedroll does not set your spawn point.
 - Bedrolls check for the same conditions Beds check for.
+
+# Plagiatus' Data Packs
+
+## [Vanilla Timber Enchantment](https://modrinth.com/datapack/timber_enchantment) v1.0
+- Updated for Minecraft: Java Edition v1.21.5.
+- Chop down entire trees with just one click.
+- Get the Timber enchantment on your axe through enchanting at an enchanting table, buying it from a villager, or finding it as loot.
+- To activate, sneak while breaking a log block.
+- Respects unbreaking enchantments and damages durability accordingly.
+
+# Faker's Data Packs
+
+## [Dimension Messages](https://modrinth.com/datapack/dimension-messages) v1.0.4
+- Adds messages in chat that inform all players of inter-dimensional travel.
+
+# Miscellaneous Data Packs
+
+## Sleeping Messages for Portable Bedrolls

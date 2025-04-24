@@ -1,0 +1,12 @@
+{
+    "function": "set_damage",
+    "damage": {
+        "type": "score",
+        "score": "tmbr.tmp",
+        "target": {
+            "type": "fixed",
+            "name": "#remaining"
+        },
+        "scale": 0.0001
+    }
+}

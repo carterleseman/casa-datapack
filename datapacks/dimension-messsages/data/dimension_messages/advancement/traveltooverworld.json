@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:overworld"
+        }
+      }
+    },
+    "rewards": {
+      "function": "dimension_messages:overworld"
+    }
+  }
+  
