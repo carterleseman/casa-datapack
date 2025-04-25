@@ -16,6 +16,9 @@
       "minecraft:item_model": "copper_mace:copper_mace",
       "minecraft:custom_data": {
         "copper_mace_charge": 0
+      },
+      "minecraft:enchantments": {
+        "copper_mace:conductivity": 1
       }
     }
   }
