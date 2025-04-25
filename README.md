@@ -176,7 +176,7 @@
 | Biome | Item |
 | --- | --- |
 | Badlands | Red Sand |
-| Dark Forest | Any Mushroom |
+| Dark Forest | Any Mushroom or Dark Oak Sapling |
 | Flower Forest | Any Flower from a Flower Forest |
 | Swamp | Lilypad |
 | Pale Garden | Eyeblossom or Pale Moss or Pale Oak Sapling |
@@ -239,6 +239,7 @@
 - Each charge will give 4 lightning strike attacks.
 - Hit any mob with the Copper Mace when charged to deal a lightning strike attack.
 - All nearby mobs will be struck by lightning.
+- The Copper Mace and Wind Burst enchantment are incompatible.
 
 # ~~Lullaby's~~ Data Packs
 
