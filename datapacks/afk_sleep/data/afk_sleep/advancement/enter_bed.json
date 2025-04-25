@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "enter_bed": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "afk_sleep:enter_bed"
+  }
+}

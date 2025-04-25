@@ -369,6 +369,28 @@
 ## [Dimension Messages](https://modrinth.com/datapack/dimension-messages) v1.0.4
 - Adds messages in chat that inform all players of inter-dimensional travel.
 
+# Clo4's Data Packs
+
+## [Detect AFK Players](https://modrinth.com/datapack/detect-afk) v1.2.1
+- Detects player inactivity based on head rotation.
+- Players go AFK after 3 minutes.
+
+## [Pause Day Cycle](https://modrinth.com/datapack/pause-day-cycle) v1.1.1
+- Pause the in-game day if nobody's online or when all players are AFK.
+
+## [AFK Sleep](https://modrinth.com/datapack/afk-sleep) v1.3.2
+- Sleep while players are idle on the server.
+
+## [AFK Dim Names](https://modrinth.com/datapack/afk-dim-names) v1.3
+- Dim player names when they go AFK.
+- Shows above their heads and in the server list.
+
+## [AFK Message](https://modrinth.com/datapack/afk-message) v1.1
+- Sends a message in chat when a player goes AFK.
+
+## [AFK Sit](https://modrinth.com/datapack/afk-sit) v1.0.1
+- Players sit while AFK.
+
 # Miscellaneous Data Packs
 
 ## Sleeping Messages for Portable Bedrolls
