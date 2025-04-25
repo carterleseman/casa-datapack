@@ -31,7 +31,11 @@
 								]
 							}
 						}
-					}
+					},
+					"tags": [{
+						"id": "minecraft:player_attack",
+						"expected": true
+					}]
 				}
 			}
 		}	

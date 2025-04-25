@@ -11,195 +11,213 @@
 	"parent": "minecraft:adventure/voluntary_exile",
 	"criteria": {
 		"farmer": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"fisherman": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"shepherd": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"fletcher": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"librarian": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"cartographer": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"cleric": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"armorer": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"weapon_smith": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"tool_smith": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"butcher": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"leatherworker": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"mason": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"nitwit": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
-					},
+					}
+				],
 				"fired_from_weapon": {
 					"items": "minecraft:crossbow"
 				}
 			}
 		},
 		"unemployed": {
-			"trigger": "minecraft:player_killed_entity",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
-				"entity":
+				"victims": [
 					{
 						"type": "minecraft:villager",
 						"nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
 					}
+				],
+				"fired_from_weapon": {
+					"items": "minecraft:crossbow"
+				}
 			}
 		}
 	}

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#casa:non_mob_entities_sans_boats",
+        "#minecraft:boat",
+        "#casa:chest_boats"
+    ]
+}
