@@ -352,7 +352,7 @@
 
 ## [Portable Bedrolls](https://www.planetminecraft.com/data-pack/sleeping-bags-your-new-stylish-travel-bed-that-actually-works/)
 - Updated for Minecraft: Java Edition v1.21.5.
-- Patchless support for Sleeping Messages.
+- Patchless support for Sleeping Messages and AFK Sleep.
 - Sleeping in a Bedroll does not set your spawn point.
 - Bedrolls check for the same conditions Beds check for.
 
