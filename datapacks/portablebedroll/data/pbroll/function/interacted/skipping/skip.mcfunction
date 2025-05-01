@@ -9,6 +9,7 @@ execute store result score $pbroll.playercount.asleep pbroll.dummy if entity @a[
 execute store result score $pbroll.playercount.asleep.bed pbroll.dummy if entity @a[tag=pbroll.player.sleeping.bed,predicate=pbroll:is_in_overworld]
 scoreboard players operation $pbroll.playercount.asleep pbroll.dummy += $pbroll.playercount.asleep.bed pbroll.dummy
 
+execute store result score $pbroll.sleeppercentage pbroll.dummy run gamerule playersSleepingPercentage
 
 execute if score $pbroll.sleeppercentage pbroll.dummy matches 0.. run scoreboard players operation $pbroll.playercount.asleep pbroll.dummy *= $pbroll.100x pbroll.dummy
 execute if score $pbroll.sleeppercentage pbroll.dummy matches 0.. run scoreboard players operation $pbroll.playercount.asleep pbroll.dummy /= $pbroll.sleeppercentage pbroll.dummy
