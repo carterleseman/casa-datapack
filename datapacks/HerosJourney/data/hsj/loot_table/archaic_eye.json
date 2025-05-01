@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:rarity": "epic",
-                "minecraft:custom_data": "{hsj_eye:1b,hsj_archaic:1b}",
+                "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_archaic:1b}",
                 "minecraft:custom_name": ["",{"translate":"hsj:archaic","fallback":"Archaic Eye","italic":false}],
                 "minecraft:custom_model_data": {"strings":["hsj:archaic_eye"]}
               }

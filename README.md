@@ -267,7 +267,7 @@
 
 # Maybejake's Data Packs
 
-## [Hero's Journey](https://modrinth.com/datapack/heros-journey) v1.3.1
+## [Hero's Journey](https://modrinth.com/datapack/heros-journey) v1.3.2
 - 16 different eyes to collect littered around the world.
 - 12 different eyes are needed to open the end portal.
 
@@ -286,7 +286,7 @@
 | Golden Eye | ![Golden Eye](/assets/maybejake/golden_eye.png) | Jungle Pyramid (50%) | |
 | Ominous Eye | ![Ominous Eye](/assets/maybejake/ominous_eye.png) | Ominous Vault (5%) | |
 | Opulent Eye | ![Opulent Eye](/assets/maybejake/opulent_eye.png) | Buried Treasure (30%) | |
-| Queen's Eye | ![Queen's Eye](/assets/maybejake/queens_eye.png) | Beehive (2%) | When sheared |
+| Queen's Eye | ![Queen's Eye](/assets/maybejake/queens_eye.png) | Beehive (5%) | When sheared |
 | Spellbound Eye | ![Spellbound Eye](/assets/maybejake/spellbound_eye.png) | Enchanting (3%) | Enchant any item with a third level enchantment |
 | Withered Eye | ![Withered Eye](/assets/maybejake/withered_eye.png) | Wither (80%) | |
 
