@@ -199,5 +199,5 @@ execute if entity @s[tag=99] run tag @s add hasNumber
 execute unless entity @s[tag=hasNumber] unless entity @a[tag=100] run tag @s add 100
 execute if entity @s[tag=100] run tag @s add hasNumber
 
-##title_biomes
+#title_biomes
 execute as @a at @s run function title_biomes:titles/set_bossbar

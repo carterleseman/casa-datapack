@@ -8,7 +8,7 @@
           "nbt": "{Tags:[\"owl\"]}",
           "equipment": {
             "mainhand": {
-              "tag": "owls:all_but_air"
+              "items": "#owls:all_but_air"
             }
           }
         }

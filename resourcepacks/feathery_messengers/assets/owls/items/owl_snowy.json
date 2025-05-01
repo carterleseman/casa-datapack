@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "owls:item/entity/owl/snowy/owl"
+    }
+}

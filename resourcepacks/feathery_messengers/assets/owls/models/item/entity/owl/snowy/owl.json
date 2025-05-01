@@ -1,6 +1,7 @@
 {
 	"parent": "owls:item/entity/owl/template_owl",
 	"textures": {
-		"skin": "owls:item/entity/owl/snowy/owl"
+		"skin": "owls:item/entity/owl/snowy/owl",
+		"particle": "owls:item/entity/owl/snowy/owl"
 	}
 }
