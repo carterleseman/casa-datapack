@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "horsey:trumpet/blown"
+  }
+}
