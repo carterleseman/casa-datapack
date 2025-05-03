@@ -404,3 +404,11 @@
 - Owls lock onto the player that last gave it an item.
 - Owls drop Owl Feathers which work the same as normal feathers.
 - Deliver more than one item using a bundle or shulker.
+
+# [Horse Trumpet](https://modrinth.com/datapack/horse-trumpet) v1.1
+- Updated for Minecraft: Java Edition v1.21.5.
+- Blow into a goat horn to reveal the nearest saddled mount.
+- Prioritizes owned mounts (e.g., horses, mules).
+- If an owned mount can't be found it looks for tamed mounts (e.g., camels, skeleton horses).
+- If a tamed mount can't be found it looks for stick-led mounts (e.g., pigs, striders).
+- Locates mounts up to a distance of 160 blocks.

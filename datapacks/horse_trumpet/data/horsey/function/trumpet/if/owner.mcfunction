@@ -1,1 +1,0 @@
-return run execute on owner if entity @p[tag=horsey.owner]
