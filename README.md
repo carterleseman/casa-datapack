@@ -394,7 +394,7 @@
 
 # Misterk7_-'s Data Packs
 
-# [Horse Trumpet](https://modrinth.com/datapack/horse-trumpet) v1.1
+## [Horse Trumpet](https://modrinth.com/datapack/horse-trumpet) v1.1
 - Updated for Minecraft: Java Edition v1.21.5.
 - Blow into a goat horn to reveal the nearest saddled mount.
 - Prioritizes owned mounts (e.g., horses, mules).
