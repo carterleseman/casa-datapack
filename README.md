@@ -392,18 +392,7 @@
 ## [AFK Sit](https://modrinth.com/datapack/afk-sit) v1.0.1
 - Players sit while AFK.
 
-# Lunar Eclipse Studios' Data Packs
-
-## [Feathery Messengers](https://modrinth.com/datapack/feathery-messengers) v1.3
-- Updated for Minecraft: Java Edition v1.21.5.
-- Send items to friends using delivery owls.
-- Owls cannot be tamed or named.
-- Owls are found in flocks of 4 in forest biomes.
-- Owls deliver items to any player outside of a 24 block radius.
-- Owls return to the block of origin after delivering its item.
-- Owls lock onto the player that last gave it an item.
-- Owls drop Owl Feathers which work the same as normal feathers.
-- Deliver more than one item using a bundle or shulker.
+# Misterk7_-'s Data Packs
 
 # [Horse Trumpet](https://modrinth.com/datapack/horse-trumpet) v1.1
 - Updated for Minecraft: Java Edition v1.21.5.
