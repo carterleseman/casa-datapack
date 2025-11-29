@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 88,
+    "supported_formats": { "min_inclusive": 81, "max_inclusive": 88 },
+    "description": "Decapitate players with an axe to gain their head"
+  }
+}
