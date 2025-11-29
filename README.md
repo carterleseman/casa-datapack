@@ -188,13 +188,6 @@
 - The grates will heat up, damaging any mobs standing on them.
 - This can be combined with water to create pipes that collect dropped items in mob farms.
 
-## [Biome Vote](https://modrinth.com/datapack/biome-vote) v1.0
-- Meerkats and Oases in the desert.
-- Meerkat Burrows are a new structure found in deserts. A few Meerkats will spawn around each burrow.
-- When it sees a hostile mob, the Meerkat will burrow in the sand.
-- They'll check every few seconds for danger and pop back out if it's clear.
-- Find an Oasis in the desert for a source of fresh water, plants, and the occasional Palm Tree.
-
 ## [Villager Caravan](https://modrinth.com/datapack/villager-caravan) v1.0
 - Transport Villagers with Llamas by giving them the lead.
 - Use a lead on a Llama, then sneak and right click on a Villager. The Villager will then start riding the Llama, and the lead will drop.
