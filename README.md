@@ -155,13 +155,6 @@
 - The Hungry Dripleaf will poison any mob standing on it. If the mob dies, the dripleaf will grow.
 - Sneak to avoid the Hungry Dripleaf's attack.
 
-## [Nautilus](https://modrinth.com/datapack/nautilus) v1.1
-- Updated for Minecraft: Java Edition v1.21.5.
-- Adds a Nautilus mob that hides in suspicious gravel underwater.
-- The Nautilus is found in the suspicious gravel of cold ocean ruins.
-- When found, the Nautilus will look for another gravel block to hide in.
-- Kill a Nautilus to get its shell.
-
 ## [Biome Sniffer](https://modrinth.com/datapack/locate-biome-sniffer) v1.1
 - Updated to add Pale Garden, Mangrove Swamp, and Cherry Grove.
 - Removed Desert and Jungle.
