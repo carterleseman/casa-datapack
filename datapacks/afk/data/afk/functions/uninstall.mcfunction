@@ -6,5 +6,6 @@ scoreboard objectives remove afk.rotation_prev
 scoreboard objectives remove afk.rotation
 scoreboard objectives remove afk.ticks
 scoreboard objectives remove afk.left_game
+scoreboard objectives remove afk.control_flow
 
 tag @a[tag=afk] remove afk

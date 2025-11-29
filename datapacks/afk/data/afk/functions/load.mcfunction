@@ -11,6 +11,7 @@ scoreboard objectives add afk.left_game minecraft.custom:minecraft.leave_game
 # Private API
 scoreboard objectives add afk.rotation dummy
 scoreboard objectives add afk.rotation_prev dummy
+scoreboard objectives add afk.control_flow dummy
 
 # .threshold is a user-configurable setting that controls how many seconds of inactivity
 # it takes for a player to become AFK. 3600 ticks is 180 seconds - this is a very intentional

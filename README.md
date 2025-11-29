@@ -363,7 +363,7 @@
 
 # Clo4's Data Packs
 
-## [Detect AFK Players](https://modrinth.com/datapack/detect-afk) v1.2.1
+## [Detect AFK Players](https://modrinth.com/datapack/detect-afk) v1.2.2
 - Detects player inactivity based on head rotation.
 - Players go AFK after 3 minutes.
 

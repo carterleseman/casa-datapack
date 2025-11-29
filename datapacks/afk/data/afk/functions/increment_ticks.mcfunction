@@ -4,3 +4,5 @@
 # If you update this, remember to update afk:loop!
 scoreboard players add @s afk.ticks 30
 execute if entity @s[tag=!afk] if score @s afk.ticks >= .threshold afk.settings at @s run function afk:tag/away
+
+scoreboard players set .as_player#has_branched afk.control_flow 1
