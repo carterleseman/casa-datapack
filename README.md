@@ -252,11 +252,6 @@
 ## [Server Sleep](https://modrinth.com/datapack/serversleep) v1.21+
 - Changes `playersSleepingPercentage` to `50%`
 
-# Jodek's Data Packs
-
-## [Player Drops Head](https://modrinth.com/datapack/player-drops-head) v3.3.1
-- Players drop their head when killed by another player.
-
 # Maybejake's Data Packs
 
 ## [Hero's Journey](https://modrinth.com/datapack/heros-journey) v1.3.2
@@ -334,6 +329,9 @@
 
 ## [Dimension Messages](https://modrinth.com/datapack/dimension-messages) v1.0.5
 - Adds messages in chat that inform all players of inter-dimensional travel.
+
+## [Decapitator](https://modrinth.com/datapack/decapitator) v1.0.6
+- Gain the heads of players by finishing them off with an axe.
 
 # Clo4's Data Packs
 
