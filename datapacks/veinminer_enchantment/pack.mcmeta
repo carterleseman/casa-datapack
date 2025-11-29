@@ -1,12 +1,10 @@
 {
     "pack": {
-        "pack_format": 88,
-        "min_format": 88,
-        "max_format": 88,
+        "pack_format": 81,
         "description": [
             {
-                "text": "Chat Coords",
-                "color": "#AAAAAA"
+                "text": "Veinimer Enchantment",
+                "color": "#55FFFF"
             },
             {
                 "text": " - \nBy ",

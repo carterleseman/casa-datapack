@@ -235,8 +235,14 @@
 ## [Sleeping Messages](https://modrinth.com/datapack/sleeping-messages) v1.2.1
 - Notifies all players when someone is sleeping.
 
-## [Chat Coords](https://modrinth.com/datapack/ly-chat-coords) v1.0
+## [Chat Coords](https://modrinth.com/datapack/ly-chat-coords) v1.1
 - Share coords in the chat: `/trigger chat_coords`
+
+## [Veinminer Enchantment](https://modrinth.com/datapack/ly-veinminer-enchantment) v1.0.4
+- New enchantment for pickaxes to mine multiple matching connected ores.
+
+## [Timber Enchantment](https://modrinth.com/datapack/timber-enchantment) v1.0.1
+- New enchantment for axes to mine connected logs.
 
 # Aninus' Data Packs
 
