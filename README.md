@@ -106,10 +106,6 @@
     - **Pandamonium** — Feed Cake to every type of Panda
 
 ## Casa
-- **Server Muted** — Kill Cale
-- **Elder Abuse** — Kill Skot
-- **Fowl Play** — Kill Zoran
-- **Miata Means Murder** — Kill Zack
 - **One Foot in Front of the Other** — Walk 10km
     - **Going the Distance** — Walk 50km
         - **Boots Were Made for Walking** — Walk 250km
