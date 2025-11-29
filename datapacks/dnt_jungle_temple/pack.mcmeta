@@ -1,6 +1,7 @@
 {
 	"pack": {
-		"pack_format": 71,
-		"description": "Overhauls Jungle Temples"
+			"description": "Structure datapack overhauling the Jungle Temple",
+			"min_format": [88,0],
+			"max_format": [88,0]
 	}
 }

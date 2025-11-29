@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#minecraft:exclusive_set/damage",
+    "nova_structures:jockey/spawn_chicken_jockey",
+    "nova_structures:jockey/spawn_stray_horseman",
+    "nova_structures:boss_behaviour",
+    "nova_structures:boss_nether",
+    "nova_structures:librarian_level_checker",
+    "nova_structures:shulker_boss",
+    "nova_structures:shulker_miniboss",
+    "nova_structures:tavern_level_checker"
+  ]
+}

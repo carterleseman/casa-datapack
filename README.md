@@ -254,21 +254,43 @@
 
 # NovaWostra's Dungeons and Taverns Data Packs
 
-## [Nether Fortress Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-nether-fortress-overhaul) v3.0
+## [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns) v5.0.4
+- Adds vanilla like structure that blend in with the rest of the game.
+- Adds new enchantments found in structures.
 
-## [End Castle Standalone](https://modrinth.com/datapack/dungeons-and-taverns-end-castle-standalone) v1.3.3
+*[All new structures are listed here.](https://modrinth.com/datapack/dungeons-and-taverns/gallery)
 
-## [Stronghold Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-stronghold-overhaul) v2.3.1
+| Enchantment | Effect | Items | Max Level | Incompatibilities | Location |
+| --- | --- | --- | --- | --- | --- |
+| Aerial's Bane | Increased damage to targets that are up in the air; be that from knockback, jumping, or falling. Also works against Breezes, Vexes, and Withers | Swords, Axes, Tridents, Maces, Bows, Crossbows | V | Sharpness, Power, etc. | Lone Citadel, Sealing Halls, End Castle |
+| Antidote | Negates all damage from Poison and Wither effects and deals it to the chestplate | Chestplates | I | Protection | Toxic Lair |
+| Blowthrough | Is equal to the Piercing enchant, but works exclsuviely for Bows | Bows | IV | Infinity, Tri-Shot | Toxic Lair |
+| Curse of Conductivity | Gives a chance to get struck by lightning during a thunderstorm when held or equipped | Any "Metallic" Item | I |  | Witch Villa |
+| Ghasted | Arrows transform into Ghast fireballs, while slowing crossbow charge time. Higher levels increase fireballs' explosions | Crossbow | III | Multishot, Piercing, Might, Aerial's Bane | Sealing Halls |
+| Gravity | Shoot an arrow which pulls all mobs around it upon landing, destroying the arrow in the process | Crossbow |  |  | End Castle |
+| Hydro Veil | Increases Happy Ghast healing to match rain / cloud layer healing, except when in the Nether. Also takes less damage from fire and explosions per level | Harness | IV |  | Nether Keep, Sealing Halls |
+| Illager's Bane | Increased damage against illagers, ravgers, vexes, and witches | Swords, Axes, Tridents, Maces | V | Sharpness, etc. | Illager Manor, Illager Hideout |
+| Outreach | Increases block interaction range per level, allowing you to place or break blocks from farther | Chestplate | IV |  | Desert Ruins |
+| Photosynthesis | Restores the item's durability while the user is under sunlight from the sky or in block light that can grow crops | Any Item w/ Durability | I | Mending | Jungle Ruins |
+| Might | Boosts the arrows damage equal to Power enchantment, but applicable to Crossbows | Crossbow | V |Gravity, Ghasted, Piercing, Multishot, Piercing | Lone Citadel |
+| Spiteful | Users with 2.5 hearts or less are given a attack damage boost per enchant level. If hit by a mob at any health there's a small chance to receive Strength | Swords, Axes, Trident | III |  | Pale Residence, Shrines |
+| Swift Soar | Boosts the Happy Ghast's flying speed while the rider is considered sprinting | Harness | III |  | Nether Port, Nether Keep, Sealing Halls |
+| Traveler | Boosts movement speed and step height while sprinting. Slowly drains durability while doing so | Boots | III | Soul Speed | Shrines, Graves |
+| Tri-Shot | Is equal to Multishot in effect, but applicable to Bows | Bows | I | Infinity, Piercing, Multishot | Toxic Lair |
+| Wax Wings | Negates elytra damage from slow gliding, but raises durability drain from firework boosting | Elytra | I | Unbreaking | End Castle |
+| Wither Coated | Inflicts Wither effect to direct hit foes. Higher levels boost potency but lowers duration. In practice, this causes the same amount of Wither damage but faster with higher levels | Swords, Axes, Tridents, Maces | III | Fire Aspect | Nether Port, Sealing Halls |
 
-## [Desert Temple Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-desert-temple-overhaul) v2.0
+## [Stronghold Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-stronghold-overhaul) v2.3.2
 
-## [Ocean Monument Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-ocean-monument-overhaul) v2.0
+## [Desert Temple Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-desert-temple-overhaul) v2.1
 
-## [Jungle Temple Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-jungle-temple-overhaul) v2.0
+## [Ocean Monument Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-ocean-monument-overhaul) v2.1
 
-## [Woodland Mansion Replacement](https://modrinth.com/datapack/dungeons-and-taverns-woodland-mansion-replacement) v1.6
+## [Jungle Temple Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-jungle-temple-overhaul) v2.1
 
-## [Pillager Outpost Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-pillager-outpost-overhaul) v3.2.1
+## [Woodland Mansion Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-woodland-mansion-overhaul) v2.0
+
+## [Pillager Outpost Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-pillager-outpost-overhaul) v3.3
 
 # Whity's Data Packs
 
