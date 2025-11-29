@@ -323,24 +323,6 @@
 - Increased health to 600 HP.
 - Occasionally spawns Wither Skeletons.
 
-# Snicker-Nee-Yo's Data Packs
-
-## [Ender Dragon Prime](https://modrinth.com/datapack/ender-dragon-prime) v1.3
-- Attack the Ender Dragon enough will agro Endermen.
-- More Endermen spawn on the main island.
-- The Ender Dragon perches regularly.
-- The Enderman are buffed by the Ender Dragon.
-- Dragon's Breath from a perched Ender Dragon releases a wave that must be jumped over.
-- The Ender Dragon can leave its essence around the island.
-- While the essence is around the Ender Dragon is invincible.
-- Destroying the essence will hurt the Ender Dragon.
-- The Ender Dragon has an anger level.
-- When the Ender Dragon reaches 100% anger it lets out a large explosion.
-    - Take cover behind Obsidian.
-- The Ender Dragon fires fireballs more regularly.
-- Fireballs home in on the player's location at the time it was fired.
-- Fireballs send out a deadly wave that must be jumped over.
-
 # Vanderflys' Data Packs
 
 ## [The Pale Garden Remastered](https://modrinth.com/datapack/pale-garden-remastered) v1.2.4
