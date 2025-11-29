@@ -343,7 +343,7 @@
 
 # Vanderflys' Data Packs
 
-## [The Pale Garden Remastered](https://modrinth.com/datapack/pale-garden-remastered) v1.2.2
+## [The Pale Garden Remastered](https://modrinth.com/datapack/pale-garden-remastered) v1.2.4
 - Taller trees.
 - Better Creaking loot and AI.
 - New ambient sounds and particle effects.
