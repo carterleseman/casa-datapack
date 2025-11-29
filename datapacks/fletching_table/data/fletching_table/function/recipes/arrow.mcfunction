@@ -1,1 +1,0 @@
-return run function fletching_table:gui/arrow_recipe { 0: "minecraft:feather", 1: "minecraft:stick", 2: "minecraft:flint", result: "minecraft:arrow", count: 4, recipe_id: 2 }

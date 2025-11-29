@@ -1,1 +1,0 @@
-return run function fletching_table:gui/arrow_recipe { 0: "minecraft:feather", 1: "minecraft:stick", 2: "minecraft:amethyst_shard", result: 'minecraft:arrow[minecraft:item_model="fletching_table:arrows/amethyst",minecraft:item_name="Arrow",minecraft:lore=[{text:Amethyst,color:light_purple}],minecraft:custom_data={fletching_table_arrow:"amethyst"}]', count: 4, recipe_id: 1 }

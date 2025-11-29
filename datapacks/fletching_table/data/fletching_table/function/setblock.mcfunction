@@ -1,1 +1,0 @@
-setblock ~ ~ ~ minecraft:barrel{CustomName:'Fletching Table'}

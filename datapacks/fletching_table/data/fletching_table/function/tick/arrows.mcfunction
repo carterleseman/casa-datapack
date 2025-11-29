@@ -1,7 +1,0 @@
-function fletching_table:arrows/amethyst
-function fletching_table:arrows/echo
-function fletching_table:arrows/gold
-function fletching_table:arrows/iron
-function fletching_table:arrows/prismarine
-function fletching_table:arrows/slime
-function fletching_table:arrows/torch

@@ -1,1 +1,0 @@
-return run function fletching_table:gui/bow_recipe { 0: "minecraft:breeze_rod", 1: "minecraft:breeze_rod", 2: "minecraft:breeze_rod", string: "minecraft:string", result: 'minecraft:bow[minecraft:item_model="fletching_table:bows/wind",minecraft:lore=[{text:Wind,color:white}],minecraft:custom_data={fletching_table_bow:"wind"},minecraft:max_damage=150]', count: 1, recipe_id: 7 }

@@ -1,2 +1,0 @@
-advancement revoke @s only fletching_table:place_fletching_table
-execute at @s anchored eyes rotated as @s run function fletching_table:loop/start { id: raycast, start: 0, end: 50, step: 1, scale: 0.1, function: "fletching_table:setup", arguments: {} }

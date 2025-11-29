@@ -1,2 +1,0 @@
-$execute positioned ^ ^ ^$(_index) align xyz if block ~ ~ ~ minecraft:fletching_table run summon minecraft:block_display ~ ~1 ~ {Tags:["fletching_table"],block_state:{Name:"minecraft:fletching_table"},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.0005f,-1.0005f,-0.0005f],scale:[1.001f,1.001f,1.001f]}}
-$execute positioned ^ ^ ^$(_index) align xyz if block ~ ~ ~ minecraft:fletching_table run function fletching_table:setblock
