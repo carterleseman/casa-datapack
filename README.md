@@ -358,7 +358,7 @@
 
 # Faker's Data Packs
 
-## [Dimension Messages](https://modrinth.com/datapack/dimension-messages) v1.0.4
+## [Dimension Messages](https://modrinth.com/datapack/dimension-messages) v1.0.5
 - Adds messages in chat that inform all players of inter-dimensional travel.
 
 # Clo4's Data Packs
