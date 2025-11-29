@@ -232,12 +232,6 @@
 
 # ~~Lullaby's~~ Data Packs
 
-## [Graves](https://modrinth.com/datapack/lullaby-graves) v2.1.4
-- Updated for Minecraft: Java Edition v1.21.5.
-- Graves to save items when players die.
-- Graves in the end's void generate at Y = 1.
-- Graves under lava will rise to the surface of the lava.
-
 ## [Sleeping Messages](https://modrinth.com/datapack/sleeping-messages) v1.2.1
 - Notifies all players when someone is sleeping.
 
