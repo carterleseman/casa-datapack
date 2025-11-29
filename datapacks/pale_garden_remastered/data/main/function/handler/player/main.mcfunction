@@ -1,5 +1,3 @@
-execute unless biome ~ ~ ~ pale_garden run return fail
-
 # Player Effects 
 execute if score #fog ThePaleGardenRemastered matches 1 run effect give @s darkness 2 2 true
 
