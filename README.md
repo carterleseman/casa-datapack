@@ -252,31 +252,6 @@
 ## [Server Sleep](https://modrinth.com/datapack/serversleep) v1.21+
 - Changes `playersSleepingPercentage` to `50%`
 
-# Maybejake's Data Packs
-
-## [Hero's Journey](https://modrinth.com/datapack/heros-journey) v1.3.2
-- 16 different eyes to collect littered around the world.
-- 12 different eyes are needed to open the end portal.
-
-| Name | | Source (Chance) | Notes |
-| --- | --- | --- | --- |
-| Amber Eye | ![Amber Eye](/assets/maybejake/amber_eye.png) | Creaking Heart (10%) | Must be done at night |
-| Aquatic Eye | ![Aquatic Eye](/assets/maybejake/aquatic_eye.png) | Fishing (3%) | Catch any fish |
-| Archaic Eye | ![Archaic Eye](/assets/maybejake/archaic_eye.png) | Suspicious Block (5%) | |
-| Beastmaster's Eye | ![Beastmaster's Eye](/assets/maybejake/beastmasters_eye.png) | Crafted | |
-| Bound Eye | ![Bound Eye](/assets/maybejake/bound_eye.png) | Evoker (10%) | |
-| Curious Eye | ![Curious Eye](/assets/maybejake/curious_eye.png) | Pillager Outpost (5%) | |
-| Elder Eye | ![Elder Eye](/assets/maybejake/elder_eye.png) | Elder Eye (30%) | |
-| Eldritch Eye | ![Eldritch Eye](/assets/maybejake/eldritch_eye.png) | Ancient City (10%) | |
-| Entombed Eye | ![Entombed Eye](/assets/maybejake/entombed_eye.png) | Desert Pyramid (20%) | |
-| Forged Eye | ![Forged Eye](/assets/maybejake/forged_eye.png) | Master Armorsmith | |
-| Golden Eye | ![Golden Eye](/assets/maybejake/golden_eye.png) | Jungle Pyramid (50%) | |
-| Ominous Eye | ![Ominous Eye](/assets/maybejake/ominous_eye.png) | Ominous Vault (5%) | |
-| Opulent Eye | ![Opulent Eye](/assets/maybejake/opulent_eye.png) | Buried Treasure (30%) | |
-| Queen's Eye | ![Queen's Eye](/assets/maybejake/queens_eye.png) | Beehive (5%) | When sheared |
-| Spellbound Eye | ![Spellbound Eye](/assets/maybejake/spellbound_eye.png) | Enchanting (3%) | Enchant any item with a third level enchantment |
-| Withered Eye | ![Withered Eye](/assets/maybejake/withered_eye.png) | Wither (80%) | |
-
 # NovaWostra's Dungeons and Taverns Data Packs
 
 ## [Nether Fortress Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-nether-fortress-overhaul) v3.0
