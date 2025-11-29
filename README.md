@@ -324,6 +324,7 @@
 - Patchless support for Sleeping Messages and AFK Sleep.
 - Sleeping in a Bedroll does not set your spawn point.
 - Bedrolls check for the same conditions Beds check for.
+- Using extended version [Portable Bedrolls](https://modrinth.com/datapack/portable-bedrolls).
 
 # Faker's Data Packs
 
@@ -364,3 +365,9 @@
 - If an owned mount can't be found it looks for tamed mounts (e.g., camels, skeleton horses).
 - If a tamed mount can't be found it looks for stick-led mounts (e.g., pigs, striders).
 - Locates mounts up to a distance of 160 blocks.
+- Using extended version [Horse Call](https://modrinth.com/datapack/horse-call).
+
+# Goldenfire644's Data Packs
+
+## [Inclusive Free the End](https://modrinth.com/datapack/inclusive-free-the-end) vID 5LmF7vB1
+- Grants Free the End to all players who damaged the dragon during the fight.

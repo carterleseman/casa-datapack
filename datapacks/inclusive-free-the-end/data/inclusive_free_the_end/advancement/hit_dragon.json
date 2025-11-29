@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon",
+          "location": {
+            "position": {
+              "x": {
+                "min": -192,
+                "max": 192
+              },
+              "y": {
+                "min": -64,
+                "max": 320
+              },
+              "z": {
+                "min": -192,
+                "max": 192
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "inclusive_free_the_end:hit_dragon"
+  }
+}
