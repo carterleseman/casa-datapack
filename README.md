@@ -244,6 +244,9 @@
 ## [Timber Enchantment](https://modrinth.com/datapack/timber-enchantment) v1.0.1
 - New enchantment for axes to mine connected logs.
 
+## [Death Back Potion](https://modrinth.com/datapack/death-back-potion) v1.0
+- Drink the Death Back Potion to teleport to your last death.
+
 # Aninus' Data Packs
 
 ## [Server Sleep](https://modrinth.com/datapack/serversleep) v1.21+
