@@ -292,14 +292,6 @@
 
 ## [Pillager Outpost Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-pillager-outpost-overhaul) v3.3
 
-# Whity's Data Packs
-
-## [Wanderful Trades](https://modrinth.com/datapack/wanderful-trades) v1.0
-- Updated for Minecraft: Java Edition v1.21.5.
-- For 10 emeralds, the Wandering Trader can give a Traveler's Map that may lead to the following Structures:
-    - Villages, Jungle Temples, Desert Temples, Witch Huts, Trail Ruins, Igloos, Pillager Outposts
-- For 4 emeralds, the Wandering Trader may buy a random assortment of items.
-
 # ImHer0's Data Packs
 
 ## [Wither's Wrath](https://modrinth.com/datapack/witherswrath) v1.11.2
