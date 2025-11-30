@@ -7,6 +7,9 @@
 		"description": "Name a Rabbit 'Toast'"
 	},
 	"parent": "casa:husbandry/dinnerbone",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"name_tag": {
 			"trigger": "minecraft:player_interacted_with_entity",

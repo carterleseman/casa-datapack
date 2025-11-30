@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:brown_harness"
+		},
+		"title": "Who Needs Elytra?",
+		"description": "Ride 1km on a Happy Ghast",
+		"frame": "goal"
+	},
+	"parent": "casa:cales.casa/test_flight",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:happy_ghast_one_cm",
+								"value": {
+									"min": 100000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -11,6 +11,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/enchant_item",
+	"rewards": {
+		"experience": 500
+	},
 	"criteria": {
 		"helmet_protection": {
 			"trigger": "minecraft:inventory_changed",

@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace"
+		},
+		"title": "At the Rim of the Sky",
+		"description": "Slay the Ender Dragon in one hit using a Mace",
+		"frame": "challenge"
+	},
+	"parent": "casa:adventure/warden_extinction",
+	"rewards": {
+		"experience": 1000
+	},
+	"criteria": {
+		"ender_dragon": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:player",
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:mace_smash",
+								"expected": true
+							}
+						]
+					},
+					"dealt": {
+						"min": 200.0
+					}
+				},
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	}
+}

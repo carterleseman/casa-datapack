@@ -7,7 +7,10 @@
 		"description": "Sail 50km in a Boat",
 		"frame": "challenge"
 	},
-	"parent": "casa:cales.casa/pirate_captain",	
+	"parent": "casa:cales.casa/pirate_captain",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

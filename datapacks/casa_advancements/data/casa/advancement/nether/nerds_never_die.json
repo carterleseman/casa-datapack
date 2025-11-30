@@ -9,6 +9,9 @@
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/find_bastion",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"technoblade": {
 			"trigger": "minecraft:player_interacted_with_entity",

@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:end/the_point_of_no_return",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"killed_cow": {
 			"trigger": "minecraft:player_killed_entity",

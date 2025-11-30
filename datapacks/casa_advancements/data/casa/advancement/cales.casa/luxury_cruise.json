@@ -6,7 +6,10 @@
 		"title": "Row, Row, Row",
 		"description": "Sail 1km in a Boat"
 	},
-	"parent": "casa:cales.casa/root",	
+	"parent": "casa:cales.casa/root",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

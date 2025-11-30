@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:cales.casa/marathon",
+	"rewards": {
+		"experience": 500
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

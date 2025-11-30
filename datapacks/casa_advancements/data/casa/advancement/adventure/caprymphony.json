@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/ram",
+	"rewards": {
+		"experience": 150
+	},
 	"criteria": {
 		"ponder": {
 			"trigger": "minecraft:using_item",

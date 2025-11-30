@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:adventure/lucky_charm",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"rabbit": {
 			"trigger": "minecraft:player_killed_entity",

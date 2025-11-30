@@ -4,15 +4,19 @@
 
 - **Bulldozer** *(Hidden)* — Mine a total of 50,000 blocks of stone
 - **Living Dummy** — Take thorns damage from an Armor Stand that is equipped with Thorns-enchanted armor
-    - **Armor Display** — Place a full suit of each of the six armors on an Armor Stand
+    - **Armor Display** — Put every full set of armor on different armor stands
 - **Master Armorer** — Create a full suit of armor with all possible enchantments at max level
 
 ## Nether
 
 - **Camp of the Damned** — Place down a Soul Campfire at the Nether's origin
     - ~~**Hell's Bell** — Ring a Bell in the Nether~~
-        - **Hot Spring** — Sit in a cauldron filled with water in the Nether
-        - **Polar Opposites** — Start freezing from Powder Snow in the Nether
+        - ~~**Hot Spring** — Sit in a cauldron filled with water in the Nether~~
+        - ~~**Polar Opposites** — Start freezing from Powder Snow in the Nether~~
+- **Bring Down the Beast** — Bring down a Ghast with a sword
+- **Snow Cone?** — Feed snowballs to a Ghastling
+    - **Hot Air Balloon** — Craft a Harness, place it on a Happy Ghast, and ride it
+        - **Pillow Fight** — Slay a Ghast while riding a Happy Ghast
 - **Ancient Restoration** — Stand in a Nether Portal block while within the bounding box of a Ruined Portal structure
 - **Piglin Peril** — Obtain a Piglin Head by blowing up a Piglin with a Charged Creeper
 - **Technoblade Never Dies** — Name a Piglin Brute 'Technoblade'
@@ -33,13 +37,12 @@
 - **Endgame** — Defend a village from a raid in the End
 
 ## Adventure
-- **On That Note** — Play a Note Block with each type of monster head
-- **Dolphin Dasher** — Get the Dolphin's Grace effect
+- **Dolphin Dasher** *(Hidden)* — Get the Dolphin's Grace effect
     - **Power of the Ocean** — Construct a Conduit
-    - **Titanic** — Find a shipwreck in an iceberg biome
-- **Lucky Charm** — Get a Rabbit's Foot
+    - **Titanic** *(Hidden)* — Find a shipwreck in an iceberg biome
+- **Lucky Charm** *(Hidden)* — Get a Rabbit's Foot
     - **Going Down the Rabbit Hole** — Kill a Rabbit that is below y-level -59.5
-- **Ram** — Obtain a Goat's Horn
+- **Ram** *(Hidden)* — Obtain a Goat's Horn
     - **Caprymphony** — Blow every type of Goat Horn
     - **Loud and Proud** — Play a Goat Horn in the Deep Dark
         - **Silence of the Lambs** — Kill a Sheep in an Ancient City
@@ -52,19 +55,22 @@
 - **Indiana Jones** — Pull a hostile monster using a Fishing Rod
     - **When Pigs Finally Fly** — Pull a pig from at least 25 blocks away
 - **Disc Jockey** — Listen to all the music discs
+- **On That Note** — Play a Note Block with each type of monster head
 - **Insomniac** — Go 30 days without sleep
 - **You Are the Pillager** — Murder one of every villager profession
-- **Buy Low, Sell High** — Trade with a Villager while under the Hero of the Village effect
 - **Veteran of the Village** *(Hidden)* — Get Hero of the Village V
 - **Plane Walker** — Kill an Enderman in all three dimensions
     - **Impossible...** — Kill an Enderman while you are holding an arrow
 - **Revenge!** — Blow up a Creeper with TNT
+    - **Controlled Detonation** — Persuade a Creeper to blow up using Flint and Steel
+        - **Look Out!** — Zoom in on a Creeper with a Spyglass from less than a block away
     - **Creepy Heads** — Blow up a Creeper with a Charged Creeper to get a Creeper Head
         - **Camouflage** — Kill a monster while wearing its head
 - **Miracle Drink** — Drink Milk or Honey to cure poison when on half a heart
     - **Taste of Your Own Medicine** — Kill a Witch with a Splash Potion
 - **High Road** — Kill a hostile monster with a melee attack while riding a mount
     - **Poultry Boy** — Kill a chicken being ridden by a zombie, zombie villager, husk or drowned, or vice versa
+        - **Absolute Cinema** — Defeat a Chicken Jockey in a Woodland Mansion
     - **Spider-Skelly** — Kill either the spider or skeleton segment of a spider jockey
         - **The Ghastly Eyes** — Kill an invisible spider or cave spider
     - **The Undead Cavalry** — Ride a Skeleton Horse
@@ -79,6 +85,7 @@
     - **Death Pointer** *(Hidden)* — Craft a Recovery Compass using Echo Shards
 - **Knowledge is Power** — Trade for an Enchanted Book
     - **Treasure Map** — Trade for an Explorer Map
+        - **All Around the World** — Buy every kind of Explorer Map
         - **House of Psychos** — Find a Woodland Mansion
             - **Here's Johnny!** — Name a Vindicator 'Johnny'
         - **Monumental** — Find an Ocean Monument
@@ -90,7 +97,9 @@
 - **Raidin' Master** — Discover every structure
 - **Cayaclyst** — Kill a Wither near a Sculk Catalyst
 - **Is It a Nightmare?** — Look at a Warden through a Spyglass
+- **You're Doing It Wrong** — Kill a mob with a Mace while levitating upwards
 - **Warden Extinction** — Kill a Warden in one hit
+    - **At the Rim of the Sky** — Slay the Ender Dragon in one hit using a Mace
 - **Explorer of Worlds** *(Hidden)* — Discover every biome in every dimension
 
 ## Husbandry
@@ -104,8 +113,11 @@
     - **Nyan Sheep** — Name a sheep 'jeb_' with a nametag
 - **Qinling** — Breed a rare Brown Panda
     - **Pandamonium** — Feed Cake to every type of Panda
+- **Beep Bop** — Build a Copper Golem
+    - **Wax Treatment** — Apply Honeycomb to a Copper Golem to stop it from oxidizing
+        - **The Statue of Liberty** — Have a Copper Golem completely oxidize into a statue, then mine it
 
-## Casa
+## Path
 - **One Foot in Front of the Other** — Walk 10km
     - **Going the Distance** — Walk 50km
         - **Boots Were Made for Walking** — Walk 250km
@@ -127,6 +139,9 @@
 - **Mob Hunter** — Kill 250 mobs
     - **Bloodthirsty** — Kill 2,500 mobs
         - **Kill or be Killed** — Kill 25,000 mobs
+- **Test Flight** — Ride 100m on a Happy Ghast
+    - **Who Needs Elytra?** — Ride 1km on a Happy Ghast
+        - **Big Blimp Enthusiast** — Ride 10km on a Happy Ghast
 
 # Ctkrocks' Data Packs
 
@@ -210,9 +225,6 @@
 
 ## [Timber Enchantment](https://modrinth.com/datapack/timber-enchantment) v1.0.1
 - New enchantment for axes to mine connected logs.
-
-## [Death Back Potion](https://modrinth.com/datapack/death-back-potion) v1.0
-- Drink the Death Back Potion to teleport to your last death.
 
 # Aninus' Data Packs
 

@@ -7,6 +7,9 @@
 		"description": "Find and enter an Ancient City"
 	},
 	"parent": "minecraft:adventure/avoid_vibration",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"ancient_city": {
 			"trigger": "minecraft:location",

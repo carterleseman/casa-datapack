@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/loud_and_proud",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"rabbit": {
 			"trigger": "minecraft:player_killed_entity",

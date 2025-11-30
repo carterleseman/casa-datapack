@@ -7,6 +7,9 @@
 		"description": "Turn a mob upside-down"
 	},
 	"parent": "minecraft:husbandry/root",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"name_tag": {
 			"trigger": "minecraft:player_interacted_with_entity",

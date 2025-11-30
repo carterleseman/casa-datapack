@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/play_jukebox_in_meadows",
+	"rewards": {
+		"experience": 300
+	},
 	"criteria": {
 		"zombie": {
 			"trigger": "minecraft:default_block_use",

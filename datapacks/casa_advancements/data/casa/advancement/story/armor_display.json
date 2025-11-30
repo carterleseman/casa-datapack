@@ -4,10 +4,13 @@
 			"id": "minecraft:netherite_helmet"
 		},
 		"title": "Armor Display",
-		"description": "Place all six sets of armor on six different Armor Stands",
+		"description": "Put every full set of armor on different armor stands",
 		"frame": "challenge"
 	},
 	"parent": "casa:story/living_dummy",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"leather": {
 			"trigger": "minecraft:player_interacted_with_entity",
@@ -37,6 +40,42 @@
 								"feet": {
 									"items": [
 										"minecraft:leather_boots"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"copper": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"items": [
+										"minecraft:copper_helmet"
+									]
+								},
+								"chest": {
+									"items": [
+										"minecraft:copper_chestplate"
+									]
+								},
+								"legs": {
+									"items": [
+										"minecraft:copper_leggings"
+									]
+								},
+								"feet": {
+									"items": [
+										"minecraft:copper_boots"
 									]
 								}
 							}

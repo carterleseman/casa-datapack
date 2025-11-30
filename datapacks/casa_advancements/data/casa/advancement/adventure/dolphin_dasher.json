@@ -4,7 +4,8 @@
 			"id": "minecraft:brain_coral"
 		},
 		"title": "Flippin' Smart",
-		"description": "Ride the waves with a little help from a friend"
+		"description": "Ride the waves with a little help from a friend",
+		"hidden": true
 	},
 	"parent": "minecraft:adventure/root",
 	"criteria": {

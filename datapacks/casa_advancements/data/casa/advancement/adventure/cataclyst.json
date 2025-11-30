@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"kill_mob_near_sculk_catalyst": {
 			"trigger": "minecraft:kill_mob_near_sculk_catalyst",

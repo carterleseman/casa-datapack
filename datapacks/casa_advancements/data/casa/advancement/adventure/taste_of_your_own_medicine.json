@@ -13,6 +13,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/miracle_drink",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"kill_magic": {
 			"trigger": "minecraft:player_killed_entity",

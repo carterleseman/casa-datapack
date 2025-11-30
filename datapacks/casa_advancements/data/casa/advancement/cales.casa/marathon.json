@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:cales.casa/natural_sprinter",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

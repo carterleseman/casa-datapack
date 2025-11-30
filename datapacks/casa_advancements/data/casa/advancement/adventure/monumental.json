@@ -7,6 +7,9 @@
 		"description": "Find an Ocean Monument"
 	},
 	"parent": "casa:adventure/treasure_map",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"monument": {
 			"trigger": "minecraft:location",

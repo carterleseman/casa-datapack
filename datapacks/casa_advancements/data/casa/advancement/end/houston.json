@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:end/sky_high",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"world_height": {
 			"trigger": "minecraft:location",

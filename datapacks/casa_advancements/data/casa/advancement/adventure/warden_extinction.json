@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/overoverkill",
+	"rewards": {
+		"experience": 750
+	},
 	"criteria": {
 		"overoverkill": {
 			"trigger": "minecraft:player_hurt_entity",

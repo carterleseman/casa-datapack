@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:cales.casa/take_to_the_skies",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

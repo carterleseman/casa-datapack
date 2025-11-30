@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace"
+		},
+		"title": "You're Doing It Wrong",
+		"description": "Kill a mob with a Mace while levitating upwards",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/overoverkill",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:mace"
+							}
+						},
+						"effects": {
+							"minecraft:levitation": {
+								"amplifier": {
+									"min": 0
+								}
+							}
+						}
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_player_attack",
+							"expected": true
+						}
+					]
+				}
+			}
+		}
+	}
+}

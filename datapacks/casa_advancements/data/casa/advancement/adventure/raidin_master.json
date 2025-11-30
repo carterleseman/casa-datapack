@@ -7,7 +7,10 @@
 		"description": "Discover every structure",
 		"frame": "challenge"
 	},
-	"parent": "minecraft:adventure/sleep_in_bed",	
+	"parent": "minecraft:adventure/sleep_in_bed",
+	"rewards": {
+		"experience": 500
+	},
 	"criteria": {
 		"dungeon": {
 			"trigger": "minecraft:player_generates_container_loot",

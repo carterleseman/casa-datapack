@@ -7,7 +7,10 @@
 		"description": "Sail 10km in a Boat",
 		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/luxury_cruise",		
+	"parent": "casa:cales.casa/luxury_cruise",
+	"rewards": {
+		"experience": 250
+	},	
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

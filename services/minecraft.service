@@ -1,0 +1,12 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+User=cale
+WorkingDirectory=/home/cale/minecraft
+ExecStart=/usr/lib/jvm/jdk-21.0.6-oracle-x64/bin/java -Xmx4G -Xms4G -jar server.jar nogui
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

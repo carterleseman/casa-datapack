@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",
 	"rewards": {
-		"function": "bacap_rewards:building/insomniac"
+		"experience": 100
 	},		
 	"criteria": {
 		"trigger": {

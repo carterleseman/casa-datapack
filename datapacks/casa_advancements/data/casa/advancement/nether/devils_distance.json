@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/fast_travel",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"travelled": {
 			"trigger": "minecraft:nether_travel",

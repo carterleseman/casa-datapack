@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:adventure/dolphin_dasher",
+	"rewards": {
+		"experience": 150
+	},
 	"criteria": {
 		"conduit_power": {
 			"trigger": "minecraft:effects_changed",

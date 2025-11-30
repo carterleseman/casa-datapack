@@ -9,6 +9,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/voluntary_exile",
+	"rewards": {
+		"experience": 100
+	},		
 	"criteria": {
 		"farmer": {
 			"trigger": "minecraft:killed_by_arrow",

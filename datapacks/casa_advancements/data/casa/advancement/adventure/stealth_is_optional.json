@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/fallen_kingdom",
+	"rewards": {
+		"experience": 150
+	},
 	"criteria": {
 		"warden": {
 			"trigger": "minecraft:player_killed_entity",

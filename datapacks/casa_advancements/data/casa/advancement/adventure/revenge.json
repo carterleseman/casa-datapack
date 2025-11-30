@@ -7,6 +7,9 @@
         "description": "Blow up a Creeper with TNT"
     },
     "parent": "minecraft:adventure/kill_a_mob",
+	"rewards": {
+		"experience": 50
+	},
     "criteria": {
 		"creeper": {
 			"trigger": "minecraft:player_killed_entity",

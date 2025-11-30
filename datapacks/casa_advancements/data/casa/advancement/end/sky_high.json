@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/elytra",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"world_height": {
 			"trigger": "minecraft:location",

@@ -7,6 +7,9 @@
 		"description": "Sprint 10km"
 	},
 	"parent": "casa:cales.casa/root",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

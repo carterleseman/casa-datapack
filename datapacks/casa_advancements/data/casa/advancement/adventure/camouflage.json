@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/creepy_heads",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"creeper": {
 			"trigger": "minecraft:player_killed_entity",

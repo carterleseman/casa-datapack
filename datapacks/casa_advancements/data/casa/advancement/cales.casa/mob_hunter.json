@@ -7,6 +7,9 @@
 		"description": "Defeat 250 mobs"
 	},
 	"parent": "casa:cales.casa/root",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

@@ -1,0 +1,13 @@
+[Unit]
+Description=Minecraft Whitelist Watcher
+After=minecraft.service
+Requires=minecraft.service
+
+[Service]
+User=cale
+WorkingDirectory=/home/cale/mc-whitelist
+ExecStart=/home/cale/mc-whitelist/venv/bin/python /home/cale/mc-whitelist/killadv.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

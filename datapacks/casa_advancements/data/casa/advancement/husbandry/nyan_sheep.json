@@ -7,6 +7,9 @@
 		"description": "Nyan Nyan Nyan Nyan..."
 	},
 	"parent": "casa:husbandry/toast",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"name_tag": {
 			"trigger": "minecraft:player_interacted_with_entity",

@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:adventure/kilometer_walk",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"outer_pos_x": {
 			"trigger": "minecraft:location",

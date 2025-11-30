@@ -2,6 +2,8 @@ LICENSE
 __MACOSX
 .DS_Store
 *.txt
+/venv
+.env
 
 datapacks/*/README.md
 resourcepacks/*/README.md

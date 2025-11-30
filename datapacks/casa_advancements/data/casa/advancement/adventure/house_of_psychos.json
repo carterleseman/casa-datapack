@@ -6,7 +6,10 @@
 		"title": "House of Psychos",
 		"description": "Find a Woodland Mansion"
 	},
-	"parent": "casa:adventure/treasure_map",	
+	"parent": "casa:adventure/treasure_map",
+	"rewards": {
+		"experience": 50
+	},	
 	"criteria": {
 		"mansion": {
 			"trigger": "minecraft:location",

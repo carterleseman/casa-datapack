@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:flint_and_steel"
+		},
+		"title": "Controlled Detonation",
+		"description": "Persuade a Creeper to blow up using Flint and Steel"
+	},
+	"parent": "casa:adventure/revenge",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"controlled_detonation": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:creeper_igniters"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper"
+						}
+					}
+				]
+			}
+		}
+	}
+}

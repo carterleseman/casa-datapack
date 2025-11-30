@@ -7,6 +7,9 @@
 		"description": "Travel to the Nether's origin and place down a Soul Campfire"
 	},
 	"parent": "minecraft:nether/root",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"soul_campfire": {
 			"trigger": "minecraft:placed_block",

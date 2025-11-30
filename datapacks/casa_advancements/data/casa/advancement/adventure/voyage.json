@@ -7,7 +7,10 @@
 		"description": "A hundred kilometers!",
 		"frame": "challenge"
 	},
-	"parent": "casa:adventure/ten_thousand_blocks",	
+	"parent": "casa:adventure/ten_thousand_blocks",
+	"rewards": {
+		"experience": 500
+	},
 	"criteria": {
 		"outer_pos_x": {
 			"trigger": "minecraft:location",

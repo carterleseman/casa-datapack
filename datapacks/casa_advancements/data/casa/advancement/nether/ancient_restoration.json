@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/root",
+    "rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"entered_nether_portal": {
 			"trigger": "minecraft:enter_block",

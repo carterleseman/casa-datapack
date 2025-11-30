@@ -9,6 +9,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/respawn_dragon",
+	"rewards": {
+		"experience": 500
+	},
 	"criteria": {
 		"wither": {
 			"trigger": "minecraft:player_killed_entity",

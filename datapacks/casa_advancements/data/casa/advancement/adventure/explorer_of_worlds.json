@@ -9,6 +9,9 @@
 		"frame": "challenge"
 	},
     "parent": "minecraft:adventure/adventuring_time",
+	"rewards": {
+		"experience": 750
+	},
     "criteria": {
         "adventuring_time": {
 			"trigger": "minecraft:location",

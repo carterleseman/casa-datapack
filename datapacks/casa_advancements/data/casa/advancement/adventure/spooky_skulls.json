@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/skeleton_horse",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"skeleton_skull": {
 			"trigger": "minecraft:inventory_changed",

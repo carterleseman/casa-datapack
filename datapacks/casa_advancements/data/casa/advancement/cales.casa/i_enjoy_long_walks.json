@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "casa:cales.casa/who_needs_cars",
+	"rewards": {
+		"experience": 500
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

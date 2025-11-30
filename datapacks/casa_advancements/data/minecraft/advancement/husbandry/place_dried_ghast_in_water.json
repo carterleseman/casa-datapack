@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:dried_ghast"
+		},
+		"title": "Stay Hydrated",
+		"description": "Place a Dried Ghast block into water"
+	},
+	"parent": "minecraft:nether/root",	
+	"criteria": {
+		"place_dried_ghast_in_water": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"block": "minecraft:dried_ghast",
+						"condition": "minecraft:block_state_property",
+						"properties": {
+							"waterlogged": "true"
+						}
+					}
+				]
+			}
+		}
+	}
+}

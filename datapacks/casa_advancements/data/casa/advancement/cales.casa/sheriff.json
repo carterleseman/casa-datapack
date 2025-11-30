@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:cales.casa/horse_training",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

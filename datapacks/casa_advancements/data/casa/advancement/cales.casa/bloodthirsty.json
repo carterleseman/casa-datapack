@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "casa:cales.casa/mob_hunter",
+	"rewards": {
+		"experience": 250
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

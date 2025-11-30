@@ -8,7 +8,10 @@
 		"frame": "challenge",
 		"hidden": true
 	},
-	"parent": "casa:adventure/million_blocks",	
+	"parent": "casa:adventure/million_blocks",
+	"rewards": {
+		"experience": 1500
+	},
 	"criteria": {
 		"outer_pos_x": {
 			"trigger": "minecraft:location",

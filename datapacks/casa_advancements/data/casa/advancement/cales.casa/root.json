@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "Casa",
-        "description": "Join the server",
-        "icon": { "id": "minecraft:ender_eye" },
-        "background": "minecraft:entity/end_portal",
+        "title": "Path",
+        "description": "Every journey leaves footprints",
+        "icon": { "id": "minecraft:dirt_path" },
+        "background": "minecraft:block/dirt",
         "show_toast": false,
         "announce_to_chat": false
     },

@@ -6,7 +6,10 @@
 		"title": "Take to the Skies",
 		"description": "Fly 10km with Elytra"
 	},
-	"parent": "casa:cales.casa/root",	
+	"parent": "casa:cales.casa/root",
+	"rewards": {
+		"experience": 100
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

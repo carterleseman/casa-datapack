@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/find_bastion",	
+	"rewards": {
+		"experience": 300
+	},
 	"criteria": {
 		"astrobrute": {
 			"trigger": "minecraft:player_killed_entity",

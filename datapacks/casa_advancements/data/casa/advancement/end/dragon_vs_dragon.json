@@ -8,6 +8,9 @@
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/respawn_dragon",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"dragon_vs_dragon": {
 			"trigger": "minecraft:player_killed_entity",

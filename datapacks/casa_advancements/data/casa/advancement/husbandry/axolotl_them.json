@@ -8,6 +8,9 @@
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/axolotl_in_a_bucket",
+	"rewards": {
+		"experience": 50
+	},
 	"criteria": {
 		"leucistic": {
 			"trigger": "minecraft:player_interacted_with_entity",
