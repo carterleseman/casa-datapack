@@ -6,7 +6,7 @@
 		"title": "Titanic",
 		"description": "Find a Shipwreck in an iceberg",
         "hidden": true,
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "casa:adventure/dolphin_dasher",
     "rewards": {

@@ -1,7 +1,9 @@
 {
-  "pack": {
-    "pack_format": 8,
-    "description": "Adds the `afk` tag to players that haven't moved in a while",
-    "supported_formats": [8, 81]
-  }
+    "pack": {
+        "pack_format": 15,
+        "min_format": 15,
+        "max_format": 88,
+        "description": "Adds the `afk` tag to players that haven't moved in a while",
+        "supported_formats": [15, 88]
+    }
 }

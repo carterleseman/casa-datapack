@@ -1,6 +1,9 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Use the sniffer to locate biomes."
+    "min_format": 48,
+    "max_format": 94,
+    "description": "Use the sniffer to locate biomes.",
+    "supported_formats": [48, 94]
   }
 }

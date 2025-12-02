@@ -1,7 +1,9 @@
 {
   "pack": {
     "pack_format": 26,
+    "min_format": 26,
+    "max_format": 88,
     "description": "Players sit down while AFK",
-    "supported_formats": [26, 48, 71]
+    "supported_formats": [26, 88]
   }
 }

@@ -1,6 +1,9 @@
 {
     "pack": {
         "pack_format": 71,
-        "description": "Copper pipes using 24w37a features"
+        "min_format": 71,
+        "max_format": 94,
+        "description": "Copper pipes using 24w37a features",
+        "supported_formats": [71, 94]
     }
 }

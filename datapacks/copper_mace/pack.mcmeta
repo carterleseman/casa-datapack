@@ -1,6 +1,9 @@
 {
   "pack": {
     "pack_format": 71,
-    "description": "Adds a copper mace that can cause lightning strikes"
+    "min_format": 71,
+    "max_format": 94,
+    "description": "Adds a copper mace that can cause lightning strikes",
+    "supported_formats": [71, 94]
   }
 }

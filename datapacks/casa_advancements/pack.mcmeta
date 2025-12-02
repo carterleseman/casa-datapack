@@ -1,6 +1,7 @@
 {
     "pack": {
-        "pack_format": 71,
-        "description": "Advancements for cales.casa server"
+        "min_format": [88, 0],
+	    "max_format": [88, 0],
+        "description": "Custom advancement pack for vanilla + DnT"
     }
 }

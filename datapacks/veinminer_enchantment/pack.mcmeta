@@ -1,6 +1,8 @@
 {
     "pack": {
         "pack_format": 81,
+        "min_format": 81,
+        "max_format": 88,
         "description": [
             {
                 "text": "Veinimer Enchantment",
@@ -14,6 +16,7 @@
                 "text": "github.com/lullaby6",
                 "color": "#683edd"
             }
-        ]
+        ],
+        "supported_formats": [81, 88]
     }
 }

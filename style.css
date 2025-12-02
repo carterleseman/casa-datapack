@@ -1,0 +1,102 @@
+:root {
+    --surface: #C6C6C6;
+    --frame: #000;
+    --highlight: #FFF;
+    --shadow: #555;
+    --face: #8B8B8B;
+    --frame-light: #1F1F1F;
+
+    --text-light: #FCFCFC;
+    --text-dark: #3F3F3F;
+    --text-shadow: 2px 2px #3E3E3E;
+}
+
+* { 
+    box-sizing: border-box;
+    image-rendering: pixelated;
+}
+
+html, body, main {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'minecraftregular';
+    src: url('fonts/minecraftregular-bmg3-webfont.woff2') format('woff2'),
+         url('fonts/minecraftregular-bmg3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    --bg-size: 256px 256px;
+    margin: 0;
+    font-family: 'minecraftregular';
+
+    background: linear-gradient(
+        to bottom,
+        #7AAAFF,
+        #ACD2FF
+    ); 
+}
+
+body, menu, h1, figure {
+    margin: 0;
+}
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background:
+            url('assets/sky/End_Sky_\(texture\)_JE2.png'), 
+            rgba(0, 0, 0, 0.9);
+        background-size: var(--bg-size);
+        background-blend-mode: multiply;
+    }
+} */
+
+main {
+    display: grid;
+    place-items: center;
+}
+ 
+menu[role=tablist] {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 0 -2px;
+    gap: 2rem;
+
+    > button {
+        background: var(--face);
+        position: relative;
+        border-image-source: url('assets/gui/button-border-dark.png');
+        border-image-width: 8;
+        border-image-slice: 4;
+        margin-bottom: -8px;
+        aspect-ratio: 1;
+        padding: 2rem;
+        /* box-shadow: inset -8px -16px var(--shadow), inset 8px 8px var(--highlight); */
+        z-index: 1;
+
+        > img {
+            width: 64px;
+            aspect-ratio: 1;
+        }
+
+        &[aria-selected=true] {
+            background: var(--surface);
+            border-image-source: url('assets/gui/button-border.png');
+            z-index: 2;
+        }
+    }
+}
+
+[role=tabpanel] {
+    background: var(--surface);
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    color: var(--text-dark);
+}

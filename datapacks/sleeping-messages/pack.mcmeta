@@ -1,6 +1,9 @@
 {
    "pack": {
       "pack_format": 71,
-      "description": "by github.com/lullaby6"
+      "min_format": 71,
+      "max_format": 94,
+      "description": "by github.com/lullaby6",
+      "supported_formats": [71, 94]
    }
 }
