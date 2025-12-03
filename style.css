@@ -4,6 +4,7 @@
     --highlight: #FFF;
     --shadow: #555;
     --face: #8B8B8B;
+    --face-light: #919191;
     --frame-light: #1F1F1F;
 
     --text-light: #FCFCFC;
@@ -40,14 +41,14 @@ body {
     ); 
 }
 
-body, menu, h1, figure {
+body, menu, h1, figure, p {
     margin: 0;
 }
 
 /* @media (prefers-color-scheme: dark) {
     body {
         background:
-            url('assets/sky/End_Sky_\(texture\)_JE2.png'), 
+            url('assets/texture/End_Sky_\(texture\)_JE2.png'), 
             rgba(0, 0, 0, 0.9);
         background-size: var(--bg-size);
         background-blend-mode: multiply;
@@ -55,48 +56,123 @@ body, menu, h1, figure {
 } */
 
 main {
+    --img-size: 56px;
+
     display: grid;
     place-items: center;
 }
- 
+
 menu[role=tablist] {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     margin: 0 0 -2px;
-    gap: 2rem;
+    gap: 1rem;
 
     > button {
-        background: var(--face);
+        --margin-selected: 1rem;
+        background-color: var(--face);
         position: relative;
+        border: 0.5rem solid transparent;
         border-image-source: url('assets/gui/button-border-dark.png');
-        border-image-width: 8;
-        border-image-slice: 4;
-        margin-bottom: -8px;
+        margin-bottom: -14px;
         aspect-ratio: 1;
-        padding: 2rem;
-        /* box-shadow: inset -8px -16px var(--shadow), inset 8px 8px var(--highlight); */
-        z-index: 1;
+        padding: 0 1rem;
 
         > img {
-            width: 64px;
+            width: var(--img-size);
             aspect-ratio: 1;
+            user-select: none;
+            pointer-events: none;
         }
 
         &[aria-selected=true] {
-            background: var(--surface);
+            background-color: var(--surface);
             border-image-source: url('assets/gui/button-border.png');
+            margin-top: calc(var(--margin-selected) * -1);
             z-index: 2;
+
+            > img {
+                margin-top: var(--margin-selected);
+            }
         }
     }
 }
 
 [role=tabpanel] {
+    --inline: 1.5rem;
+
     background: var(--surface);
     position: relative;
-    z-index: 2;
+    border: 0.5rem solid transparent;
+    border-image-source: url('assets/gui/panel-border.png');
+    height: 550px;
+    width: 950px;
+
+    > h1 {
+        padding: 0.75rem var(--inline) 0.5rem var(--inline);
+        color: var(--text-dark);
+        font-weight: normal;
+    }
+
+    > figure {
+        margin-inline: var(--inline);
+        background-size: 64px;
+        min-height: 460px;
+        box-shadow: 
+            4px 4px var(--frame-light) inset,
+            -4px -4px var(--face-light) inset,
+            4px 4px 8px 8px rgba(0, 0, 0, 0.5) inset,
+            -4px -4px 8px 8px rgba(0, 0, 0, 0.5) inset;
+    }
 }
 
-h1 {
-    color: var(--text-dark);
+.adv {
+    background-color: var(--surface);
+    border: 12px solid transparent;
+    border-image-source: url('assets/gui/task-border.png');
+    position: relative;
+    padding: 0.5rem;
+
+    &.goal { border-image-source: url('assets/gui/goal-border.png') }
+    &.chal { border-image-source: url('assets/gui/challenge-border.png') }
+
+    &.cmplt { 
+        background-color: #AA7E0F;
+        border-image-source: url('assets/gui/task-complete-border.png') 
+    }
+    &.goal.cmplt { border-image-source: url('assets/gui/goal-complete-border.png') }
+    &.chal.cmplt { border-image-source: url('assets/gui/challenge-complete-border.png') }
+
+    > img {
+        width: var(--img-size);
+        aspect-ratio: 1;
+        user-select: none;
+        pointer-events: none;
+    }
+}
+
+span.toast {
+    background: linear-gradient(
+        to bottom,
+        #290662,
+        #1C063A
+    );
+    border: 4px solid transparent;
+    border-image-source: url('assets/gui/toast-border.png');
+
+    > p {
+        color: var(--text-light);
+        background: #17091A;
+        text-shadow: var(--text-shadow);
+        margin: 0.5rem;
+    }
+}
+
+[role=tabpanel],
+.adv, span.toast,
+menu[role=tablist] > button {
+    background-clip: padding-box;
+    border-image-width: 16px;
+    border-image-slice: 4;
 }

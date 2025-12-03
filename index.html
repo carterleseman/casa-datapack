@@ -9,14 +9,19 @@
 <body>
     <!-- Player Selection -->
     <aside></aside>
+    
 
     <main>
+        <span class="toast">
+            <p>Adventure</p>
+        </span>
+
         <div class="tabs">
             <menu role="tablist">
                 <button role="tab" aria-controls="minecraft" aria-selected="true">
                     <img src="assets/block/Grass_Block_JE7_BE6.png" alt="Minecraft">
                 </button>
-                <button role="tab" aria-controls="nether">
+                <button role="tab" aria-controls="nether" >
                     <img src="assets/block/Red_Nether_Bricks_JE4_BE3.png" alt="Nether">
                 </button>
                 <button role="tab" aria-controls="end">
@@ -34,15 +39,40 @@
             </menu>
             <article role="tabpanel" id="minecraft" hidden>
                 <h1>Minecraft</h1>
-                <figure></figure>
+                <figure style="background-image: url('assets/texture/BlockSprite_stone.png')"></figure>
             </article>
-            <article role="tabpanel" id="nether">
+            <article role="tabpanel" id="nether" hidden>
                 <h1>Nether</h1>
-                <figure></figure>
+                <figure style="background-image: url('assets/texture/BlockSprite_netherrack.png')"></figure>
             </article>
-            <article role="tabpanel" id="end" hidden></article>
-            <article role="tabpnael" id="adventure" hidden></article>
-            <article role="tabpanel" id="path" hidden></article>
+            <article role="tabpanel" id="end" hidden>
+                <h1>The End</h1>
+                <figure style="background-image: url('assets/texture/BlockSprite_end-stone.png')"></figure>
+            </article>
+            <article role="tabpnael" id="adventure" hidden>
+                <h1>Adventure</h1>
+                <figure style="background-image: url('assets/texture/BlockSprite_smooth-sandstone.png')"></figure>
+            </article>
+            <article role="tabpanel" id="husbandry" hidden>
+                <h1>Husbandry</h1>
+                <figure style="background-image: url('assets/texture/BlockSprite_farmland.png')"></figure>
+            </article>
+            <article role="tabpanel" id="path">
+                <h1>Path</h1>
+                <figure style="background-image: url('assets/texture/BlockSprite_dirt.png')">
+                    <div style="display: flex">
+                        <div class="adv cmplt">
+                            <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
+                        </div>
+                        <div class="adv goal cmplt">
+                            <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
+                        </div>
+                        <div class="adv chal cmplt">
+                            <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
+                        </div>
+                    </div>
+                </figure>
+            </article>
         </div>
     </main>
 
