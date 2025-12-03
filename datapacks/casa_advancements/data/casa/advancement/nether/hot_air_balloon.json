@@ -4,13 +4,9 @@
 			"id": "minecraft:white_harness"
 		},
 		"title": "Hot Air Balloon",
-		"description": "Craft a Harness, place it on a Happy Ghast, and ride it",
-		"frame": "goal"
+		"description": "Craft a Harness, place it on a Happy Ghast, and ride it"
 	},
 	"parent": "casa:nether/snow_cone",
-	"rewards": {
-		"experience": 50
-	},	
 	"criteria": {
 		"happy_ghast": {
 			"trigger": "minecraft:started_riding",

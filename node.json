@@ -1,0 +1,775 @@
+{
+    "minecraft:story": {
+        "minecraft:story/root": {
+            "name": "Minecraft",
+            "icon": "block/grass_block",
+            "description": "The heart and story of the game"
+        },
+        "minecraft:story/mine_stone": {
+            "name": "Stone Age",
+            "icon": "item/wooden_pickaxe",
+            "description": "Mine Stone with your new Pickaxe",
+            "parent": "minecraft:story/root"
+        },
+        "minecraft:story/upgrade_tools": {
+            "name": "Getting an Upgrade",
+            "icon": "item/stone_pickaxe",
+            "description": "Construct a better Pickaxe",
+            "parent": "minecraft:story/mine_stone"
+        },
+        "minecraft:story/smelt_iron": {
+            "name": "Acquire Hardware",
+            "icon": "item/iron_ingot",
+            "description": "Smelt an Iron Ingot",
+            "parent": "minecraft:story/upgrade_tools"
+        },
+        "minecraft:story/obtain_armor": {
+            "name": "Suit Up",
+            "icon": "item/iron_chestplate",
+            "description": "Protect yourself with a piece of iron armor",
+            "parent": "minecraft:story/smelt_iron"
+        },
+        "minecraft:story/lava_bucket": {
+            "name": "Hot Stuff",
+            "icon": "item/lava_bucket",
+            "description": "Fill a Bucket with lava",
+            "parent": "minecraft:story/obtain_armor"
+        },
+        "minecraft:story/iron_tools": {
+            "name": "Isn't It Iron Pick",
+            "icon": "item/iron_pickaxe",
+            "description": "Upgrade your Pickaxe",
+            "parent": "minecraft:story/smelt_iron"
+        },
+        "minecraft:story/deflect_arrow": {
+            "name": "Not Today, Thank You",
+            "icon": "item/shield",
+            "description": "Deflect a projectile with a Shield",
+            "parent": "minecraft:story/obtain_armor"
+        },
+        "minecraft:story/form_obsidian": {
+            "name": "Ice Bucket Challenge",
+            "icon": "block/obsidian",
+            "description": "Obtain a block of Obsidian",
+            "parent": "minecraft:story/lava_bucket"
+        },
+        "minecraft:story/mine_diamond": {
+            "name": "Diamonds!",
+            "icon": "item/diamond",
+            "description": "Acquire diamonds",
+            "parent": "minecraft:story/iron_tools"
+        },
+        "minecraft:story/enter_the_nether": {
+            "name": "We Need to Go Deeper",
+            "icon": "item/flint_and_steel",
+            "description": "Build, light, and enter a Nether Portal",
+            "parent": "minecraft:story/form_obsidian"
+        },
+        "minecraft:story/shiny_gear": {
+            "name": "Cover Me with Diamonds",
+            "icon": "item/diamond_chestplate",
+            "description": "Diamond armor saves lives",
+            "parent": "minecraft:story/mine_diamond"
+        },
+        "minecraft:story/enchant_item": {
+            "name": "Enchanter",
+            "icon": "item/enchanted_book",
+            "description": "Enchant an item at an Enchanting Table",
+            "parent": "minecraft:story/mine_diamond"
+        },
+        "minecraft:story/cure_zombie_villager": {
+            "name": "Zombie Doctor",
+            "icon": "item/golden_apple",
+            "frame": "goal",
+            "description": "Weaken and then cure a Zombie Villager",
+            "parent": "minecraft:story/enter_the_nether"
+        },
+        "minecraft:story/follow_ender_eye": {
+            "name": "Eye Spy",
+            "icon": "item/eye_of_ender",
+            "description": "Follow an Eye of Ender",
+            "parent": "minecraft:story/enter_the_nether"
+        },
+        "minecraft:story/enter_the_end": {
+            "name": "The End?",
+            "icon": "block/end_stone",
+            "description": "Enter the End Portal",
+            "parent": "minecraft:story/follow_ender_eye"
+        }
+    },
+    "casa:story": {
+        "casa:story/bulldozer": {
+            "name": "Bulldozer",
+            "icon": "block/stone",
+            "frame": "challenge",
+            "description": "Mine a total of 50,000 blocks of stone",
+            "parent": "minecraft:story/iron_tools"
+        },
+        "casa:story/living_dummy": {
+            "name": "Living Dummy",
+            "icon": "item/chainmail_chestplate",
+            "effect": true,
+            "description": "Have an Armor Stand hit back",
+            "parent": "minecraft:story/enchant_item"
+        },
+        "master_armorer": {
+            "name": "Master Armorer",
+            "icon": "item/diamond_helmet",
+            "effect": true,
+            "frame": "challenge",
+            "description": "Create a full suit of armor with all possible enchantments at max level",
+            "parent": "minecraft:story/enchant_item"
+        },
+        "armor_display": {
+            "name": "Armor Display",
+            "icon": "item/netherite_helmet",
+            "frame": "challenge",
+            "description": "Put every full set of armor on different armor stands",
+            "parent": "casa:story/living_dummy"
+        }
+    },
+    "minecraft:nether": {
+        "minecraft:nether/root": {
+            "name": "Nether",
+            "icon": "block/red_nether_bricks",
+            "description": "Bring summer clothes"
+        },
+        "minecraft:nether/return_to_sender": {
+            "name": "Return to Sender",
+            "icon": "item/fire_charge",
+            "frame": "goal",
+            "description": "Destroy a Ghast with a fireball",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/find_bastion": {
+            "name": "Those Were the Days",
+            "icon": "block/polished_blackstone_bricks",
+            "description": "Enter a Bastion Remnant",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/obtain_ancient_debris": {
+            "name": "Hidden in the Depths",
+            "icon": "block/ancient_debris",
+            "description": "Obtain Ancient Debris",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/fast_travel": {
+            "name": "Subspace Bubble",
+            "icon": "item/empty_map",
+            "frame": "challenge",
+            "description": "Use the Nether to travel 7 km in the Overworld",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/find_fortress": {
+            "name": "A Terrible Fortress",
+            "icon": "block/nether_bricks",
+            "description": "Break your way into a Nether Fortress",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/obtain_crying_obsidian": {
+            "name": "Who is Cutting Onions?",
+            "icon": "block/crying_obsidian",
+            "description": "Obtain Crying Obsidian",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/distract_piglin": {
+            "name": "Oh Shiny",
+            "icon": "item/gold_ingot",
+            "description": "Distract Piglins with gold",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/ride_strider": {
+            "name": "This Boat Has Legs",
+            "icon": "item/warped_fungus_on_a_stick",
+            "description": "Ride a Strider with a Warped Fungus on a Stick",
+            "parent": "minecraft:nether/root"
+        },
+        "minecraft:nether/uneasy_alliance": {
+            "name": "Uneasy Alliance",
+            "icon": "item/ghast_tear",
+            "frame": "challenge",
+            "description": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it",
+            "parent": "minecraft:nether/return_to_sender"
+        },
+        "minecraft:nether/loot_bastion": {
+            "name": "War Pigs",
+            "icon": "block/chest",
+            "description": "Loot a Chest in a Bastion Remnant",
+            "parent": "minecraft:nether/find_bastion"
+        },
+        "minecraft:nether/netherite_armor": {
+            "name": "Cover Me in Debris",
+            "icon": "item/netherite_chestplate",
+            "frame": "challenge",
+            "description": "Get a full suit of Netherite armor",
+            "parent": "minecraft:nether/obtain_ancient_debris"
+        },
+        "minecraft:nether/get_wither_skull": {
+            "name": "Spooky Scary Skeleton",
+            "icon": "block/wither_skeleton_skull",
+            "description": "Obtain a Wither Skeleton's skull",
+            "parent": "minecraft:nether/find_fortress"
+        },
+        "minecraft:nether/obtain_blaze_rod": {
+            "name": "Into Fire",
+            "icon": "item/blaze_rod",
+            "description": "Relieve a Blaze of its rod",
+            "parent": "minecraft:nether/find_fortress"
+        },
+        "minecraft:nether/charge_respawn_anchor": {
+            "name": "Not Quite \"Nine\" Lives",
+            "icon": "block/respawn_anchor",
+            "description": "Charge a Respawn Anchor to the maximum",
+            "parent": "minecraft:nether/obtain_crying_obsidian"
+        },
+        "minecraft:nether/ride_strider_in_overworld_lava": {
+            "name": "Feels Like Home",
+            "icon": "item/warped_fungus_on_a_stick",
+            "description": "Take a strider for a loooong ride on a lava lake in the Overworld",
+            "parent": "minecraft:nether/ride_strider"
+        },
+        "minecraft:nether/explore_nether": {
+            "name": "Hot Tourist Destinations",
+            "icon": "item/netherite_boots",
+            "frame": "challenge",
+            "description": "Explore all Nether biomes",
+            "parent": "minecraft:nether/ride_strider"
+        },
+        "minecraft:nether/summon_wither": {
+            "name": "Withering Heights",
+            "icon": "item/nether_star",
+            "description": "Summon the Wither",
+            "parent": "minecraft:nether/get_wither_skull"
+        },
+        "minecraft:nether/brew_potion": {
+            "name": "Local Brewery",
+            "icon": "item/potion",
+            "description": "Brew a Potion",
+            "parent": "minecraft:nether/obtain_blaze_rod"
+        },
+        "minecraft:nether/create_beacon": {
+            "name": "Bring Home the Beacon",
+            "icon": "block/beacon",
+            "description": "Construct and place a Beacon",
+            "parent": "minecraft:nether/summon_wither"
+        },
+        "minecraft:nether/all_potions": {
+            "name": "A Furious Cocktail",
+            "icon": "item/milk_bucket",
+            "frame": "challenge",
+            "description": "Have every potion effect applied at the same time",
+            "parent": "minecraft:nether/brew_potion"
+        },
+        "minecraft:nether/create_full_beacon": {
+            "name": "Beaconator",
+            "icon": "block/beacon",
+            "frame": "goal",
+            "description": "Bring a Beacon to full power",
+            "parent": "minecraft:nether/create_beacon"
+        },
+        "minecraft:nether/all_effects": {
+            "name": "How Did We Get Here?",
+            "icon": "item/bucket",
+            "frame": "challenge",
+            "description": "Have every effect applied at the same time",
+            "parent": "minecraft:nether/all_potions"
+        }
+    },
+    "casa:nether": {
+        "casa:nether/ancient_restoration": {
+            "name": "Ancient Restoration",
+            "icon": "item/flint_and_steel",
+            "frame": "goal",
+            "description": "Rebuild and reactivate a Ruined Portal",
+            "parent": "minecraft:nether/root"
+        },
+        "casa:nether/astrobrute": {
+            "name": "Astrobrute",
+            "icon": "block/glass",
+            "frame": "challenge",
+            "description": "Send a Piglin Brute to the End and kill it before it zombifies",
+            "parent": "minecraft:nether/find_bastion"
+        },
+        "casa:nether/bring_down_the_beast": {
+            "name": "Bring Down the Beast",
+            "icon": "item/iron_sword",
+            "frame": "challenge",
+            "description": "Bring down a Ghast with a sword",
+            "parent": "minecraft:nether/return_to_sender"
+        },
+        "casa:nether/camp_of_the_damned": {
+            "name": "Camp of the Damned",
+            "icon": "block/soul_campfire",
+            "description": "Travel to the Nether's origin and place down a Soul Campfire",
+            "parent": "minecraft:nether/root"
+        },
+        "casa:nether/cold_blooded": {
+            "name": "Cold-Blooded",
+            "icon": "item/snowball",
+            "description": "Kill a Blaze with a Snowball",
+            "parent": "minecraft:nether/obtain_blaze_rod"
+        },
+        "casa:nether/devils_distance": {
+            "name": "The Devil's Distance",
+            "icon": "block/soul_soil",
+            "frame": "challenge",
+            "description": "Use the Nether to travel 666km in the Overworld",
+            "parent": "minecraft:nether/fast_travel"
+        },
+        "casa:nether/electrifying_alliance": {
+            "name": "Electrifying Alliance",
+            "icon": "item/trident",
+            "frame": "challenge",
+            "description": "Smite a ghast with lightning from the Overworld's heavens",
+            "parent": "minecraft:nether/uneasy_alliance"
+        },
+        "casa:nether/snow_cone": {
+            "name": "Snow Cone?",
+            "icon": "item/snowball",
+            "description": "Feed snowballs to a Ghastling",
+            "parent": "minecraft:husbandry/place_dried_ghast_in_water"
+        },
+        "casa:nether/hot_air_balloon": {
+            "name": "Hot Air Balloon",
+            "icon": "item/white_harness",
+            "description": "Craft a Harness, place it on a Happy Ghast, and ride it",
+            "parent": "casa:nether/snow_cone"
+        },
+        "casa:nether/inception": {
+            "name": "Inception",
+            "icon": "block/piston",
+            "frame": "goal",
+            "description": "Break through the roof of the Nether",
+            "parent": "minecraft:nether/fast_travel"
+        },
+        "casa:nether/nerds_never_die": {
+            "name": "Technoblade Never Dies",
+            "icon": "block/technoblade_head",
+            "frame": "goal",
+            "description": "Name a Piglin Brute 'Technoblade'",
+            "parent": "minecraft:nether/find_bastion"
+        },
+        "casa:nether/piglin_peril": {
+            "name": "Piglin Peril",
+            "icon": "block/piglin_head",
+            "frame": "challenge",
+            "description": "Obtain a Piglin Head by blowing up a Piglin with a Charged Creeper",
+            "parent": "minecraft:nether/distract_piglin"
+        },
+        "casa:nether/pillow_fight": {
+            "name": "Pillow Fight",
+            "icon": "block/white_wool",
+            "frame": "challenge",
+            "description": "Slay a Ghast while riding a Happy Ghast",
+            "parent": "casa:nether/hot_air_balloon"
+        }
+    },
+    "minecraft:end": {
+        "minecraft:end/root": {
+            "name": "The End?",
+            "icon": "block/end_stone",
+            "description": "Or the beginning"
+        },
+        "minecraft:end/kill_dragon": {
+            "name": "Free the End",
+            "icon": "block/dragon_head",
+            "description": "Good luck",
+            "parent": "minecraft:end/root"
+        },
+        "minecraft:end/dragon_egg": {
+            "name": "The Next Generation",
+            "icon": "block/dragon_egg",
+            "frame": "goal",
+            "description": "Hold the Dragon Egg",
+            "parent": "minecraft:end/kill_dragon"
+        },
+        "minecraft:end/enter_end_gateway": {
+            "name": "Remote Getaway",
+            "icon": "item/ender_pearl",
+            "description": "Escape the island",
+            "parent": "minecraft:end/kill_dragon"
+        },
+        "minecraft:end/respawn_dragon": {
+            "name": "The End... Again...",
+            "icon": "item/end_crystal",
+            "frame": "goal",
+            "description": "Respawn the Ender Dragon",
+            "parent": "minecraft:end/kill_dragon"
+        },
+        "minecraft:end/dragon_breath": {
+            "name": "You Need a Mint",
+            "icon": "item/dragon_breath",
+            "frame": "goal",
+            "description": "Collect Dragon's Breath in a Glass Bottle",
+            "parent": "minecraft:end/kill_dragon"
+        },
+        "minecraft:end/find_end_city": {
+            "name": "The City at the End of the Game",
+            "icon": "block/purpur_block",
+            "description": "Go on in, what could happen?",
+            "parent": "minecraft:end/enter_end_gateway"
+        },
+        "minecraft:end/elytra": {
+            "name": "Sky's the Limit",
+            "icon": "item/elytra",
+            "frame": "goal",
+            "description": "Find Elytra",
+            "parent": "minecraft:end/find_end_city"
+        },
+        "minecraft:end/levitate": {
+            "name": "Great View From Up Here",
+            "icon": "item/shulker_shell",
+            "frame": "challenge",
+            "description": "Levitate up 50 blocks from the attacks of a Shulker",
+            "parent": "minecraft:end/find_end_city"
+        }
+    },
+    "casa:end": {
+        "casa:end/void": {
+            "name": "The Point of No Return",
+            "icon": "block/black_concrete_powder",
+            "description": "Fall into the void",
+            "parent": "minecraft:end/kill_dragon"
+        },
+        "casa:end/kill_cow_in_end": {
+            "name": "Cow Jumped Over the Moon",
+            "icon": "item/beef",
+            "frame": "challenge",
+            "description": "Bring a Cow from the Overworld to the End and then kill it",
+            "parent": "casa:end/void"
+        },
+        "casa:end/dragon_vs_dragon": {
+            "name": "Dragon vs Dragon",
+            "icon": "block/dragon_head",
+            "frame": "goal",
+            "description": "Kill the Ender Dragon while wearing a Dragon Head",
+            "parent": "minecraft:end/respawn_dragon"
+        },
+        "casa:end/sky_high": {
+            "name": "Sky High",
+            "icon": "item/feather",
+            "frame": "goal",
+            "description": "Fly up beyond the world height limit",
+            "parent": "minecraft:end/elytra"
+        },
+        "casa:end/houston": {
+            "name": "Uh, Houston? We Have a Problem",
+            "icon": "item/firework_rocket",
+            "frame": "challenge",
+            "description": "Fly up to a ridiculous height",
+            "parent": "casa:end/sky_high"
+        },
+        "casa:end/the_beginning": {
+            "name": "The Beginning",
+            "icon": "block/wither_head",
+            "frame": "challenge",
+            "description": "Kill the Wither in the End",
+            "parent": "minecraft:end/respawn_dragon"
+        },
+        "casa:end/void_walker": {
+            "name": "Void Walker",
+            "icon": "item/black_dyed_leather_boots",
+            "frame": "challenge",
+            "description": "Explore all End biomes",
+            "parent": "minecraft:end/enter_end_gateway"
+        }
+    },
+    "minecraft:adventure": {
+        "minecraft:adventure/root": {
+            "name": "Adventure",
+            "icon": "item/empty_map",
+            "description": "Adventure, exploration and combat"
+        },
+        "minecraft:adventure/heart_transplanter": {
+            "name": "Heart Transplanter",
+            "icon": "block/creaking_heart",
+            "description": "Place a Creaking Heart with the correct alignment between two Pale Oak Log blocks",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/voluntary_exile": {
+            "name": "Voluntary Exile",
+            "icon": "block/ominous_banner",
+            "description": "Kill a raid captain. Maybe consider staying away from villages for the time being...",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/use_lodestone": {
+            "name": "Country Lode, Take Me Home",
+            "icon": "block/lodestone",
+            "description": "Use a Compass on a Lodestone",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/spyglass_at_parrot": {
+            "name": "Is It a Bird?",
+            "icon": "item/spyglass",
+            "description": "Look at a Parrot through a Spyglass",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/kill_a_mob": {
+            "name": "Monster Hunter",
+            "icon": "item/iron_sword",
+            "description": "Kill any hostile monster",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/read_power_of_chiseled_book": {
+            "name": "The Power of Books",
+            "icon": "block/chiseled_bookshelf",
+            "description": "Read the power of a Chiseled Bookshelf using a Comparator",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/trade": {
+            "name": "What a Deal!",
+            "icon": "item/emerald",
+            "description": "Successfully trade with a Villager",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/trim_with_any_armor_pattern": {
+            "name": "Crafting a New Look",
+            "icon": "item/dune_armor_trim",
+            "description": "Craft a trimmed armor at a Smithing Table",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/honey_block_slide": {
+            "name": "Sticky Situation",
+            "icon": "block/honey_block",
+            "description": "Jump into a Honey Block to break your fall",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/ol_betsy": {
+            "name": "Ol' Betsy",
+            "icon": "item/crossbow",
+            "description": "Shoot a Crossbow",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+            "name": "Surge Protector",
+            "icon": "block/lightning_rod",
+            "description": "Protect a Villager from an undesired shock without starting a fire",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/fall_from_world_height": {
+            "name": "Caves & Cliffs",
+            "icon": "item/water_bucket",
+            "description": "Free fall from the top of the world (build limit) to the bottom of the world and survive",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/salvage_sherd": {
+            "name": "Respecting the Remnants",
+            "icon": "item/brush",
+            "description": "Brush a Suspicious block to obtain a Pottery Sherd",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/avoid_vibration": {
+            "name": "Sneak 100!",
+            "icon": "block/sculk_sensor",
+            "description": "Sneak near a Sculk Sensor or Warden to prevent it from detecting you",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/sleep_in_bed": {
+            "name": "Sweet Dreams",
+            "icon": "block/red_bed",
+            "description": "Sleep in a Bed to change your respawn point",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/hero_of_the_village": {
+            "name": "Hero of the Village",
+            "icon": "block/ominous_banner",
+            "frame": "challenge",
+            "description": "Successfully defend a village from a raid",
+            "parent": "minecraft:adventure/voluntary_exile"
+        },
+        "minecraft:adventure/spyglass_at_ghast": {
+            "name": "Is It a Balloon?",
+            "icon": "item/spyglass",
+            "description": "Look at a Ghast through a Spyglass",
+            "parent": "minecraft:adventure/spyglass_at_parrot"
+        },
+        "minecraft:adventure/throw_trident": {
+            "name": "A Throwaway Joke",
+            "icon": "item/trident",
+            "description": "Throw a Trident at something. Note: Throwing away your only weapon is not a good idea.",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+            "name": "It Spreads",
+            "icon": "block/sculk_catalyst",
+            "description": "Kill a mob near a Sculk Catalyst",
+            "parent": "minecraft:adventure/avoid_vibration"
+        },
+        "minecraft:adventure/shoot_arrow": {
+            "name": "Take Aim",
+            "icon": "item/bow",
+            "description": "Shoot something with an Arrow",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "minecraft:adventure/kill_all_mobs": {
+            "name": "Monsters Hunted",
+            "icon": "item/diamond_sword",
+            "frame": "challenge",
+            "description": "Kill one of every hostile monster",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "minecraft:adventure/totem_of_undying": {
+            "name": "Postmortal",
+            "icon": "item/totem_of_undying",
+            "frame": "goal",
+            "description": "Use a Totem of Undying to cheat death",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "minecraft:adventure/spear_many_mobs": {
+            "name": "Mob Kabob",
+            "icon": "item/iron_spear",
+            "frame": "goal",
+            "description": "Hit five mobs in the same Charge attack using the Spear",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "minecraft:adventure/summon_iron_golem": {
+            "name": "Hired Help",
+            "icon": "block/carved_pumpkin",
+            "frame": "goal",
+            "description": "Summon an Iron Golem to help defend a village",
+            "parent": "minecraft:adventure/trade"
+        },
+        "minecraft:adventure/trade_at_world_height": {
+            "name": "Star Trader",
+            "icon": "item/emerald",
+            "description": "Trade with a Villager at the build height limit",
+            "parent": "minecraft:adventure/trade"
+        },
+        "minecraft:adventure/trim_all_exclusive_armor_patterns": {
+            "name": "Smithing with Style",
+            "icon": "item/silence_armor_trim",
+            "frame": "challenge",
+            "description": "Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",
+            "parent": "minecraft:adventure/trim_with_any_armor_pattern"
+        },
+        "minecraft:adventure/two_birds_one_arrow": {
+            "name": "Two Birds, One Arrow",
+            "icon": "item/crossbow",
+            "frame": "challenge",
+            "description": "Kill two Phantoms with a piercing Arrow",
+            "parent": "minecraft:adventure/ol_betsy"
+        },
+        "minecraft:adventure/whos_the_pillager_now": {
+            "name": "Who's the Pillager Now?",
+            "icon": "item/crossbow",
+            "description": "Give a Pillager a taste of their own medicine",
+            "parent": "minecraft:adventure/ol_betsy"
+        },
+        "minecraft:adventure/arbalistic": {
+            "name": "Arbalistic",
+            "icon": "item/crossbow",
+            "frame": "challenge",
+            "description": "Kill five unique mobs with one crossbow shot",
+            "parent": "minecraft:adventure/ol_betsy"
+        },
+        "minecraft:adventure/craft_decorated_pot_using_only_sherds": {
+            "name": "Careful Restoration",
+            "icon": "block/decorated_pot",
+            "description": "Make a Decorated Pot out of 4 Pottery Sherds",
+            "parent": "minecraft:adventure/salvage_sherd"
+        },
+        "minecraft:adventure/adventuring_time": {
+            "name": "Adventuring Time",
+            "icon": "item/diamond_boots",
+            "frame": "challenge",
+            "description": "Discover every biome",
+            "parent": "minecraft:adventure/sleep_in_bed"
+        },
+        "minecraft:adventure/play_jukebox_in_meadows": {
+            "name": "Sound of Music",
+            "icon": "item/jukebox",
+            "description": "Make the Meadows come alive with the sound of music from a Jukebox",
+            "parent": "minecraft:adventure/sleep_in_bed"
+        },
+        "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+            "name": "Light as a Rabbit",
+            "icon": "item/white_dyed_leather_boots",
+            "description": "Walk on Powerder Snow... without sinking in it",
+            "parent": "minecraft:adventure/sleep_in_bed"
+        },
+        "minecraft:adventure/spyglass_at_dragon": {
+            "name": "Is It a Plane?",
+            "icon": "item/spyglass",
+            "description": "Look at the Ender Dragon through a Spyglass",
+            "parent": "minecraft:adventure/spyglass_at_ghast"
+        },
+        "minecraft:adventure/very_very_frightening": {
+            "name": "Very Very Frightening",
+            "icon": "item/trident",
+            "description": "Strike a Villager with lightning",
+            "parent": "minecraft:adventure/throw_trident"
+        },
+        "minecraft:adventure/sniper_duel": {
+            "name": "Sniper Duel",
+            "icon": "item/arrow",
+            "frame": "challenge",
+            "description": "Kill a Skeleton frmo at least 50 meters away",
+            "parent": "minecraft:adventure/shoot_arrow"
+        },
+        "minecraft:adventure/bullseye": {
+            "name": "Bullseye",
+            "icon": "block/target",
+            "frame": "challenge",
+            "description": "Hit the bullseye of a Target block from at least 30 meters away",
+            "parent": "minecraft:adventure/shoot_arrow"
+        },
+        "minecraft:adventure/brush_armadillo": {
+            "name": "Isn't It Scute?",
+            "icon": "item/armadillo_scute",
+            "description": "Get Armadillo Scutes from an Armadillo using a Brush",
+            "parent": "minecraft:adventure/root"
+        },
+        "minecraft:adventure/minecraft_trials_edition": {
+            "name": "Minecraft: Trial(s) Edition",
+            "icon": "block/chiseled_tuff",
+            "description": "Step foot in a Trial Chamber",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "minecraft:adventure/crafters_crafting_crafters": {
+            "name": "Crafters Crafting Crafters",
+            "icon": "block/crafter",
+            "description": "Be near a Crafter when it crafts a Crafter",
+            "parent": "minecraft:adventure/read_power_of_chiseled_book"
+        },
+        "minecraft:adventure/lighten_up": {
+            "name": "Lighten Up",
+            "icon": "block/copper_bulb",
+            "description": "Scrape a Copper Bulb with an Axe to make it brighter",
+            "parent": "minecraft:adventure/minecraft_trials_edition"
+        },
+        "minecraft:adventure/who_needs_rockets": {
+            "name": "Who Needs Rockets?",
+            "icon": "item/wind_charge",
+            "description": "Use a Wind Charge to launch yourself upwards 8 blocks",
+            "parent": "minecraft:adventure/minecraft_trials_edition"
+        },
+        "minecraft:adventure/under_lock_and_key": {
+            "name": "Under Lock and Key",
+            "icon": "item/trial_key",
+            "description": "Use a Trial Key on a Vault",
+            "parent": "minecraft:adventure/minecraft_trials_edition"
+        },
+        "minecraft:adventure/revaulting": {
+            "name": "Revaulting",
+            "icon": "item/ominous_trial_key",
+            "frame": "goal",
+            "description": "Use an Ominous Trial Key on an Ominous Vault",
+            "parent": "minecraft:adventure/under_lock_and_key"
+        },
+        "minecraft:adventure/blowback": {
+            "name": "Blowback",
+            "icon": "item/wind_charge",
+            "frame": "challenge",
+            "description": "Kill a Breeze with a deflected Breeze-shot Wind Charge",
+            "parent": "minecraft:adventure/minecraft_trials_edition"
+        },
+        "minecraft:adventure/overoverkill": {
+            "name": "Over-Overkill",
+            "icon": "item/mace",
+            "frame": "challenge",
+            "description": "Deal 50 hearts of damage in a single hit using the Mace",
+            "parent": "minecraft:adventure/minecraft_trials_edition"
+        }
+    },
+    "casa:adventure": { }
+}

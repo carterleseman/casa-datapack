@@ -4,7 +4,7 @@
 			"id": "minecraft:trident"
 		},
 		"title": "Electrifying Alliance",
-		"description": "Smite a ghast with lightning from the Overworld’s heavens",
+		"description": "Smite a ghast with lightning from the Overworld's heavens",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/uneasy_alliance",

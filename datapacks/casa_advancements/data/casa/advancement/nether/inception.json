@@ -3,7 +3,7 @@
 		"icon": { "id": "minecraft:piston" },
 		"title": "Inception",
 		"description": "Break through the roof of the Nether",
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "minecraft:nether/fast_travel",
 	"rewards": {

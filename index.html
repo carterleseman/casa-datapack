@@ -49,15 +49,39 @@
                 <h1>The End</h1>
                 <figure style="background-image: url('assets/texture/BlockSprite_end-stone.png')"></figure>
             </article>
-            <article role="tabpnael" id="adventure" hidden>
+            <article role="tabpanel" id="adventure">
                 <h1>Adventure</h1>
-                <figure style="background-image: url('assets/texture/BlockSprite_smooth-sandstone.png')"></figure>
+                <figure style="background-image: url('assets/texture/BlockSprite_smooth-sandstone.png')">
+                    <ul class="tree-view">
+                        <li>
+                            <span class="adv">R</span>
+                            <ul>
+                                <li>
+                                    <span class="adv goal">B1</span>
+                                    <ul>
+                                        <li><span class="adv">L1</span></li>
+                                        <li><span class="adv cmplt">L2</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="adv">B2</span>
+                                    <ul>
+                                        <li><span class="adv goal">L3</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </figure>
+
+                
             </article>
             <article role="tabpanel" id="husbandry" hidden>
                 <h1>Husbandry</h1>
                 <figure style="background-image: url('assets/texture/BlockSprite_farmland.png')"></figure>
             </article>
-            <article role="tabpanel" id="path">
+            <article role="tabpanel" id="path" hidden>
                 <h1>Path</h1>
                 <figure style="background-image: url('assets/texture/BlockSprite_dirt.png')">
                     <!-- <div style="display: flex">
@@ -71,11 +95,6 @@
                             <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
                         </div>
                     </div> -->
-
-                    <ul class="tree-view">
-                    </ul>
-
-
                 </figure>
             </article>
         </div>

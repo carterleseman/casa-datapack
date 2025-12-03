@@ -4,7 +4,7 @@
 			"id": "minecraft:glass"
 		},
 		"title": "Astrobrute",
-		"description": "Send a Piglin Brute to the End and kill it there before it zombifies",
+		"description": "Send a Piglin Brute to the End and kill it before it zombifies",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/find_bastion",	
