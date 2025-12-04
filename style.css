@@ -159,7 +159,7 @@ menu[role=tablist] {
     }
 }
 
-span.toast {
+span.tooltip {
     background: linear-gradient(
         to bottom,
         #290662,

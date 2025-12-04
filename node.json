@@ -86,7 +86,7 @@
         },
         "minecraft:story/follow_ender_eye": {
             "name": "Eye Spy",
-            "icon": "item/eye_of_ender",
+            "icon": "item/ender_eye",
             "description": "Follow an Eye of Ender",
             "parent": "minecraft:story/enter_the_nether"
         },
@@ -362,6 +362,12 @@
             "frame": "challenge",
             "description": "Slay a Ghast while riding a Happy Ghast",
             "parent": "casa:nether/hot_air_balloon"
+        },
+        "casa:nether/camouflage": {
+            "name": "Camouflage",
+            "icon": "block/wither_skeleton_skull",
+            "description": "Kill a monster while wearing its head",
+            "parent": "minecraft:nether/get_wither_skull"
         }
     },
     "minecraft:end": {
@@ -429,7 +435,7 @@
             "name": "The Point of No Return",
             "icon": "block/black_concrete_powder",
             "description": "Fall into the void",
-            "parent": "minecraft:end/kill_dragon"
+            "parent": "minecraft:end/root"
         },
         "casa:end/kill_cow_in_end": {
             "name": "Cow Jumped Over the Moon",
@@ -472,6 +478,19 @@
             "frame": "challenge",
             "description": "Explore all End biomes",
             "parent": "minecraft:end/enter_end_gateway"
+        },
+        "casa:end/plane_walker": {
+            "name": "Plane Walker",
+            "icon": "item/ender_eye",
+            "description": "Kill an Enderman in all three dimensions",
+            "parent": "minecraft:end/root"
+        },
+        "casa:end/impossible": {
+            "name": "Impossible...",
+            "icon": "item/arrow",
+            "frame": "challenge",
+            "description": "Kill an Enderman with an arrow",
+            "parent": "casa:end/plane_walker"
         }
     },
     "minecraft:adventure": {
@@ -771,5 +790,369 @@
             "parent": "minecraft:adventure/minecraft_trials_edition"
         }
     },
-    "casa:adventure": { }
+    "casa:adventure": {
+        "casa:adventure/dolphin_dasher": {
+            "name": "Dolphin Dasher",
+            "icon": "texture/dolphins_grace",
+            "description": "Ride the waves with a little help from a friend",
+            "parent": "minecraft:adventure/root"
+        },
+        "casa:adventure/titantic": {
+            "name": "Titanic",
+            "icon": "block/dark_oak_fence",
+            "description": "Find a Shipwreck in an iceberg",
+            "parent": "casa:adventure/dolphin_dasher"
+        },
+        "casa:adventure/construct_conduit": {
+            "name": "Power of the Ocean",
+            "icon": "block/conduit",
+            "frame": "goal",
+            "description": "Construct a Conduit",
+            "parent": "casa:adventure/dolphin_dasher"
+        },
+        "casa:adventure/revenge": {
+            "name": "Revenge!",
+            "icon": "block/tnt",
+            "description": "Blow up a Creeper with TNT",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "casa:adventure/controlled_detonation": {
+            "name": "Controlled Detonation",
+            "icon": "item/flint_and_steel",
+            "description": "Persuade a Creeper to blow up using Flint and Steel",
+            "parent": "casa:adventure/revenge"
+        },
+        "casa:adventure/creepy_heads": {
+            "name": "Creepy Heads",
+            "icon": "block/creeper_head",
+            "frame": "challenge",
+            "description": "Blow up a Creeper with a Charged Creeper to get a Creeper Head",
+            "parent": "casa:adventure/revenge"
+        },
+        "casa:adventure/look_out": {
+            "name": "Look Out!",
+            "icon": "item/spyglass",
+            "description": "Zoom in on a Creeper with a Spyglass from less than a block away",
+            "parent": "casa:adventure/controlled_detonation"
+        },
+        "casa:adventure/ram": {
+            "name": "Ram",
+            "icon": "item/goat_horn",
+            "description": "Obtain a Goat's Horn",
+            "parent": "minecraft:adventure/root"
+        },
+        "casa:adventure/caprymphony": {
+            "name": "Caprymphony",
+            "icon": "item/goat_horn",
+            "frame": "challenge",
+            "description": "Blow every type of Goat Horn",
+            "parent": "casa:adventure/ram"
+        },
+        "casa:adventure/loud_and_proud": {
+            "name": "Loud and Proud",
+            "icon": "block/sculk_sensor",
+            "description": "Play a Goat Horn in the Deep Dark",
+            "parent": "casa:adventure/ram"
+        },
+        "casa:adventure/silence_of_the_lambs": {
+            "name": "Silence of the Lambs",
+            "icon": "block/gray_wool",
+            "frame": "challenge",
+            "description": "Bring a Sheep into an Ancient City and silence it",
+            "parent": "casa:adventure/loud_and_proud"
+        },
+        "casa:adventure/spawn_camping": {
+            "name": "Spawn Camping",
+            "icon": "block/campfire",
+            "description": "Travel to spawn and place down a Campfire",
+            "parent": "minecraft:adventure/root"
+        },
+        "casa:adventure/kilometer_walk": {
+            "name": "Kilometer Walk",
+            "icon": "item/leather_boots",
+            "description": "Travel at least 1000 blocks from the center of the world in any direction",
+            "parent": "minecraft:adventure/root"
+        },
+        "casa:adventure/ten_thousand_blocks": {
+            "name": "Ten Thousand Blocks",
+            "icon": "item/iron_boots",
+            "frame": "goal",
+            "description": "Travel ten thousand blocks from spawn",
+            "parent": "casa:adventure/kilometer_walk"
+        },
+        "casa:adventure/voyage": {
+            "name": "Voyage",
+            "icon": "item/diamond_boots",
+            "frame": "challenge",
+            "description": "A hundred kilometers",
+            "parent": "casa:adventure/ten_thousand_blocks"
+        },
+        "casa:adventure/million_blocks": {
+            "name": "A Million Blocks Away",
+            "icon": "item/netherite_boots",
+            "frame": "challenge",
+            "description": "Travel a million blocks away from spawn",
+            "parent": "casa:adventure/voyage"
+        },
+        "casa:adventure/farlander": {
+            "name": "Farlander",
+            "icon": "block/structure_void",
+            "frame": "challenge",
+            "description": "Travel all the way to the border of the world",
+            "parent": "casa:adventure/million_blocks"
+        },
+        "casa:adventure/indiana_jones": {
+            "name": "Indiana Jones",
+            "icon": "item/fishing_rod",
+            "description": "Pull a monster using a Fishing Rod",
+            "parent": "minecraft:adventure/root"
+        },
+        "casa:adventure/pigs_fly": {
+            "name": "When Pigs Finally Fly",
+            "icon": "block/pig_head",
+            "description": "Pull a pig from 25 blocks below you and watch it go",
+            "parent": "casa:adventure/indiana_jones"
+        },
+        "casa:adventure/disc_jockey": {
+            "name": "Disc Jockey",
+            "icon": "item/music_disc_chirp",
+            "frame": "challenge",
+            "description": "Listen to all the music discs",
+            "parent": "minecraft:adventure/play_jukebox_in_meadows"
+        },
+        "casa:adventure/monstrous_music": {
+            "name": "On That Note",
+            "icon": "block/note_block",
+            "frame": "challenge",
+            "description": "Play a Note Block with each type of monster head",
+            "parent": "minecraft:adventure/play_jukebox_in_meadows"
+        },
+        "casa:adventure/insomniac": {
+            "name": "Insomniac",
+            "icon": "entity/phantom",
+            "frame": "challenge",
+            "description": "Go a month without sleep",
+            "parent": "minecraft:adventure/sleep_in_bed"
+        },
+        "casa:adventure/pillager": {
+            "name": "You Are the Pillager",
+            "icon": "block/pillager_head",
+            "frame": "challenge",
+            "description": "Murder one of every villager profession",
+            "parent": "minecraft:adventure/voluntary_exile"
+        },
+        "casa:adventure/veteran_of_the_villager": {
+            "name": "Veteran of the Village",
+            "icon": "texture/hero_of_the_village",
+            "frame": "challenge",
+            "description": "Attain the highest level of Hero of the Village",
+            "parent": "minecraft:adventure/hero_of_the_village"
+        },
+        "casa:adventure/miracle_drink": {
+            "name": "Miracle Drink",
+            "icon": "item/honey_bottle",
+            "description": "Drink Milk or Honey to cure poison when on half a heart",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "casa:adventure/taste_of_your_own_medicine": {
+            "name": "Taste of Your Own Medicine",
+            "icon": "item/splash_potion_harming",
+            "frame": "goal",
+            "description": "Kill a Witch with a Splash Potion",
+            "parent": "casa:adventure/miracle_drink"
+        },
+        "casa:adventure/high_road": {
+            "name": "The High Road",
+            "icon": "item/saddle",
+            "description": "Kill a hostile monster from the saddle",
+            "parent": "minecraft:adventure/kill_a_mob"
+        },
+        "casa:adventure/poultry_boy": {
+            "name": "Poultry Boy",
+            "icon": "block/chicken_head",
+            "description": "Slay the elusive Chicken Jockey",
+            "parent": "casa:adventure/high_road"
+        },
+        "casa:adventure/absolute_cinema": {
+            "name": "Absolute Cinema",
+            "icon": "block/player_head",
+            "description": "Defeat a Chicken Jockey in a Woodland Mansion",
+            "parent": "casa:adventure/poultry_boy"
+        },
+        "casa:adventure/spider_skeleton": {
+            "name": "Spider-Skelly",
+            "icon": "block/cobweb",
+            "description": "Does whatever a spider can",
+            "parent": "casa:adventure/high_road"
+        },
+        "casa:adventure/invisible_spider": {
+            "name": "The Ghastly Eyes",
+            "icon": "item/fermented_spider_eye",
+            "frame": "goal",
+            "description": "Kill an invisible spider",
+            "parent": "casa:adventure/spider_skeleton"
+        },
+        "casa:adventure/skeleton_horse": {
+            "name": "The Undead Cavalry",
+            "icon": "item/bone",
+            "frame": "goal",
+            "description": "Ride a Skeleton Horse",
+            "parent": "casa:adventure/high_road"
+        },
+        "casa:adventure/spooky_skulls": {
+            "name": "Spooky Skulls",
+            "icon": "block/skeleton_head",
+            "frame": "challenge",
+            "description": "Blow up a Skeleton with a Charged Creeper to get a Skeleton Skull",
+            "parent": "casa:adventure/skeleton_horse"
+        },
+        "casa:adventure/custom_boss_fight": {
+            "name": "Custom Boss Fight!",
+            "icon": "item/netherite_helmet",
+            "frame": "challenge",
+            "description": "Kill a zombie with full netherite armor and a netherite sword",
+            "parent": "minecraft:adventure/kill_all_mobs"
+        },
+        "casa:adventure/traveller": {
+            "name": "Traveller",
+            "icon": "item/emerald",
+            "frame": "goal",
+            "description": "Travel to every village type and trade with a villager",
+            "parent": "minecraft:adventure/trade_at_world_height"
+        },
+        "casa:adventure/shady_deals": {
+            "name": "Shady Deals",
+            "icon": "item/potion_invisibility",
+            "description": "Trade with a Wandering Trader while he is invisible",
+            "parent": "minecraft:adventure/trade"
+        },
+        "casa:adventure/deals_off": {
+            "name": "Deal's Off!",
+            "icon": "entity/llama_spit",
+            "description": "Get spat at by one of the Trader Llamas",
+            "parent": "casa:adventure/shady_deals"
+        },
+        "casa:adventure/fallen_kingdom": {
+            "name": "Fallen Kingdom",
+            "icon": "block/reinforced_deepslate",
+            "description": "Find and enter an Ancient City",
+            "parent": "minecraft:adventure/avoid_vibration"
+        },
+        "casa:adventure/stealth_is_optional": {
+            "name": "Stealth is Optional",
+            "icon": "block/sculk_shrieker",
+            "frame": "challenge",
+            "description": "Overcome a Warden in the deepest and darkest of caves",
+            "parent": "casa:adventure/fallen_kingdom"
+        },
+        "casa:adventure/silent_but_deadly": {
+            "name": "Silent But Deadly",
+            "icon": "item/diamond_leggings",
+            "effect": true,
+            "frame": "goal",
+            "description": "Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings",
+            "parent": "casa:adventure/fallen_kingdom"
+        },
+        "casa:adventure/death_pointer": {
+            "name": "Death Pointer",
+            "icon": "item/recovery_compass",
+            "description": "Obtain a Recovery Compass",
+            "parent": "casa:adventure/fallen_kingdom"
+        },
+        "casa:adventure/knowledge_is_power": {
+            "name": "Knowledge is Power",
+            "icon": "item/enchanted_book",
+            "description": "Trade for an Enchanted Book",
+            "parent": "minecraft:adventure/trade"
+        },
+        "casa:adventure/treasure_map": {
+            "name": "Treasure Map",
+            "icon": "item/filled_map",
+            "description": "Trade for an Explorer Map",
+            "parent": "casa:adventure/knowledge_is_power"
+        },
+        "casa:adventure/all_around_the_world": {
+            "name": "All Around the World",
+            "icon": "item/locked_map",
+            "frame": "challenge",
+            "description": "Trade for every kind of Explorer Map",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "casa:adventure/house_of_psychos": {
+            "name": "House of Psychos",
+            "icon": "block/dark_oak_door",
+            "description": "Find a Woodland Mansion",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "casa:adventure/johnny": {
+            "name": "Here's Johnny!",
+            "icon": "item/iron_axe",
+            "frame": "challenge",
+            "description": "Name a Vindicator 'Johnny'",
+            "parent": "casa:adventure/house_of_psychos"
+        },
+        "casa:adventure/monumental": {
+            "name": "Monumental",
+            "icon": "block/prismarine",
+            "description": "Find an Ocean Monument",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "casa:adventure/raidin_master": {
+            "name": "Raidin' Master",
+            "icon": "block/structure_block",
+            "frame": "challenge",
+            "description": "Discover every structure",
+            "parent": "minecraft:adventure/sleep_in_bed"
+        },
+        "casa:adventure/cataclyst": {
+            "name": "Cataclyst",
+            "icon": "item/nether_star",
+            "frame": "challenge",
+            "description": "Kill a Wither near a Sculk Catalyst",
+            "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst"
+        },
+        "casa:adventure/spyglass_at_warden": {
+            "name": "Is It a Nightmare?",
+            "icon": "item/spyglass",
+            "description": "Look at a Warden through a Spyglass",
+            "parent": "minecraft:adventure/spyglass_at_ghast"
+        },
+        "casa:adventure/youre_doing_it_wrong": {
+            "name": "You're Doing It Wrong",
+            "icon": "item/mace",
+            "frame": "challenge",
+            "description": "Kill a mob with a Mace while levitating upwards",
+            "parent": "minecraft:adventure/overoverkill"
+        },
+        "casa:adventure/warden_extinction": {
+            "name": "Warden Extinction",
+            "icon": "block/mace",
+            "frame": "challenge",
+            "description": "Kill a Warden in a one hit",
+            "parent": "minecraft:adventure/overoverkill"
+        },
+        "casa:adventure/at_the_rim_of_the_sky": {
+            "name": "At the Rim of the Sky",
+            "icon": "item/mace",
+            "effect": true,
+            "frame": "challenge",
+            "description": "Slay the Ender Dragon in one hit using a Mace",
+            "parent": "casa:adventure/warden_extinction"
+        },
+        "casa:adventure/explorer_of_worlds": {
+            "name": "Explorer of Worlds",
+            "icon": "item/netherite_boots",
+            "effect": true,
+            "frame": "challenge",
+            "description": "Discover every biome in every dimension",
+            "parent": "minecraft:adventure/adventuring_time"
+        }
+    },
+    "minecraft:husbandry": {
+        "minecraft:husbandry/root": {
+            "name": "Husbandry",
+            "icon": "block/hay_bale",
+            "description": "The world is full of friends and food"
+        }
+    }
 }

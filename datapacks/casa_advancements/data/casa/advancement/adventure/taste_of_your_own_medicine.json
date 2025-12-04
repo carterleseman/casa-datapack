@@ -4,13 +4,13 @@
 			"id": "minecraft:splash_potion",
 			"components": {
 				"minecraft:potion_contents": {
-					"potion": "minecraft:poison"
+					"potion": "minecraft:harming"
 				}
 			}
 		},
 		"title": "Taste of Your Own Medicine",
 		"description": "Kill a Witch with a Splash Potion",
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "casa:adventure/miracle_drink",
 	"rewards": {

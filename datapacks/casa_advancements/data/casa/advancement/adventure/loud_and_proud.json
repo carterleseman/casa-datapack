@@ -4,12 +4,11 @@
 			"id": "minecraft:sculk_sensor"
 		},
 		"title": "Loud and Proud",
-		"description": "Play a Goat Horn in the Deep Dark",
-		"frame": "goal"
+		"description": "Play a Goat Horn in the Deep Dark"
 	},
 	"parent": "casa:adventure/ram",
     "rewards": {
-		"experience": 100
+		"experience": 50
 	},
 	"criteria": {
 		"goat_horn": {

@@ -1,13 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:filled_map",
+			"id": "minecraft:locked_map",
 			"components": {
-				"map_color": 12741452
+				"minecraft:map_id": 6
 			}
 		},
 		"title": "All Around the World",
-		"description": "Buy every kind of Explorer Map",
+		"description": "Trade for every kind of Explorer Map",
 		"frame": "challenge"
 	},
 	"parent": "casa:adventure/treasure_map",

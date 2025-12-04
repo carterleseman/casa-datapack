@@ -4,8 +4,7 @@
 			"id": "minecraft:player_head"
 		},
 		"title": "Absolute Cinema",
-		"description": "Defeat a Chicken Jockey in a Woodland Mansion",
-		"frame": "challenge"
+		"description": "Defeat a Chicken Jockey in a Woodland Mansion"
 	},
 	"parent": "casa:adventure/poultry_boy",
 	"criteria": {

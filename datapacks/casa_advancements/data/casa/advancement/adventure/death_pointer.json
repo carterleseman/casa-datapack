@@ -4,8 +4,7 @@
 			"id": "minecraft:recovery_compass"
 		},
 		"title": "Death Pointer",
-		"description": "Obtain a Recovery Compass",
-        "hidden": true
+		"description": "Obtain a Recovery Compass"
 	},
 	"parent": "casa:adventure/fallen_kingdom",
 	"criteria": {

@@ -4,8 +4,7 @@
 			"id": "minecraft:cobweb"
 		},
 		"title": "Spider-Skelly",
-		"description": "Does whatever a spider can",
-		"frame": "goal"
+		"description": "Does whatever a spider can"
 	},
 	"parent": "casa:adventure/high_road",
 	"criteria": {

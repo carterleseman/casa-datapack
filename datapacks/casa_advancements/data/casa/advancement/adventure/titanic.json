@@ -4,13 +4,11 @@
 			"id": "minecraft:dark_oak_fence"
 		},
 		"title": "Titanic",
-		"description": "Find a Shipwreck in an iceberg",
-        "hidden": true,
-		"frame": "goal"
+		"description": "Find a Shipwreck in an iceberg"
 	},
 	"parent": "casa:adventure/dolphin_dasher",
     "rewards": {
-		"experience": 100
+		"experience": 50
 	},
 	"criteria": {
 		"iceberg_deep": {

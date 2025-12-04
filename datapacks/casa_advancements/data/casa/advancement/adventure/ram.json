@@ -4,8 +4,7 @@
 			"id": "minecraft:goat_horn"
 		},
 		"title": "Ram",
-		"description": "Obtain a Goat’s Horn",
-		"hidden": true
+		"description": "Obtain a Goat's Horn"
 	},
 	"parent": "minecraft:adventure/root",
 	"criteria": {

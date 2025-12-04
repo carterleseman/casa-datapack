@@ -1,15 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:diamond_helmet"
+			"id": "minecraft:netherite_helmet"
 		},
 		"title": "Custom Boss Fight!",
-		"description": "Kill a zombie with full diamond armor and a diamond sword",
+		"description": "Kill a zombie with full netherite armor and a netherite sword",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/kill_all_mobs",
 	"rewards": {
-		"experience": 50
+		"experience": 100
 	},
 	"criteria": {
 		"zombie": {
@@ -20,27 +20,27 @@
 					"equipment": {
 						"head": {
 							"items": [
-								"minecraft:diamond_helmet"
+								"minecraft:netherite_helmet"
 							]
 						},
 						"chest": {
 							"items": [
-								"minecraft:diamond_chestplate"
+								"minecraft:netherite_chestplate"
 							]
 						},
 						"legs": {
 							"items": [
-								"minecraft:diamond_leggings"
+								"minecraft:netherite_leggings"
 							]
 						},
 						"feet": {
 							"items": [
-								"minecraft:diamond_boots"
+								"minecraft:netherite_boots"
 							]
 						},
 						"mainhand": {
 							"items": [
-								"minecraft:diamond_sword"
+								"minecraft:netherite_sword"
 							]
 						}
 					}

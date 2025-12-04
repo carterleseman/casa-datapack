@@ -8,7 +8,7 @@
 		},
 		"title": "Silent But Deadly",
 		"description": "Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings",
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "casa:adventure/fallen_kingdom",
 	"criteria": {

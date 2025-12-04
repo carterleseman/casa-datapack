@@ -5,7 +5,7 @@
 		},
 		"title": "The Ghastly Eyes",
 		"description": "Kill an invisible spider",
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "casa:adventure/spider_skeleton",
 	"criteria": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "casa:adventure/skeleton_horse",
 	"rewards": {
-		"experience": 250
+		"experience": 200
 	},
 	"criteria": {
 		"skeleton_skull": {

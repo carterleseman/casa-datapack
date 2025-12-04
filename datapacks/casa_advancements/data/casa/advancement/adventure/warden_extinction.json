@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:sculk"
+			"id": "minecraft:mace"
 		},
 		"title": "Warden Extinction",
 		"description": "Kill a Warden in a one hit",

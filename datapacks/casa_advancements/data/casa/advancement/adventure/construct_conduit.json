@@ -4,7 +4,7 @@
 			"id": "minecraft:conduit"
 		},
 		"title": "Power of the Ocean",
-		"description": "Construct a Conduit in the ocean",
+		"description": "Construct a Conduit",
 		"frame": "goal"
 	},
 	"parent": "casa:adventure/dolphin_dasher",

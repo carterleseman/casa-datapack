@@ -6,7 +6,7 @@
 		"title": "Is It a Nightmare?",
 		"description": "Look at a Warden through a Spyglass"
 	},
-	"parent": "minecraft:adventure/spyglass_at_dragon",
+	"parent": "minecraft:adventure/spyglass_at_ghast",
 	"criteria": {
 		"spyglass_at_warden": {
 			"trigger": "minecraft:using_item",

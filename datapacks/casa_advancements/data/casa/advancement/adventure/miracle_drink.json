@@ -4,13 +4,9 @@
 			"id": "minecraft:honey_bottle"
 		},
 		"title": "Miracle Drink",
-		"description": "Drink Milk or Honey to cure poison when on half a heart",
-		"frame": "goal"
+		"description": "Drink Milk or Honey to cure poison when on half a heart"
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
-	"rewards": {
-		"experience": 50
-	},
 	"criteria": {
 		"miracle_drink": {
 			"trigger": "minecraft:consume_item",

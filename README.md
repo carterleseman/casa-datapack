@@ -25,6 +25,7 @@
 - **Electrifying Alliance** — Strike a ghast with lightning using the Channeling enchantment
 - **Inception** — Be between y-level 127 and 127.9999 in the Nether dimension in a non-solid block
 - **The Devil's Distance** — Use the Nether to travel 666km in the Overworld
+- **Camouflage** — Kill a monster while wearing its head
 
 ## End
 - **The Point of No Return** *(Hidden)* — Fall into the void
@@ -35,14 +36,14 @@
 - **The Beginning** — Kill the Wither in the End
 - **Dragon vs Dragon** — Kill the Ender Dragon while wearing a Dragon Head
 - **Endgame** — Defend a village from a raid in the End
+- **Plane Walker** — Kill an Enderman in all three dimensions
+    - **Impossible...** — Kill an Enderman while you are holding an arrow
 
 ## Adventure
-- **Dolphin Dasher** *(Hidden)* — Get the Dolphin's Grace effect
+- **Dolphin Dasher** — Get the Dolphin's Grace effect
     - **Power of the Ocean** — Construct a Conduit
-    - **Titanic** *(Hidden)* — Find a shipwreck in an iceberg biome
-- **Lucky Charm** *(Hidden)* — Get a Rabbit's Foot
-    - **Going Down the Rabbit Hole** — Kill a Rabbit that is below y-level -59.5
-- **Ram** *(Hidden)* — Obtain a Goat's Horn
+    - **Titanic** — Find a shipwreck in an iceberg biome
+- **Ram** — Obtain a Goat's Horn
     - **Caprymphony** — Blow every type of Goat Horn
     - **Loud and Proud** — Play a Goat Horn in the Deep Dark
         - **Silence of the Lambs** — Kill a Sheep in an Ancient City
@@ -59,13 +60,10 @@
 - **Insomniac** — Go 30 days without sleep
 - **You Are the Pillager** — Murder one of every villager profession
 - **Veteran of the Village** *(Hidden)* — Get Hero of the Village V
-- **Plane Walker** — Kill an Enderman in all three dimensions
-    - **Impossible...** — Kill an Enderman while you are holding an arrow
 - **Revenge!** — Blow up a Creeper with TNT
     - **Controlled Detonation** — Persuade a Creeper to blow up using Flint and Steel
         - **Look Out!** — Zoom in on a Creeper with a Spyglass from less than a block away
     - **Creepy Heads** — Blow up a Creeper with a Charged Creeper to get a Creeper Head
-        - **Camouflage** — Kill a monster while wearing its head
 - **Miracle Drink** — Drink Milk or Honey to cure poison when on half a heart
     - **Taste of Your Own Medicine** — Kill a Witch with a Splash Potion
 - **High Road** — Kill a hostile monster with a melee attack while riding a mount
@@ -82,7 +80,7 @@
 - **Fallen Kingdom** — Find and enter an Ancient City
     - **Stealth is Optional** — Kill a Warden
     - **Silent But Deadly** — Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings
-    - **Death Pointer** *(Hidden)* — Craft a Recovery Compass using Echo Shards
+    - **Death Pointer** — Craft a Recovery Compass using Echo Shards
 - **Knowledge is Power** — Trade for an Enchanted Book
     - **Treasure Map** — Trade for an Explorer Map
         - **All Around the World** — Buy every kind of Explorer Map
