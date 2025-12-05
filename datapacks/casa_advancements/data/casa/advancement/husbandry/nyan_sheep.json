@@ -6,7 +6,7 @@
 		"title": "Nyan Sheep",
 		"description": "Nyan Nyan Nyan Nyan..."
 	},
-	"parent": "casa:husbandry/toast",
+	"parent": "casa:husbandry/dinnerbone",
 	"rewards": {
 		"experience": 50
 	},

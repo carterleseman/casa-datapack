@@ -1,16 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:spruce_boat"
+			"id": "minecraft:stone_sword"
 		},
-		"title": "Pirate Captain",
-		"description": "Sail 10km in a Boat",
-		"frame": "goal"
+		"title": "Mob Hunter",
+		"description": "Defeat 250 mobs"
 	},
-	"parent": "casa:cales.casa/luxury_cruise",
+	"parent": "casa:path/root",
 	"rewards": {
-		"experience": 250
-	},	
+		"experience": 100
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",
@@ -20,9 +19,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:boat_one_cm",
+                            "stat": "minecraft:mob_kills",
                             "value": {
-                                "min": 1000000
+                                "min": 250
                             }
                         }]
 					}

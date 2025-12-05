@@ -6,7 +6,7 @@
 		"title": "Off the Rails",
 		"description": "Ride 1km in a Minecart"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/root",
 	"rewards": {
 		"experience": 100
 	},

@@ -75,7 +75,7 @@ def write_advancement(username, uuid_ints):
                 }
             }
         },
-        "parent": "casa:cales.casa/root"
+        "parent": "casa:path/root"
     }
 
     with open(path, "w") as f:

@@ -1,15 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:red_terracotta"
+			"id": "minecraft:iron_horse_armor"
 		},
-		"title": "Running on Empty",
-		"description": "Sprint 250km",
-		"frame": "challenge"
+		"title": "Giddy Up!",
+		"description": "Ride 1km on a Horse"
 	},
-	"parent": "casa:cales.casa/marathon",
+	"parent": "casa:path/root",
 	"rewards": {
-		"experience": 500
+		"experience": 100
 	},
 	"criteria": {
 		"trigger": {
@@ -20,9 +19,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:sprint_one_cm",
+                            "stat": "minecraft:horse_one_cm",
                             "value": {
-                                "min": 25000000
+                                "min": 100000
                             }
                         }]
 					}

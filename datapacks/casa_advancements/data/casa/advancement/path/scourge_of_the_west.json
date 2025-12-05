@@ -7,7 +7,7 @@
 		"description": "Ride 50km on a Horse",
 		"frame": "challenge"
 	},
-	"parent": "casa:cales.casa/sheriff",
+	"parent": "casa:path/sheriff",
 	"rewards": {
 		"experience": 500
 	},

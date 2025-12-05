@@ -1,12 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:oak_boat"
+			"id": "minecraft:green_terracotta"
 		},
-		"title": "Row, Row, Row",
-		"description": "Sail 1km in a Boat"
+		"title": "Run, Forrest, Run",
+		"description": "Sprint 10km"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/root",
 	"rewards": {
 		"experience": 100
 	},
@@ -19,9 +19,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:boat_one_cm",
+                            "stat": "minecraft:sprint_one_cm",
                             "value": {
-                                "min": 100000
+                                "min": 1000000
                             }
                         }]
 					}

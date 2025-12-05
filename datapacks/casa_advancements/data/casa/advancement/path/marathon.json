@@ -1,15 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:diamond_boots"
+			"id": "minecraft:yellow_terracotta"
 		},
-		"title": "Boots Were Made for Walking",
-		"description": "Walk 250km",
-		"frame": "challenge"
+		"title": "Marathon",
+		"description": "Sprint 42.195km",
+		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/who_needs_cars",
+	"parent": "casa:path/natural_sprinter",
 	"rewards": {
-		"experience": 500
+		"experience": 250
 	},
 	"criteria": {
 		"trigger": {
@@ -20,9 +20,9 @@
 						"type": "player",
 						"stats": [{
 							"type": "minecraft:custom",
-							"stat": "minecraft:walk_one_cm",
+							"stat": "minecraft:sprint_one_cm",
 							"value": {
-								"min": 25000000
+								"min": 4219500
 							}
 						}]
 					}

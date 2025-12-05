@@ -1,15 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:firework_rocket"
+			"id": "minecraft:leather_boots"
 		},
-		"title": "Frequent Flyer",
-		"description": "Fly 1000km with Elytra",
-		"frame": "challenge"
+		"title": "One Foot in Front of the Other",
+		"description": "Walk 10km"
 	},
-	"parent": "casa:cales.casa/supersonic",
+	"parent": "casa:path/root",
 	"rewards": {
-		"experience": 500
+		"experience": 100
 	},
 	"criteria": {
 		"trigger": {
@@ -20,9 +19,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:aviate_one_cm",
+                            "stat": "minecraft:walk_one_cm",
                             "value": {
-                                "min": 100000000
+                                "min": 1000000
                             }
                         }]
 					}

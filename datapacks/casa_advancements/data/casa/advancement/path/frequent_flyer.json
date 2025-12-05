@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:stone_sword"
+			"id": "minecraft:firework_rocket"
 		},
-		"title": "Mob Hunter",
-		"description": "Defeat 250 mobs"
+		"title": "Frequent Flyer",
+		"description": "Fly 1000km with Elytra",
+		"frame": "challenge"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/supersonic",
 	"rewards": {
-		"experience": 100
+		"experience": 500
 	},
 	"criteria": {
 		"trigger": {
@@ -19,9 +20,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:mob_kills",
+                            "stat": "minecraft:aviate_one_cm",
                             "value": {
-                                "min": 250
+                                "min": 100000000
                             }
                         }]
 					}

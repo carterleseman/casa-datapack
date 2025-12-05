@@ -66,6 +66,7 @@ main {
     --img-size: 56px;
 
     display: grid;
+    grid-template-columns: auto auto auto;
     place-items: center;
 }
 
@@ -85,13 +86,6 @@ menu[role=tablist] {
         margin-bottom: -14px;
         aspect-ratio: 1;
         padding: 0 1rem;
-
-        > img {
-            width: var(--img-size);
-            aspect-ratio: 1;
-            user-select: none;
-            pointer-events: none;
-        }
 
         &[aria-selected=true] {
             background-color: var(--surface);
@@ -115,6 +109,7 @@ menu[role=tablist] {
     border-image-source: url('assets/gui/panel-border.png');
     height: 550px;
     width: 950px;
+    max-width: 950px;
 
     > h1 {
         padding: 0.75rem var(--inline) 0.5rem var(--inline);
@@ -134,7 +129,8 @@ menu[role=tablist] {
     }
 }
 
-.adv {
+.scroller li,
+ul.tree-view span {
     background-color: var(--surface);
     border: 12px solid transparent;
     border-image-source: url('assets/gui/task-border.png');
@@ -150,13 +146,6 @@ menu[role=tablist] {
     }
     &.goal.cmplt { border-image-source: url('assets/gui/goal-complete-border.png') }
     &.challenge.cmplt { border-image-source: url('assets/gui/challenge-complete-border.png') }
-
-    > img {
-        width: var(--img-size);
-        aspect-ratio: 1;
-        user-select: none;
-        pointer-events: none;
-    }
 }
 
 span.tooltip {
@@ -177,6 +166,7 @@ span.tooltip {
     }
 }
 
+.scroller ul,
 ul.tree-view,
 ul.tree-view ul {
     display: inline-block;
@@ -185,10 +175,67 @@ ul.tree-view ul {
     margin: 0;
 }
 
+.scroller {
+    max-height: 500px;
+    max-width: 500px;
+    outline: 3px solid lime;
+
+    overflow: auto;
+    scrollbar-width: none;
+
+    mask: linear-gradient(
+        transparent,
+        white 20% 80%,
+        transparent
+    );
+    mask-position: top;
+    
+    &::-webkit-scrollbar { display: none }
+
+    > ul {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        width: max-content;
+        /* gap: 0.25rem; */
+        animation: scroll-y 20s linear infinite;
+        animation-direction: reverse;
+    }
+
+    &:hover ul { animation-play-state: paused; }
+}
+
+.scroller li,
 [role=tabpanel],
-.adv, span.toast,
+ul.tree-view span, span.tooltip,
 menu[role=tablist] > button {
     background-clip: padding-box;
     border-image-width: 16px;
     border-image-slice: 4;
+}
+
+.scroller img,
+ul.tree-view img,
+menu[role=tablist] img {
+    width: var(--img-size);
+    aspect-ratio: 1;
+    user-select: none;
+    pointer-events: none;
+}
+
+@keyframes scroll-x {
+    to { transform: translateX(-50%) }
+}
+
+@keyframes scroll-y {
+    to { transform: translateY(-50%) }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroller { overflow: auto }
+    .scroller ul { animation: none }
 }

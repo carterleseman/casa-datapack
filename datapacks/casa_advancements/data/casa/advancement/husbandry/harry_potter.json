@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"experience": 150
+		"experience": 100
 	},
 	"criteria": {
 		"dandelion": {

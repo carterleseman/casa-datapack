@@ -1,15 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:diamond_sword"
+			"id": "minecraft:iron_boots"
 		},
-		"title": "Kill or be Killed",
-		"description": "Defeat 25,000 mobs",
-		"frame": "challenge"
+		"title": "Going the Distance",
+		"description": "Walk 50km",
+		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/bloodthirsty",
+	"parent": "casa:path/out_for_a_stroll",
 	"rewards": {
-		"experience": 500
+		"experience": 250
 	},
 	"criteria": {
 		"trigger": {
@@ -20,9 +20,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:mob_kills",
+                            "stat": "minecraft:walk_one_cm",
                             "value": {
-                                "min": 25000
+                                "min": 5000000
                             }
                         }]
 					}

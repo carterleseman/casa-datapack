@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:leather_boots"
+			"id": "minecraft:dark_oak_boat"
 		},
-		"title": "One Foot in Front of the Other",
-		"description": "Walk 10km"
+		"title": "Sailor of the Seven Seas",
+		"description": "Sail 50km in a Boat",
+		"frame": "challenge"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/pirate_captain",
 	"rewards": {
-		"experience": 100
+		"experience": 250
 	},
 	"criteria": {
 		"trigger": {
@@ -19,9 +20,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:walk_one_cm",
+                            "stat": "minecraft:boat_one_cm",
                             "value": {
-                                "min": 1000000
+                                "min": 5000000
                             }
                         }]
 					}

@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:light_gray_harness"
+			"id": "minecraft:brown_harness"
 		},
-		"title": "Test Flight",
-		"description": "Ride 100m on a Happy Ghast"
+		"title": "Who Needs Elytra?",
+		"description": "Ride 1km on a Happy Ghast",
+		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/test_flight",
 	"rewards": {
-		"experience": 100
+		"experience": 250
 	},
 	"criteria": {
 		"trigger": {
@@ -22,7 +23,7 @@
 								"type": "minecraft:custom",
 								"stat": "minecraft:happy_ghast_one_cm",
 								"value": {
-									"min": 10000
+									"min": 100000
 								}
 							}
 						]

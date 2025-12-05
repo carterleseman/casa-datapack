@@ -1,12 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_horse_armor"
+			"id": "minecraft:phantom_membrane"
 		},
-		"title": "Giddy Up!",
-		"description": "Ride 1km on a Horse"
+		"title": "Take to the Skies",
+		"description": "Fly 10km with Elytra"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/root",
 	"rewards": {
 		"experience": 100
 	},
@@ -19,9 +19,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:horse_one_cm",
+                            "stat": "minecraft:aviate_one_cm",
                             "value": {
-                                "min": 100000
+                                "min": 1000000
                             }
                         }]
 					}

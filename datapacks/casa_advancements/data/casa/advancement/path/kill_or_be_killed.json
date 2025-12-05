@@ -1,15 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:golden_horse_armor"
+			"id": "minecraft:diamond_sword"
 		},
-		"title": "Sheriff",
-		"description": "Ride 10km on a Horse",
-		"frame": "goal"
+		"title": "Kill or Be Killed",
+		"description": "Defeat 25,000 mobs",
+		"frame": "challenge"
 	},
-	"parent": "casa:cales.casa/horse_training",
+	"parent": "casa:path/bloodthirsty",
 	"rewards": {
-		"experience": 250
+		"experience": 500
 	},
 	"criteria": {
 		"trigger": {
@@ -20,9 +20,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:horse_one_cm",
+                            "stat": "minecraft:mob_kills",
                             "value": {
-                                "min": 1000000
+                                "min": 25000
                             }
                         }]
 					}

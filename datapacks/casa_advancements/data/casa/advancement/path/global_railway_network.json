@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:green_terracotta"
+			"id": "minecraft:command_block_minecart"
 		},
-		"title": "Run, Forrest, Run",
-		"description": "Sprint 10km"
+		"title": "Global Railway Network",
+		"description": "Ride 50km in a Minecart",
+		"frame": "challenge"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/i_like_trains",
 	"rewards": {
-		"experience": 100
+		"experience": 500
 	},
 	"criteria": {
 		"trigger": {
@@ -19,9 +20,9 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:sprint_one_cm",
+                            "stat": "minecraft:minecart_one_cm",
                             "value": {
-                                "min": 1000000
+                                "min": 5000000
                             }
                         }]
 					}

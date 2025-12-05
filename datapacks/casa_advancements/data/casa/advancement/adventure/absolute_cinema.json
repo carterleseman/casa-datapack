@@ -6,7 +6,7 @@
 		"title": "Absolute Cinema",
 		"description": "Defeat a Chicken Jockey in a Woodland Mansion"
 	},
-	"parent": "casa:adventure/poultry_boy",
+	"parent": "casa:adventure/house_of_psychos",
 	"criteria": {
 		"chicken": {
 			"trigger": "minecraft:player_killed_entity",

@@ -7,7 +7,7 @@
 		"description": "Defeat 2500 mobs",
 		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/mob_hunter",
+	"parent": "casa:path/mob_hunter",
 	"rewards": {
 		"experience": 250
 	},

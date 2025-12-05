@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:phantom_membrane"
+			"id": "minecraft:elytra"
 		},
-		"title": "Take to the Skies",
-		"description": "Fly 10km with Elytra"
+		"title": "Gone with the Wind",
+		"description": "Fly 100km with Elytra",
+		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/root",
+	"parent": "casa:path/take_to_the_skies",
 	"rewards": {
-		"experience": 100
+		"experience": 250
 	},
 	"criteria": {
 		"trigger": {
@@ -21,7 +22,7 @@
                             "type": "minecraft:custom",
                             "stat": "minecraft:aviate_one_cm",
                             "value": {
-                                "min": 1000000
+                                "min": 10000000
                             }
                         }]
 					}

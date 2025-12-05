@@ -22,5 +22,5 @@
             }
         }
     },
-    "parent": "casa:cales.casa/root"
+    "parent": "casa:path/root"
 }

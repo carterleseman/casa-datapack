@@ -68,7 +68,6 @@
     - **Taste of Your Own Medicine** — Kill a Witch with a Splash Potion
 - **High Road** — Kill a hostile monster with a melee attack while riding a mount
     - **Poultry Boy** — Kill a chicken being ridden by a zombie, zombie villager, husk or drowned, or vice versa
-        - **Absolute Cinema** — Defeat a Chicken Jockey in a Woodland Mansion
     - **Spider-Skelly** — Kill either the spider or skeleton segment of a spider jockey
         - **The Ghastly Eyes** — Kill an invisible spider or cave spider
     - **The Undead Cavalry** — Ride a Skeleton Horse
@@ -86,6 +85,7 @@
         - **All Around the World** — Buy every kind of Explorer Map
         - **House of Psychos** — Find a Woodland Mansion
             - **Here's Johnny!** — Name a Vindicator 'Johnny'
+            - **Absolute Cinema** — Defeat a Chicken Jockey in a Woodland Mansion
         - **Monumental** — Find an Ocean Monument
         - ~~**Grave Robber** — Find a Desert Pyramid~~
         - ~~**Tomb Raider** — Find a Jungle Temple~~

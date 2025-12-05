@@ -1,16 +1,16 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:furnace_minecart"
+			"id": "minecraft:spruce_boat"
 		},
-		"title": "Full Steam Ahead",
-		"description": "Ride 10km in a Minecart",
+		"title": "Pirate Captain",
+		"description": "Sail 10km in a Boat",
 		"frame": "goal"
 	},
-	"parent": "casa:cales.casa/minecart_rider",
+	"parent": "casa:path/luxury_cruise",
 	"rewards": {
 		"experience": 250
-	},
+	},	
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",
@@ -20,7 +20,7 @@
 						"type": "player",
 						"stats": [{
                             "type": "minecraft:custom",
-                            "stat": "minecraft:minecart_one_cm",
+                            "stat": "minecraft:boat_one_cm",
                             "value": {
                                 "min": 1000000
                             }

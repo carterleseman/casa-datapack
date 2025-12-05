@@ -12,9 +12,18 @@
     
 
     <main>
-        <span class="tooltip">
-            <h2>Adventure</h2>
-        </span>
+
+        <aside class="scroller">
+            <ul>
+                <li><img src="assets/block/pig_head.png" alt="Pig"></li>
+                <li><img src="assets/block/chicken_head.png" alt="Chicken"></li>
+                <li><img src="assets/block/player_head.png" alt="Steve"></li>
+                <li><img src="assets/block/piglin_head.png" alt="Piglin"></li>
+                <li><img src="assets/block/wither_head.png" alt="Wither"></li>
+                <li><img src="assets/block/creeper_head.png" alt="Creeper"></li>
+                <li><img src="assets/block/pillager_head.png" alt="Pillager"></li>
+            </ul>
+        </aside>
 
         <div class="tabs">
             <menu role="tablist">
@@ -52,7 +61,7 @@
             <article role="tabpanel" id="adventure">
                 <h1>Adventure</h1>
                 <figure style="background-image: url('assets/texture/BlockSprite_smooth-sandstone.png')">
-                    <ul class="tree-view">
+                    <!-- <ul class="tree-view">
                         <li>
                             <span class="adv">R</span>
                             <ul>
@@ -71,7 +80,7 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> -->
 
                 </figure>
 
@@ -100,5 +109,19 @@
         </div>
     </main>
 
+    <script>
+        const scroller = document.querySelector('.scroller ul');
+
+        if (!window.matchMedia("(perfers-reduced-motion: reduce)").matches && scroller) {
+            
+            const scroller_content = Array.from(scroller.children);
+
+            scroller_content.forEach(item => {
+                const duplicate = item.cloneNode(true);
+                duplicate.setAttribute('aria-hidden', true);
+                scroller.appendChild(duplicate);
+            });
+        }
+    </script>
 </body>
 </html>
