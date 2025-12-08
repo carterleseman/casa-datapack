@@ -4,6 +4,7 @@ __MACOSX
 *.txt
 /venv
 .env
+/mock
 
 datapacks/*/README.md
 resourcepacks/*/README.md

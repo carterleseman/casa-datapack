@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Player Selection -->
-    <aside></aside>
-    
-
     <main>
 
         <aside class="scroller">
@@ -30,7 +26,7 @@
                 <button role="tab" aria-controls="minecraft" aria-selected="true">
                     <img src="assets/block/grass_block.png" alt="Minecraft">
                 </button>
-                <button role="tab" aria-controls="nether" >
+                <button role="tab" aria-controls="nether">
                     <img src="assets/block/red_nether_bricks.png" alt="Nether">
                 </button>
                 <button role="tab" aria-controls="end">
@@ -46,7 +42,7 @@
                     <img src="assets/block/dirt_path.png" alt="Path">
                 </button>
             </menu>
-            <article role="tabpanel" id="minecraft" hidden>
+            <article role="tabpanel" id="minecraft">
                 <h1>Minecraft</h1>
                 <figure style="background-image: url('assets/texture/BlockSprite_stone.png')"></figure>
             </article>
@@ -58,33 +54,9 @@
                 <h1>The End</h1>
                 <figure style="background-image: url('assets/texture/BlockSprite_end-stone.png')"></figure>
             </article>
-            <article role="tabpanel" id="adventure">
+            <article role="tabpanel" id="adventure" hidden>
                 <h1>Adventure</h1>
-                <figure style="background-image: url('assets/texture/BlockSprite_smooth-sandstone.png')">
-                    <!-- <ul class="tree-view">
-                        <li>
-                            <span class="adv">R</span>
-                            <ul>
-                                <li>
-                                    <span class="adv goal">B1</span>
-                                    <ul>
-                                        <li><span class="adv">L1</span></li>
-                                        <li><span class="adv cmplt">L2</span></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <span class="adv">B2</span>
-                                    <ul>
-                                        <li><span class="adv goal">L3</span></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul> -->
-
-                </figure>
-
-                
+                <figure style="background-image: url('assets/texture/BlockSprite_smooth-sandstone.png')"></figure>
             </article>
             <article role="tabpanel" id="husbandry" hidden>
                 <h1>Husbandry</h1>
@@ -92,35 +64,328 @@
             </article>
             <article role="tabpanel" id="path" hidden>
                 <h1>Path</h1>
-                <figure style="background-image: url('assets/texture/BlockSprite_dirt.png')">
-                    <!-- <div style="display: flex">
-                        <div class="adv cmplt">
-                            <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
-                        </div>
-                        <div class="adv goal cmplt">
-                            <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
-                        </div>
-                        <div class="adv chal cmplt">
-                            <img src="assets/block/Dirt_Path_JE4_BE3.png" alt="Path">
-                        </div>
-                    </div> -->
-                </figure>
+                <figure style="background-image: url('assets/texture/BlockSprite_dirt.png')"></figure>
             </article>
         </div>
+
+        <aside class="player">
+            <img src="assets/avatar/steve.png" alt="Player Avatar">
+        </aside>
+
+        <span class="tooltip"><h2></h2></span>
     </main>
 
-    <script>
+    <footer>
+        <span class="toast">
+            <img src="assets/texture/heart.png" alt="Heart">
+            <p>Thanks to <a href="https://mc-heads.net" target="_blank">MCHeads</a> for providing Minecraft avatars</p>
+        </span>
+        <!-- <span class="toast">
+            <img src="assets/texture/accessibility.png" alt="Accessibility">
+            <h2>Mobile Friendly</h2>
+            <p>Don't be afraid!</p>
+        </span> -->
+    </footer>
+
+    <script defer>
         const scroller = document.querySelector('.scroller ul');
+        const avatar = document.querySelector('.player img');
+        const tooltip = document.querySelector('.tooltip');
+        const buttons = document.querySelectorAll('button[role=tab]');
+        const panels = document.querySelectorAll('article[role=tabpanel]');
 
-        if (!window.matchMedia("(perfers-reduced-motion: reduce)").matches && scroller) {
-            
-            const scroller_content = Array.from(scroller.children);
+        // Cache for advancement definitions and player trees
+        let DEFINITIONS = null;
+        const tree_cache = new Map(); // uuid -> { treeName -> html }
 
-            scroller_content.forEach(item => {
-                const duplicate = item.cloneNode(true);
-                duplicate.setAttribute('aria-hidden', true);
-                scroller.appendChild(duplicate);
+        // Tree name mapping: tabpanel id -> tree names
+        const TREES = {
+            'minecraft': ['minecraft:story', 'casa:story'],
+            'nether': ['minecraft:nether', 'casa:nether'],
+            'end': ['minecraft:end', 'casa:end'],
+            'adventure': ['minecraft:adventure', 'casa:adventure'],
+            'husbandry': ['minecraft:husbandry', 'casa:husbandry'],
+            'path': ['casa:path']
+        };
+
+        function extract_uuid(url) {
+            // https://mc-heads.net/head/<uuid>/64
+            return url.split('/head/')[1].split('/')[0];
+        }
+
+        async function load_definitions() {
+            try {
+                const res = await fetch('node.json');
+                DEFINITIONS = await res.json();
+            } catch (err) {
+                console.error('Error loading advancement definitions:', err);
+            }
+        }
+
+        async function load_players() {
+            try {
+                // const res = await fetch('https://cales.casa/api/player-data');
+                const res = await fetch('/mock/player-data.json');
+                if (!res.ok) throw new Error('Failed to fetch player data');
+
+                const data = await res.json();
+                const { online, all } = data;
+
+                const oset = new Set(online.map(p => p.uuid));
+                const items = all.map(player => {
+                    const { name, uuid } = player;
+                    const is_online = oset.has(uuid);
+
+                    return `
+                        <li class="${is_online ? "online" : ""}">
+                            <img src="https://mc-heads.net/head/${uuid}/64" alt="${name}">
+                        </li>
+                    `;
+                }).join('');
+
+                scroller.innerHTML = items;
+                return true;
+            } catch (err) {
+                console.error('Error loading player list:', err);
+                return false;
+            }
+        }
+
+        async function load_advancements(uuid) {
+            try {
+                // const res = await fetch(`https://cales.casa/api/player-data/${uuid}`);
+                const res = await fetch(`/mock/data.json`);
+                if (!res.ok) throw new Error(`Failed to load data for ${uuid}`);
+
+                const data = await res.json();
+                return data;
+            } catch (err) {
+                console.error("Error fetching player advancements:", err);
+                return null;
+            }
+        }
+
+        load_players().then(success => {
+            if (scroller && !window.matchMedia("(perfers-reduced-motion: reduce)").matches) {
+                const scroller_content = Array.from(scroller.children);
+
+                scroller_content.forEach(item => {
+                    const clone = item.cloneNode(true);
+                    clone.setAttribute('aria-hidden', true);
+                    scroller.appendChild(clone);
+                });
+            }
+
+            if (success) {
+                const players = scroller.querySelectorAll('img');
+                players.forEach(player => {
+                    player.addEventListener('click', async () => {
+                        const uuid = extract_uuid(player.src);
+                        await display_trees(uuid);
+                        avatar.src = `https://mc-heads.net/body/${uuid}/left`;
+                    });
+                });
+            }
+
+            const targets = document.querySelectorAll('.scroller img, button[role=tab] img');
+            targets.forEach(img => {
+                img.addEventListener('mouseenter', () => {
+                    tooltip.children[0].textContent = img.alt;
+                    tooltip.style.display = 'block';
+                });
+
+                img.addEventListener('mousemove', e => {
+                    const offsetX = 24;
+                    const offsetY = 56;
+                    tooltip.style.left = `${e.clientX + offsetX}px`;
+                    tooltip.style.top  = `${e.clientY - offsetY}px`;
+                });
+
+                img.addEventListener('mouseleave', () => {
+                    tooltip.style.display = 'none';
+                });
             });
+        });
+
+        if (avatar) {
+            const month = new Date().getMonth();
+            const seasons = {
+                11: "december",
+                9: "october"
+            };
+
+            if (seasons.hasOwnProperty(month)) {
+                avatar.src = `assets/avatar/steve_${seasons[month]}.png`;
+            }
+        }
+
+        buttons.forEach(button => {
+            button.addEventListener('mousedown', () => {
+                const target = button.getAttribute('aria-controls');
+                panels.forEach(panel => panel.hidden = true);
+
+                document.getElementById(target).hidden = false;
+                buttons.forEach(btn => btn.setAttribute('aria-selected', false));
+                button.setAttribute('aria-selected', true);
+            });
+        });
+
+        load_definitions();
+
+        function create_nodes(namespaces) {
+            // collect all advancements for these namespaces
+            const advancements = {};
+            for (const namespace of namespaces) {
+                if (DEFINITIONS[namespace]) {
+                    Object.assign(advancements, DEFINITIONS[namespace]);
+                }
+            }
+
+            if (Object.keys(advancements).length === 0) return null;
+
+            function find_advancement(id) {
+                if (!id) return null;
+                for (const namespace of Object.keys(DEFINITIONS)) {
+                    if (DEFINITIONS[namespace] && DEFINITIONS[namespace][id]) {
+                        return DEFINITIONS[namespace][id];
+                    }
+                }
+                return null;
+            }
+
+            function add_parents(id) {
+                const adv = advancements[id];
+                if (!adv || !adv.parent) return;
+                
+                if (!advancements[adv.parent]) {
+                    const parent = find_advancement(adv.parent);
+                    if (parent) {
+                        advancements[adv.parent] = parent;
+                        add_parents(adv.parent);
+                    }
+                }
+            }
+
+            for (const id of Object.keys(advancements)) {
+                add_parents(id);
+            }
+
+            const nodes = {};
+            for (const [id, adv] of Object.entries(advancements)) {
+                nodes[id] = {
+                    id,
+                    name: adv.name,
+                    icon: adv.icon,
+                    frame: adv.frame || null,
+                    description: adv.description,
+                    parent: adv.parent || null,
+                    children: []
+                };
+            }
+
+            const roots = [];
+            for (const node of Object.values(nodes)) {
+                if (node.parent && nodes[node.parent]) {
+                    nodes[node.parent].children.push(node);
+                } else {
+                    roots.push(node);
+                }
+            }
+
+            // sort children by id
+            for (const node of Object.values(nodes)) {
+                node.children.sort((a, b) => a.id.localeCompare(b.id));
+            }
+            roots.sort((a, b) => a.id.localeCompare(b.id));
+
+            return { nodes, roots };
+        }
+
+        function render_node(node, player_data) {
+            const done = player_data[node.id]?.done;
+            const classes = [];
+            if (node.frame === "goal") classes.push("goal");
+            if (node.frame === "challenge") classes.push("challenge");
+            if (done) classes.push("done");
+
+            let html = `<li>`;
+            html += `<span class="${classes.join(" ")}">`;
+            html += `<img src="assets/${node.icon}" alt="${node.name}">`;
+            html += `</span>`;
+
+            if (node.children.length > 0) {
+                html += `<ul>`;
+                for (const child of node.children) {
+                    html += render_node(child, player_data);
+                }
+                html += `</ul>`;
+            }
+            html += `</li>`;
+            return html;
+        }
+
+        function render_tree(tree_data, player_data) {
+            /* if (!tree_data || tree_data.roots.length === 0) {
+                return '';
+            } */
+
+            if (tree_data.roots.length === 1) {
+                const root = tree_data.roots[0];
+                const done = player_data[root.id]?.done;
+                const classes = [];
+                if (root.frame === "goal") classes.push("goal");
+                if (root.frame === "challenge") classes.push("challenge");
+                if (done) classes.push("done");
+
+                let html = `<ul class="tree-view">`;
+                html += `<span class="${classes.join(" ")}">`;
+                html += `<img src="assets/${root.icon}" alt="${root.name}">`;
+                html += `</span>`;
+
+                if (root.children.length > 0) {
+                    html += `<ul>`;
+                    for (const child of root.children) {
+                        html += render_node(child, player_data);
+                    }
+                    html += `</ul>`;
+                }
+                html += `</ul>`;
+                return html;
+            }
+
+            let html = `<ul class="tree-view">`;
+            html += `<ul>`;
+            for (const root of tree_data.roots) {
+                html += render_node(root, player_data);
+            }
+            html += `</ul>`;
+            html += `</ul>`;
+            return html;
+        }
+
+        async function build_trees(uuid) {
+            if (tree_cache.has(uuid)) return tree_cache.get(uuid);
+
+            const player_data = await load_advancements(uuid);
+            if (!player_data) return null;
+
+            const trees = {};
+            for (const [tab, namespaces] of Object.entries(TREES)) {
+                const tree_data = create_nodes(namespaces);
+                trees[tab] = render_tree(tree_data, player_data);
+            }
+
+            tree_cache.set(uuid, trees);
+            return trees;
+        }
+
+        async function display_trees(uuid) {
+            const trees = await build_trees(uuid);
+            if (!trees) return;
+
+            for (const [tab, html] of Object.entries(trees)) {
+                document.querySelector(`#${tab} figure`).innerHTML = html;
+            }
         }
     </script>
 </body>
