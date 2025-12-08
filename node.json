@@ -370,6 +370,22 @@
             "parent": "minecraft:nether/get_wither_skull"
         }
     },
+    "nova_structures:nether": {
+        "nova_structures:nether/find_nether_skeleton": {
+            "name": "Skull Collector",
+            "icon": "block/skeleton_skull.png",
+            "frame": "challenge",
+            "description": "Explore all 4 Nether Towers, Nether Port, Nether Fortress, Nether Keep, and Sealing Halls",
+            "parent": "minecraft:nether/find_fortress"
+        },
+        "nova_structures:nether/find_piglins": {
+            "name": "Hog Hunt",
+            "icon": "block/piglin_head.png",
+            "frame": "challenge",
+            "description": "Explore a Piglin Camp, Piglin Outstation, Hamlet and Donjon",
+            "parent": "minecraft:nether/find_bastion"
+        }
+    },
     "minecraft:end": {
         "minecraft:end/root": {
             "name": "The End?",
@@ -491,6 +507,33 @@
             "frame": "challenge",
             "description": "Kill an Enderman with an arrow",
             "parent": "casa:end/plane_walker"
+        }
+    },
+    "nova_structures:end": {
+        "nova_structures:end/find_end_ship": {
+            "name": "In Transit",
+            "icon": "block/shulker_box.png",
+            "description": "Step onto a Lone End Ship",
+            "parent": "minecraft:end/enter_end_gateway"
+        },
+        "nova_structures:end/find_end_lighthouse": {
+            "name": "The Light at the End of the Game",
+            "icon": "item/end_rod.png",
+            "description": "Locate an End Lighthouse",
+            "parent": "minecraft:end/enter_end_gateway"
+        },
+        "nova_structures:end/find_end_castle": {
+            "name": "Spied Eye",
+            "icon": "block/end_portal_frame.png",
+            "description": "Challenge the End Castle",
+            "parent": "nova_structures:end/find_end_lighthouse"
+        },
+        "nova_structures:end/kill_phantom_boss": {
+            "name": "Afraid of Heights?",
+            "icon": "item/phantom_membrane.png",
+            "frame": "challenge",
+            "description": "Slay the End Castle's Haunting Miniboss",
+            "parent": "nova_structures:end/find_end_castle"
         }
     },
     "minecraft:adventure": {
@@ -1146,6 +1189,96 @@
             "frame": "challenge",
             "description": "Discover every biome in every dimension",
             "parent": "minecraft:adventure/adventuring_time"
+        }
+    },
+    "nova_structures:adventure": {
+        "nova_structures:adventure/find_trident_trial_monument": {
+            "name": "Breathtaking",
+            "icon": "item/trident.png",
+            "description": "Take a deep breath and enter the Trident Trial Monument",
+            "parent": "casa:adventure/monumental"
+        },
+        "nova_structures:adventure/kill_guardian_boss": {
+            "name": "Abysmally Ancient",
+            "icon": "item/prismarine_shard.png",
+            "frame": "goal",
+            "description": "Defeat the Ancient Guardian Miniboss",
+            "parent": "nova_structures:adventure/find_trident_trial_monument"
+        },
+        "nova_structures:adventure/find_all_illager_structures": {
+            "name": "The Ill Manored",
+            "icon": "block/dark_oak_log.png",
+            "frame": "challenge",
+            "description": "Visit all Illager and Witch structures",
+            "parent": "casa:adventure/house_of_psychos"
+        },
+        "nova_structures:adventure/toxic_lair": {
+            "name": "Poison Swamp Enjoyers Rejoice!",
+            "icon": "block/slime_block.png",
+            "description": "Approach the Toxic Lair",
+            "parent": "casa:adventure/house_of_psychos"
+        },
+        "nova_structures:adventure/kill_cave_spider_boss": {
+            "name": "Detoxified Lair",
+            "icon": "item/spider_eye.png",
+            "frame": "goal",
+            "description": "Pest control the Spider Queen Miniboss",
+            "parent": "nova_structures:adventure/toxic_lair"
+        },
+        "nova_structures:adventure/find_stray_outlook": {
+            "name": "I-ce Some Strays",
+            "icon": "block/ice.png",
+            "description": "Find a Stray Outlook",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "nova_structures:adventure/find_catacomb": {
+            "name": "Sub Y 0",
+            "icon": "block/chiseled_deepslate.png",
+            "description": "You Strayed Too Deep and found a Catacomb",
+            "parent": "nova_structures:adventure/find_stray_outlook"
+        },
+        "nova_structures:adventure/find_stray_fort": {
+            "name": "If Winter Doesn't Come...",
+            "icon": "block/packed_ice.png",
+            "description": "...We Will Come to Winter",
+            "parent": "nova_structures:adventure/find_stray_outlook"
+        },
+        "nova_structures:adventure/find_lone_citadel": {
+            "name": "Frozen Remnants",
+            "icon": "block/blue_ice.png",
+            "description": "Approach the Lone Citadel",
+            "parent": "nova_structures:adventure/find_stray_fort"
+        },
+        "nova_structures:adventure/kill_breeze_boss": {
+            "name": "Freezing Breeze",
+            "icon": "item/breeze_rod.png",
+            "frame": "goal",
+            "description": "Extinguish the Freeze Miniboss",
+            "parent": "nova_structures:adventure/find_lone_citadel"
+        },
+        "nova_structures:adventure/find_shrine": {
+            "name": "A Major Trial of Strength",
+            "icon": "block/polished_deepslate.png",
+            "description": "Enter a Shrine",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "nova_structures:adventure/find_shrine_pluss": {
+            "name": "A Major Trial of Strength+",
+            "icon": "block/waxed_oxidized_copper_bulb.png",
+            "description": "Something is Wrong...",
+            "parent": "nova_structures:adventure/find_shrine"
+        },
+        "nova_structures:adventure/find_jungle_ruins": {
+            "name": "Lush Leavings",
+            "icon": "block/mossy_stone_bricks.png",
+            "description": "Discover the Jungle Ruins",
+            "parent": "casa:adventure/treasure_map"
+        },
+        "nova_structures:adventure/find_desert_ruins": {
+            "name": "Sands of Time",
+            "icon": "block/chiseled_sandstone.png",
+            "description": "Uncover the Desert Ruins",
+            "parent": "casa:adventure/treasure_map"
         }
     },
     "minecraft:husbandry": {

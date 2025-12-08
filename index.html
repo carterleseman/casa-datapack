@@ -94,15 +94,13 @@
         const buttons = document.querySelectorAll('button[role=tab]');
         const panels = document.querySelectorAll('article[role=tabpanel]');
 
-        // Cache for advancement definitions and player trees
         let DEFINITIONS = null;
-        const tree_cache = new Map(); // uuid -> { treeName -> html }
+        const tree_cache = new Map();
 
-        // Tree name mapping: tabpanel id -> tree names
         const TREES = {
             'minecraft': ['minecraft:story', 'casa:story'],
-            'nether': ['minecraft:nether', 'casa:nether'],
-            'end': ['minecraft:end', 'casa:end'],
+            'nether': ['minecraft:nether', 'casa:nether', 'nova_structures:nether'],
+            'end': ['minecraft:end', 'casa:end', 'nova_structures:end'],
             'adventure': ['minecraft:adventure', 'casa:adventure'],
             'husbandry': ['minecraft:husbandry', 'casa:husbandry'],
             'path': ['casa:path']
@@ -325,10 +323,6 @@
         }
 
         function render_tree(tree_data, player_data) {
-            /* if (!tree_data || tree_data.roots.length === 0) {
-                return '';
-            } */
-
             if (tree_data.roots.length === 1) {
                 const root = tree_data.roots[0];
                 const done = player_data[root.id]?.done;

@@ -17,6 +17,28 @@
 					]
 				}
 			}
+		},
+		"tavern_chart": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{Tags:[\"dnt_quest_trader\"]}"
+				},
+				"item": {
+					"items": "minecraft:filled_map",
+					"components": {
+						"minecraft:custom_model_data": {
+							"strings": [
+								"dnt:chart"
+							]
+						}
+					}
+				}
+			}
 		}
-	}
+	},
+	"requirements": [[
+        "trade",
+        "tavern_chart"
+    ]]
 }

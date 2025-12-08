@@ -1,5 +1,5 @@
 {
-    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "parent": "casa:adventure/house_of_psychos",
     "criteria": {
         "toxic_lair": {
             "conditions": {

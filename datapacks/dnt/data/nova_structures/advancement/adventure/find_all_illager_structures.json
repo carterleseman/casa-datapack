@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:adventure/hero_of_the_village",
+    "parent": "casa:adventure/treasure_map",
     "criteria": {
         "witch_villa": {
             "conditions": {
